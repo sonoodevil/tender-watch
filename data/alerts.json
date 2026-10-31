@@ -1,0 +1,537 @@
+from __future__ import annotations
+
+import json
+import os
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data" / "alerts.json"
+
+TARGET_URLS = [
+    "https://www.ppra.org.pk/",
+    "https://portals.ppra.org.pk/",
+    "https://www.punjab.gov.pk/",
+    "https://www.kppra.gov.pk/",
+    "https://www.pesrp.edu.pk/",
+]
+
+KEYWORDS = [
+    "software", "it", "network", "security", "vehicle", "equipment",
+    "machinery", "construction", "project", "procurement", "works",
+    "hardware", "erp", "cloud", "automation", "tender", "bid", "rfp",
+    "electrical", "lift", "elevator", "generator", "plant", "maintenance"
+]
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
+def clean_url(url: str) -> str:
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return ""
+    if parsed.scheme not in ("http", "https"):
+        return ""
+    return parsed.geturl().split("#")[0].rstrip("/")
+
+
+def normalize_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value or "").strip()
+
+
+def looks_relevant(title: str, url: str) -> bool:
+    text = f"{title} {url}".lower()
+
+    ignored = [
+        "job", "career", "vacancy", "recruitment", "admission",
+        "scholarship", "exam", "results", "salary", "employment"
+    ]
+    if any(term in text for term in ignored):
+        return False
+
+    if any(keyword in text for keyword in KEYWORDS):
+        return True
+
+    tender_signals = [
+        "tender", "rfp", "bid", "proposal", "quotation",
+        "procurement", "notice", "invitation"
+    ]
+    if any(sig in text for sig in tender_signals):
+        return True
+
+    return False
+
+
+def fetch(url: str) -> str:
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=25)
+        response.raise_for_status()
+        return response.text
+    except Exception as exc:
+        print(f"[WARN] Fetch failed: {url} -> {exc}")
+        return ""
+
+
+def extract_links(html: str, base_url: str) -> list[str]:
+    soup = BeautifulSoup(html, "html.parser")
+    links: list[str] = []
+    seen: set[str] = set()
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href or href.startswith("javascript:"):
+            continue
+        full = clean_url(urljoin(base_url, href))
+        if full and full not in seen:
+            seen.add(full)
+            links.append(full)
+
+    return links
+
+
+def find_tenders_from_url(url: str) -> list[dict]:
+    html = fetch(url)
+    if not html:
+        return []
+
+    soup = BeautifulSoup(html, "html.parser")
+    found: list[dict] = []
+    seen: set[str] = set()
+
+    for a in soup.find_all("a", href=True):
+        text = normalize_text(a.get_text(" ", strip=True))
+        href = a.get("href", "").strip()
+
+        if not href or href.startswith("javascript:"):
+            continue
+
+        full = clean_url(urljoin(url, href))
+        if not full or full in seen:
+            continue
+
+        if len(text) < 6:
+            continue
+
+        if not looks_relevant(text, full):
+            continue
+
+        found.append({
+            "title": text[:220],
+            "url": full,
+            "source": url,
+            "date": "",
+        })
+        seen.add(full)
+
+    for link in extract_links(html, url):
+        if link in seen:
+            continue
+
+        page_html = fetch(link)
+        if not page_html:
+            continue
+
+        page_soup = BeautifulSoup(page_html, "html.parser")
+        title = page_soup.title.get_text(" ", strip=True) if page_soup.title else ""
+        body_text = normalize_text(page_soup.get_text(" ", strip=True))
+
+        if not title:
+            title = os.path.basename(urlparse(link).path) or link
+
+        if not looks_relevant(title, link):
+            if not looks_relevant(body_text[:250], link):
+                continue
+
+        found.append({
+            "title": title[:220],
+            "url": link,
+            "source": url,
+            "date": "",
+        })
+        seen.add(link)
+
+    dedup: list[dict] = []
+    seen_keys: set[str] = set()
+
+    for item in found:
+        key = (item["title"] + "|" + item["url"]).lower()
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        dedup.append(item)
+
+    return dedup
+
+
+def load_existing() -> list[dict]:
+    if not DATA_FILE.exists():
+        return []
+    try:
+        data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        if isinstance(data, list):
+            return data
+    except Exception:
+        pass
+    return []
+
+
+def save_data(items: list[dict]) -> None:
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DATA_FILE.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def main() -> int:
+    existing = load_existing()
+    seen = {(item.get("title", "") + "|" + item.get("url", "")).lower() for item in existing}
+    new_items: list[dict] = []
+
+    for url in TARGET_URLS:
+        print(f"[INFO] Checking: {url}")
+        for item in find_tenders_from_url(url):
+            key = (item["title"] + "|" + item["url"]).lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            item["added_at"] = datetime.now(timezone.utc).isoformat()
+            new_items.append(item)
+
+    final = existing + new_items
+    save_data(final)
+
+    if not new_items:
+        print("[INFO] No new tender alerts found.")
+    else:
+        print(f"[INFO] Added {len(new_items)} new alert(s).")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+"""},{"content":"# tender-watch
+
+A single-repo tender alert dashboard and scraper.
+
+## Project structure
+
+```text
+.
+├── .github/
+│   └── workflows/
+│       └── tender-check.yml
+├── data/
+│   └── alerts.json
+├── app.js
+├── index.html
+├── scraper.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+```
+
+## What it does
+
+- Scrapes public tender portals and government websites
+- Filters entries based on keywords like software, network, ERP, construction, equipment, etc.
+- Saves matches in `data/alerts.json`
+- Shows the results in a simple dashboard using `index.html` + `app.js`
+- Runs automatically using GitHub Actions
+
+## Local run
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scraper.py
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000/
+```
+
+## GitHub Actions
+
+The workflow runs daily and also supports manual trigger.
+
+## Notes
+
+- This repo intentionally keeps the scraper and frontend in the same repository.
+- That makes it easy to deploy and maintain without cross-repo syncing.
+- The data file is updated by the scraper, and the dashboard reads that file automatically.
+"""},{"content":"# tender-watch
+
+A single-repo tender alert dashboard and scraper.
+
+## Project structure
+
+```text
+.
+├── .github/
+│   └── workflows/
+│       └── tender-check.yml
+├── data/
+│   └── alerts.json
+├── app.js
+├── index.html
+├── scraper.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+```
+
+## What it does
+
+- Scrapes public tender portals and government websites
+- Filters entries based on keywords like software, network, ERP, construction, equipment, etc.
+- Saves matches in `data/alerts.json`
+- Shows the results in a simple dashboard using `index.html` + `app.js`
+- Runs automatically using GitHub Actions
+
+## Local run
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scraper.py
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000/
+```
+
+## GitHub Actions
+
+The workflow runs daily and also supports manual trigger.
+
+## Notes
+
+- This repo intentionally keeps the scraper and frontend in the same repository.
+- That makes it easy to deploy and maintain without cross-repo syncing.
+- The data file is updated by the scraper, and the dashboard reads that file automatically.
+"""},{"content":"[].
+"""},{"content":"requests>=2.32.0
+beautifulsoup4>=4.12.0
+"""},{"content":"<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tender Watch Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --muted: #94a3b8;
+      --text: #e2e8f0;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --border: #334155;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: 2rem;
+    }
+
+    .status {
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin: 4px 0;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
+    .empty {
+      padding: 20px;
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      border-radius: 12px;
+      text-align: center;
+      background: rgba(15, 23, 42, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tender Watch</h1>
+    <div class="status" id="status">Loading alerts...</div>
+    <div id="alerts"></div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+"""},{"content":"async function loadAlerts() {
+  const container = document.getElementById('alerts');
+  const status = document.getElementById('status');
+
+  try {
+    const response = await fetch('./data/alerts.json', { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error('Could not load alerts.json');
+    }
+
+    const alerts = await response.json();
+
+    if (!Array.isArray(alerts) || alerts.length === 0) {
+      status.textContent = 'No alerts found yet.';
+      container.innerHTML = '<div class="empty">No data available. The scraper will populate this file automatically.</div>';
+      return;
+    }
+
+    status.textContent = `${alerts.length} alert(s) found.`;
+
+    container.innerHTML = alerts
+      .slice()
+      .reverse()
+      .map(item => `
+        <div class="card">
+          <div class="title">${escapeHtml(item.title || 'Untitled tender')}</div>
+          <div class="meta">Source: ${escapeHtml(item.source || 'Unknown')}</div>
+          <div class="meta">Added: ${escapeHtml(item.added_at || item.date || 'N/A')}</div>
+          <a class="link" href="${escapeAttribute(item.url || '#')}" target="_blank" rel="noopener noreferrer">
+            Open tender link
+          </a>
+        </div>
+      `)
+      .join('');
+  } catch (error) {
+    status.textContent = 'Unable to load data.';
+    container.innerHTML = '<div class="empty">Check if the scraper has generated alerts.json.</div>';
+    console.error(error);
+  }
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value);
+}
+
+loadAlerts();
+setInterval(loadAlerts, 300000);
+"""},{"content":"name: Tender Watch
+
+on:
+  schedule:
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+jobs:
+  tender-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alerts.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update tender alerts"
+          git push
+"""},{"content":"# Created by GitHub Copilot
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+"""}]}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+{
