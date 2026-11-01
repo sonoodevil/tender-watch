@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSS Tender Watch</title>
+<meta name="theme-color" content="#16233B">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#16233B;--navy2:#2f3d52;--orange:#f3a63b;--orange-d:#c97f17;
+  --bg:#f3f5f9;--card:#fff;--line:#e2e7ef;--text:#16233B;--muted:#64748b;
+  --el:#6d4bd8;--hvac:#0e8fb0;--gen:#d48a10;--mep:#14946b;--new:#16a34a;--warn:#c2410c;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1523;--card:#152238;--line:#24344d;--text:#e7edf6;--muted:#93a3ba;}}
+:root[data-theme="dark"]{--bg:#0c1523;--card:#152238;--line:#24344d;--text:#e7edf6;--muted:#93a3ba;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,sans-serif}
+a{color:inherit}
+header{background:var(--navy);color:#fff;border-bottom:4px solid var(--orange)}
+.hin{max-width:1240px;margin:auto;padding:14px 16px;display:flex;align-items:center;gap:14px}
+.hin img{width:52px;height:52px;background:#fff;border-radius:10px;padding:4px}
+.bn{flex:1;min-width:0}
+.bn h1{font:800 22px/1.1 "Barlow Condensed",sans-serif;letter-spacing:.3px}
+.bn p{color:var(--orange);font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase}
+.upd{font-size:12px;color:#b9c6d8;text-align:right}
+.streams{background:var(--navy2);color:#dfe6f0}
+.sin{max-width:1240px;margin:auto;padding:8px 16px;display:flex;gap:18px;flex-wrap:wrap;font-size:12px;font-weight:600}
+.sin span b{color:var(--orange)}
+main{max-width:1240px;margin:auto;padding:16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.st{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;border-top:3px solid var(--line)}
+.st:nth-child(2){border-top-color:var(--orange)} .st:nth-child(3){border-top-color:var(--new)}
+.st small{display:block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.st b{font:800 30px/1.1 "Barlow Condensed",sans-serif;font-variant-numeric:tabular-nums}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.tabs{display:flex;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:3px}
+.tab{border:0;background:none;padding:7px 14px;border-radius:7px;font:600 13px Inter;color:var(--muted);cursor:pointer}
+.tab.on{background:var(--navy);color:#fff}
+:root[data-theme="dark"] .tab.on{background:var(--orange);color:var(--navy)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;flex:1}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--muted);padding:5px 11px;border-radius:99px;font:600 12px Inter;cursor:pointer}
+.chip.on{color:#fff;border-color:transparent;background:var(--navy)}
+.chip.on[data-c=el]{background:var(--el)}.chip.on[data-c=hvac]{background:var(--hvac)}.chip.on[data-c=gen]{background:var(--gen)}.chip.on[data-c=mep]{background:var(--mep)}
+.ctl{display:flex;gap:8px;flex-wrap:wrap}
+input,select{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:7px 10px;font:13px Inter}
+input{width:200px}
+.count{font-size:12px;color:var(--muted);margin:4px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 14px 12px 17px;position:relative;display:flex;flex-direction:column;gap:8px}
+.card:before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:4px;border-radius:0 4px 4px 0;background:var(--line)}
+.card.el:before{background:var(--el)}.card.hvac:before{background:var(--hvac)}.card.gen:before{background:var(--gen)}.card.mep:before{background:var(--mep)}
+.top{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.b{font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--bg);color:var(--muted)}
+.b.new{background:#dcfce7;color:#15803d}.b.soon{background:#ffedd5;color:var(--warn)}
+.ttl{font-weight:600;line-height:1.35}
+.org{font-size:12px;color:var(--muted)}
+.kws{display:flex;gap:4px;flex-wrap:wrap}
+.kw{font-size:11px;font-weight:600;padding:1px 8px;border-radius:99px;background:rgba(243,166,59,.15);color:var(--orange-d)}
+.ft{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:8px;margin-top:auto;font-size:12px;color:var(--muted)}
+.ft b{color:var(--text)}
+.go{background:var(--orange);color:var(--navy);text-decoration:none;font-weight:700;padding:5px 12px;border-radius:6px;font-size:12px}
+.empty{grid-column:1/-1;text-align:center;padding:50px;color:var(--muted)}
+.pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:4px}
+.pc h3{font:700 17px "Barlow Condensed",sans-serif}
+.pc a{color:#2563eb;font-size:12px;word-break:break-all}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:#16a34a}
+.dot.empty{background:#eab308}.dot.error{background:#dc2626}.dot.manual{background:#94a3b8}
+h2{font:700 18px "Barlow Condensed",sans-serif;margin:18px 0 8px}
+.panel{display:none}.panel.on{display:block}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+@media(max-width:560px){.upd{display:none}.grid{grid-template-columns:1fr}input{width:100%}.ctl{width:100%}}
+</style>
+</head>
+<body>
+<header><div class="hin">
+  <img src="logo.png" alt="RSS logo">
+  <div class="bn"><h1>Riaz &amp; Sons Solutions — Tender Watch</h1><p>Engineering Trust Since 1965</p></div>
+  <div class="upd">Last scan<br><b id="upd">—</b></div>
+</div></header>
+<div class="streams"><div class="sin">
+  <span><b>▲</b> Elevators &amp; Escalators</span><span><b>❄</b> HVAC · VRF · Chillers</span>
+  <span><b>⚡</b> Generators &amp; Power</span><span><b>⚙</b> E&amp;M / MEP Works</span>
+</div></div>
+
+<main>
+  <div class="stats">
+    <div class="st"><small>Open tenders tracked</small><b id="sTotal">—</b></div>
+    <div class="st"><small>Related to our work</small><b id="sRel">—</b></div>
+    <div class="st"><small>New today</small><b id="sNew">—</b></div>
+    <div class="st"><small>Auto-scanned portals</small><b id="sPort">—</b></div>
+  </div>
+
+  <div class="bar">
+    <div class="tabs">
+      <button class="tab on" data-t="rel">Related to our work</button>
+      <button class="tab" data-t="all">All tenders</button>
+      <button class="tab" data-t="src">Portals</button>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip on" data-c="">All lines</button>
+      <button class="chip" data-c="el">Elevators</button>
+      <button class="chip" data-c="hvac">HVAC</button>
+      <button class="chip" data-c="gen">Generators</button>
+      <button class="chip" data-c="mep">E&amp;M / MEP</button>
+    </div>
+    <div class="ctl" id="ctl">
+      <select id="prov"><option value="">All regions</option></select>
+      <select id="sort"><option value="score">Best match</option><option value="new">Newest</option><option value="closing">Closing soon</option></select>
+      <input id="q" placeholder="Search title, department…">
+    </div>
+  </div>
+
+  <div class="panel on" id="p-list"><div class="count" id="count"></div><div class="grid" id="grid"></div></div>
+  <div class="panel" id="p-src">
+    <h2>Scanned automatically every morning</h2><div class="pg" id="auto"></div>
+    <h2>Check manually (portals that block automated scanning)</h2><div class="pg" id="man"></div>
+  </div>
+</main>
+<footer>Data comes from official procurement portals. Always confirm details in the official notice before bidding.</footer>
+
+<script>
+const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let D={tenders:[]}, tab="rel", cat="";
+const today=new Date().toISOString().slice(0,10);
+function fmt(d){if(!/^\d{4}-\d\d-\d\d$/.test(d||""))return d||"—";return new Date(d+"T00:00").toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}
+function days(d){return /^\d{4}-/.test(d||"")?Math.round((new Date(d+"T00:00")-new Date(today+"T00:00"))/864e5):null}
+async function load(){
+  try{const r=await fetch("tenders.json?t="+Date.now());D=await r.json();}catch(e){$("#grid").innerHTML='<div class="empty">No data yet — the first scan has not run.</div>';return}
+  const s=D.stats||{};$("#sTotal").textContent=s.total??0;$("#sRel").textContent=s.relevant??0;$("#sNew").textContent=s.new??0;$("#sPort").textContent=s.portals??0;
+  $("#upd").textContent=new Date(D.updated).toLocaleString("en-GB",{timeZone:"Asia/Karachi",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})+" PKT";
+  [...new Set(D.tenders.map(t=>t.province).filter(Boolean))].sort().forEach(p=>$("#prov").insertAdjacentHTML("beforeend",`<option>${esc(p)}</option>`));
+  render();portals();
+}
+function card(t){
+  const dl=days(t.closing), soon=dl!==null&&dl>=0&&dl<=5;
+  return `<div class="card ${esc(t.category)}"><div class="top"><span class="b">${esc(t.source)}</span>${t.isNew?'<span class="b new">New</span>':''}${soon?`<span class="b soon">${dl===0?"Closes today":dl+" days left"}</span>`:''}<span class="b">${esc(t.province)}</span></div>
+  <div class="ttl">${esc(t.title)}</div>${t.org?`<div class="org">${esc(t.org)}</div>`:""}
+  ${t.keywords?.length?`<div class="kws">${t.keywords.map(k=>`<span class="kw">${esc(k)}</span>`).join("")}</div>`:""}
+  <div class="ft"><span>Posted <b>${fmt(t.posted)}</b> · Closes <b>${fmt(t.closing)}</b></span><a class="go" href="${esc(t.url)}" target="_blank" rel="noopener">View →</a></div></div>`;
+}
+function render(){
+  if(tab==="src")return;
+  const q=$("#q").value.toLowerCase(), pv=$("#prov").value, so=$("#sort").value;
+  let L=D.tenders.filter(t=>(tab==="all"||t.relevant)&&(!cat||(t.categories||[]).includes(cat))&&(!pv||t.province===pv)
+    &&(!q||(t.title+" "+t.org+" "+t.source).toLowerCase().includes(q)));
+  if(so==="new")L.sort((a,b)=>(b.first_seen+b.posted).localeCompare(a.first_seen+a.posted));
+  else if(so==="closing")L.sort((a,b)=>(a.closing>=today?a.closing:"9").localeCompare(b.closing>=today?b.closing:"9"));
+  const shown=L.slice(0,400);
+  $("#count").textContent=`${L.length} tender${L.length!==1?"s":""}${L.length>400?" — showing first 400, use search to narrow":""}`;
+  $("#grid").innerHTML=shown.length?shown.map(card).join(""):'<div class="empty">No tenders match these filters.</div>';
+}
+function portals(){
+  $("#auto").innerHTML=(D.health||[]).map(h=>`<div class="pc"><h3><span class="dot ${h.status}"></span>${esc(h.name)}</h3><div class="org">${h.status==="ok"?h.count+" tenders read in last scan":h.status==="empty"?"No tenders read — site may have changed":"Error in last scan"}</div><a href="${esc(h.url)}" target="_blank">${esc(h.url)}</a></div>`).join("");
+  $("#man").innerHTML=(D.manual||[]).map(m=>`<div class="pc"><h3><span class="dot manual"></span>${esc(m.name)}</h3><div class="org">${esc(m.note)}</div><a href="${esc(m.url)}" target="_blank">${esc(m.url)}</a></div>`).join("");
+}
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));b.classList.add("on");tab=b.dataset.t;
+  const src=tab==="src";$("#p-src").classList.toggle("on",src);$("#p-list").classList.toggle("on",!src);$("#chips").style.display=$("#ctl").style.display=src?"none":"";render();});
+document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));b.classList.add("on");cat=b.dataset.c;render();});
+["#q","#prov","#sort"].forEach(s=>$(s).addEventListener("input",render));
+load();
+if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
