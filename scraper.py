@@ -293,6 +293,40 @@ def send_email(new_rel, new_all_count, total, total_rel, health):
         s.sendmail(user, [x.strip() for x in to.split(",")], msg.as_string())
     print(f"Email sent to {to}")
 
+# ── WhatsApp ────────────────────────────────────────────────────────────
+def wa_text(new_rel, new_all_count, total_rel):
+    lines = [f"*RSS Tender Alert — {NOW:%d %b %Y}*",
+             f"{len(new_rel)} new related · {new_all_count} new overall · {total_rel} related open", ""]
+    for t in sorted(new_rel, key=lambda x: x.get("closing") or "9999")[:8]:
+        lines.append(f"• {t['title'][:110]}\n  Closes {t['closing'] or '—'} · {t['source']}\n  {t['url']}")
+    if len(new_rel) > 8: lines.append(f"…and {len(new_rel) - 8} more")
+    lines += ["", f"Dashboard: {DASHBOARD_URL}"]
+    return "\n".join(lines)
+
+def send_whatsapp(text):
+    """Meta WhatsApp Cloud API (WA_TOKEN/WA_PHONE_ID/WA_TO) and/or CallMeBot (CALLMEBOT_KEY/WA_TO)."""
+    to = (os.environ.get("WA_TO") or "").replace("+", "").replace(" ", "")
+    token, pid = os.environ.get("WA_TOKEN"), os.environ.get("WA_PHONE_ID")
+    cmb = os.environ.get("CALLMEBOT_KEY")
+    if not to or not ((token and pid) or cmb):
+        print("WhatsApp secrets not set — skipping WhatsApp."); return
+    if token and pid:
+        url = f"https://graph.facebook.com/v21.0/{pid}/messages"
+        h = {"Authorization": f"Bearer {token}"}
+        tpl = os.environ.get("WA_TEMPLATE")  # optional approved template with one {{1}} body variable
+        if tpl:
+            body = {"messaging_product": "whatsapp", "to": to, "type": "template",
+                    "template": {"name": tpl, "language": {"code": os.environ.get("WA_TEMPLATE_LANG", "en")},
+                                 "components": [{"type": "body", "parameters": [{"type": "text", "text": text[:1000].replace("\n", " | ")}]}]}}
+        else:
+            body = {"messaging_product": "whatsapp", "to": to, "type": "text", "text": {"body": text[:4000]}}
+        r = requests.post(url, json=body, headers=h, timeout=30)
+        print("WhatsApp (Meta):", r.status_code, r.text[:300])
+    if cmb:
+        r = requests.get("https://api.callmebot.com/whatsapp.php",
+                         params={"phone": to, "text": text[:3500], "apikey": cmb}, timeout=30)
+        print("WhatsApp (CallMeBot):", r.status_code, r.text[:200])
+
 # ── Main ────────────────────────────────────────────────────────────────
 def main():
     old = {}
@@ -344,8 +378,12 @@ def main():
     print(f"Saved {len(tenders)} tenders ({data['stats']['relevant']} related, {len(new)} new)")
 
     # first run: everything is "new" → send today's related list as a baseline
-    send_email(new_rel if not first_run else [t for t in tenders if t["relevant"]],
-               len(new), len(tenders), data["stats"]["relevant"], health)
+    alert = new_rel if not first_run else [t for t in tenders if t["relevant"]]
+    try: send_email(alert, len(new), len(tenders), data["stats"]["relevant"], health)
+    except Exception as ex: print("Email failed:", ex)
+    if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY"):
+        try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
+        except Exception as ex: print("WhatsApp failed:", ex)
 
 if __name__ == "__main__":
     main()

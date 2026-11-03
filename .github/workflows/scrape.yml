@@ -21,6 +21,11 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          WA_TO: ${{ secrets.WA_TO }}
+          WA_TOKEN: ${{ secrets.WA_TOKEN }}
+          WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
+          WA_TEMPLATE: ${{ secrets.WA_TEMPLATE }}
+          CALLMEBOT_KEY: ${{ secrets.CALLMEBOT_KEY }}
       - name: Save results
         run: |
           git config user.name "tender-bot"
