@@ -303,29 +303,47 @@ def wa_text(new_rel, new_all_count, total_rel):
     lines += ["", f"Dashboard: {DASHBOARD_URL}"]
     return "\n".join(lines)
 
+def wa_recipients():
+    """WA_TO = comma-separated numbers. For CallMeBot each number has its own key:
+    either 'number:key' pairs in WA_TO, or keys in CALLMEBOT_KEY in the same order."""
+    nums = [x.strip() for x in (os.environ.get("WA_TO") or "").split(",") if x.strip()]
+    keys = [x.strip() for x in (os.environ.get("CALLMEBOT_KEY") or "").split(",") if x.strip()]
+    out = []
+    for i, n in enumerate(nums):
+        num, _, key = n.partition(":")
+        num = re.sub(r"\D", "", num)
+        if num.startswith("0"): num = "92" + num[1:]   # 0332... -> 92332...
+        out.append((num, key.strip() or (keys[i] if i < len(keys) else (keys[0] if len(keys) == 1 and len(nums) == 1 else ""))))
+    return out
+
 def send_whatsapp(text):
-    """Meta WhatsApp Cloud API (WA_TOKEN/WA_PHONE_ID/WA_TO) and/or CallMeBot (CALLMEBOT_KEY/WA_TO)."""
-    to = (os.environ.get("WA_TO") or "").replace("+", "").replace(" ", "")
-    token, pid = os.environ.get("WA_TOKEN"), os.environ.get("WA_PHONE_ID")
-    cmb = os.environ.get("CALLMEBOT_KEY")
-    if not to or not ((token and pid) or cmb):
-        print("WhatsApp secrets not set — skipping WhatsApp."); return
-    if token and pid:
-        url = f"https://graph.facebook.com/v21.0/{pid}/messages"
-        h = {"Authorization": f"Bearer {token}"}
-        tpl = os.environ.get("WA_TEMPLATE")  # optional approved template with one {{1}} body variable
-        if tpl:
-            body = {"messaging_product": "whatsapp", "to": to, "type": "template",
-                    "template": {"name": tpl, "language": {"code": os.environ.get("WA_TEMPLATE_LANG", "en")},
-                                 "components": [{"type": "body", "parameters": [{"type": "text", "text": text[:1000].replace("\n", " | ")}]}]}}
-        else:
-            body = {"messaging_product": "whatsapp", "to": to, "type": "text", "text": {"body": text[:4000]}}
-        r = requests.post(url, json=body, headers=h, timeout=30)
-        print("WhatsApp (Meta):", r.status_code, r.text[:300])
-    if cmb:
-        r = requests.get("https://api.callmebot.com/whatsapp.php",
-                         params={"phone": to, "text": text[:3500], "apikey": cmb}, timeout=30)
-        print("WhatsApp (CallMeBot):", r.status_code, r.text[:200])
+    """Meta WhatsApp Cloud API (WA_TOKEN/WA_PHONE_ID) and/or CallMeBot keys, to every number in WA_TO."""
+    token, pid, tpl = os.environ.get("WA_TOKEN"), os.environ.get("WA_PHONE_ID"), os.environ.get("WA_TEMPLATE")
+    recips = wa_recipients()
+    if not recips:
+        print("WA_TO not set — skipping WhatsApp."); return
+    for num, key in recips:
+        if token and pid:
+            if tpl:
+                body = {"messaging_product": "whatsapp", "to": num, "type": "template",
+                        "template": {"name": tpl, "language": {"code": os.environ.get("WA_TEMPLATE_LANG", "en")},
+                                     "components": [{"type": "body", "parameters": [{"type": "text", "text": text[:1000].replace("\n", " | ")}]}]}}
+            else:
+                body = {"messaging_product": "whatsapp", "to": num, "type": "text", "text": {"body": text[:4000]}}
+            try:
+                r = requests.post(f"https://graph.facebook.com/v21.0/{pid}/messages", json=body,
+                                  headers={"Authorization": f"Bearer {token}"}, timeout=30)
+                print(f"WhatsApp Meta → {num[:5]}***:", r.status_code, r.text[:200])
+            except Exception as ex: print(f"WhatsApp Meta → {num[:5]}*** failed:", ex)
+        if key:
+            try:
+                r = requests.get("https://api.callmebot.com/whatsapp.php",
+                                 params={"phone": num, "text": text[:3500], "apikey": key}, timeout=30)
+                print(f"WhatsApp CallMeBot → {num[:5]}***:", r.status_code, r.text[:120])
+            except Exception as ex: print(f"WhatsApp CallMeBot → {num[:5]}*** failed:", ex)
+            time.sleep(3)
+        if not ((token and pid) or key):
+            print(f"No WhatsApp key for {num[:5]}*** — skipped.")
 
 # ── Main ────────────────────────────────────────────────────────────────
 def main():
