@@ -4,6 +4,8 @@ on:
     - cron: "37 1 * * *"    # 06:37 AM Pakistan time, every day
     - cron: "37 9 * * *"    # 02:37 PM Pakistan time (second sweep)
   workflow_dispatch:
+  push:
+    paths: ["run-now.txt"]
 permissions:
   contents: write
 concurrency: { group: scrape, cancel-in-progress: false }
@@ -22,6 +24,7 @@ jobs:
           GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           WA_TO: ${{ secrets.WA_TO }}
+          FORCE_NOTIFY: ${{ github.event_name != 'schedule' && '1' || '' }}
           WA_TOKEN: ${{ secrets.WA_TOKEN }}
           WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
           WA_TEMPLATE: ${{ secrets.WA_TEMPLATE }}

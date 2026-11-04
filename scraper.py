@@ -262,7 +262,7 @@ MANUAL = [  # robots.txt blocks automation / JS-only — shown on dashboard as o
 def send_email(new_rel, new_all_count, total, total_rel, health):
     user, pw, to = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASS"), os.environ.get("NOTIFY_EMAIL")
     if not (user and pw and to):
-        print("Email secrets not set — skipping email."); return
+        print("Email secrets not set — skipping email."); NOTIFY_LOG.append("Email: secrets missing (GMAIL_USER/GMAIL_APP_PASS/NOTIFY_EMAIL)"); return
     e = html.escape
     rows = "".join(
         f"<tr><td style='padding:8px;border-bottom:1px solid #e5e9f0'>"
@@ -291,7 +291,7 @@ def send_email(new_rel, new_all_count, total, total_rel, health):
     with smtplib.SMTP("smtp.gmail.com", 587) as s:
         s.starttls(); s.login(user, pw)
         s.sendmail(user, [x.strip() for x in to.split(",")], msg.as_string())
-    print(f"Email sent to {to}")
+    print(f"Email sent to {to}"); NOTIFY_LOG.append(f"Email sent to {len(to.split(','))} recipient(s)")
 
 # ── WhatsApp ────────────────────────────────────────────────────────────
 def wa_text(new_rel, new_all_count, total_rel):
@@ -316,12 +316,14 @@ def wa_recipients():
         out.append((num, key.strip() or (keys[i] if i < len(keys) else (keys[0] if len(keys) == 1 and len(nums) == 1 else ""))))
     return out
 
+NOTIFY_LOG = []
+
 def send_whatsapp(text):
     """Meta WhatsApp Cloud API (WA_TOKEN/WA_PHONE_ID) and/or CallMeBot keys, to every number in WA_TO."""
     token, pid, tpl = os.environ.get("WA_TOKEN"), os.environ.get("WA_PHONE_ID"), os.environ.get("WA_TEMPLATE")
     recips = wa_recipients()
     if not recips:
-        print("WA_TO not set — skipping WhatsApp."); return
+        print("WA_TO not set — skipping WhatsApp."); NOTIFY_LOG.append("WhatsApp: WA_TO secret not set"); return
     for num, key in recips:
         if token and pid:
             if tpl:
@@ -333,17 +335,17 @@ def send_whatsapp(text):
             try:
                 r = requests.post(f"https://graph.facebook.com/v21.0/{pid}/messages", json=body,
                                   headers={"Authorization": f"Bearer {token}"}, timeout=30)
-                print(f"WhatsApp Meta → {num[:5]}***:", r.status_code, r.text[:200])
+                print(f"WhatsApp Meta → {num[:5]}***:", r.status_code, r.text[:200]); NOTIFY_LOG.append(f"WhatsApp Meta {num[:5]}***{num[-2:]}: {r.status_code} {r.text[:120]}")
             except Exception as ex: print(f"WhatsApp Meta → {num[:5]}*** failed:", ex)
         if key:
             try:
                 r = requests.get("https://api.callmebot.com/whatsapp.php",
                                  params={"phone": num, "text": text[:3500], "apikey": key}, timeout=30)
-                print(f"WhatsApp CallMeBot → {num[:5]}***:", r.status_code, r.text[:120])
+                print(f"WhatsApp CallMeBot → {num[:5]}***:", r.status_code, r.text[:120]); NOTIFY_LOG.append(f"WhatsApp CallMeBot {num[:5]}***{num[-2:]}: {r.status_code} {re.sub(r'<[^>]+>',' ',r.text)[:120]}")
             except Exception as ex: print(f"WhatsApp CallMeBot → {num[:5]}*** failed:", ex)
             time.sleep(3)
         if not ((token and pid) or key):
-            print(f"No WhatsApp key for {num[:5]}*** — skipped.")
+            print(f"No WhatsApp key for {num[:5]}*** — skipped."); NOTIFY_LOG.append(f"WhatsApp {num[:5]}***{num[-2:]}: no key/token")
 
 # ── Main ────────────────────────────────────────────────────────────────
 def main():
@@ -398,10 +400,20 @@ def main():
     # first run: everything is "new" → send today's related list as a baseline
     alert = new_rel if not first_run else [t for t in tenders if t["relevant"]]
     try: send_email(alert, len(new), len(tenders), data["stats"]["relevant"], health)
-    except Exception as ex: print("Email failed:", ex)
-    if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY"):
+    except Exception as ex: print("Email failed:", ex); NOTIFY_LOG.append(f"Email failed: {ex}"[:200])
+    if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY") or os.environ.get("FORCE_NOTIFY"):
         try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
-        except Exception as ex: print("WhatsApp failed:", ex)
+        except Exception as ex: print("WhatsApp failed:", ex); NOTIFY_LOG.append(f"WhatsApp failed: {ex}"[:200])
+
+
+def save_notify_log():
+    try:
+        d = json.load(open(DATA_FILE, encoding="utf-8"))
+        d["notify_log"] = {"at": NOW.isoformat(), "entries": NOTIFY_LOG}
+        json.dump(d, open(DATA_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    except Exception as ex:
+        print("could not save notify log", ex)
 
 if __name__ == "__main__":
     main()
+    save_notify_log()
