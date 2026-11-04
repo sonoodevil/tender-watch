@@ -29,6 +29,26 @@ jobs:
           WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
           WA_TEMPLATE: ${{ secrets.WA_TEMPLATE }}
           CALLMEBOT_KEY: ${{ secrets.CALLMEBOT_KEY }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_NUMBER: ${{ secrets.WHATSAPP_NUMBER }}
+          WHATSAPP_NUMBERS: ${{ secrets.WHATSAPP_NUMBERS }}
+          WA_PHONE: ${{ secrets.WA_PHONE }}
+          WA_NUMBER: ${{ secrets.WA_NUMBER }}
+          WA_NUMBERS: ${{ secrets.WA_NUMBERS }}
+          PHONE: ${{ secrets.PHONE }}
+          PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
+          WHATSAPP_TOKEN: ${{ secrets.WHATSAPP_TOKEN }}
+          WHATSAPP_PHONE_ID: ${{ secrets.WHATSAPP_PHONE_ID }}
+          WHATSAPP_TEMPLATE: ${{ secrets.WHATSAPP_TEMPLATE }}
+          CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+          CALLMEBOT: ${{ secrets.CALLMEBOT }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+          NOTIFY_EMAILS: ${{ secrets.NOTIFY_EMAILS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
       - name: Save results
         run: |
           git config user.name "tender-bot"

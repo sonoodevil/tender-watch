@@ -18,6 +18,20 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+def _env(*names):
+    for n in names:
+        v = os.environ.get(n)
+        if v and v.strip(): return v.strip()
+    return ""
+for _k, _alts in {"WA_TO": ["WHATSAPP_TO","WHATSAPP_PHONE","WHATSAPP_NUMBER","WHATSAPP_NUMBERS","WA_PHONE","WA_NUMBER","WA_NUMBERS","PHONE","PHONE_NUMBER"],
+                  "WA_TOKEN": ["WHATSAPP_TOKEN"], "WA_PHONE_ID": ["WHATSAPP_PHONE_ID"],
+                  "WA_TEMPLATE": ["WHATSAPP_TEMPLATE"], "CALLMEBOT_KEY": ["CALLMEBOT_API_KEY","CALLMEBOT"],
+                  "GMAIL_APP_PASS": ["GMAIL_APP_PASSWORD","GMAIL_PASS","GMAIL_PASSWORD"],
+                  "NOTIFY_EMAIL": ["NOTIFY_EMAILS","EMAIL_TO","ALERT_EMAIL"]}.items():
+    if not _env(_k):
+        _v = _env(*_alts)
+        if _v: os.environ[_k] = _v
+
 PKT = timezone(timedelta(hours=5))
 NOW = datetime.now(PKT)
 UA = {"User-Agent": "Mozilla/5.0 (RSS-TenderWatch; +https://www.riazandsonssolutions.com/)"}
