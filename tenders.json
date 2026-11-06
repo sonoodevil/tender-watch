@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T22:35:51.893310+05:00",
+ "updated": "2026-11-06T09:25:50.052426+05:00",
  "stats": {
-  "total": 1108,
-  "relevant": 35,
-  "new": 71,
-  "new_relevant": 2,
+  "total": 1094,
+  "relevant": 34,
+  "new": 3,
+  "new_relevant": 0,
   "portals": 7
  },
  "health": [
@@ -233,7 +233,7 @@
     "generators"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -306,29 +306,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017502E",
-   "title": "Services Required for the Testing, Tuning, and Calibration of the Diesel Generator Frequency and Engine RPM",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017502E",
-   "org": "Pakistan Security Printing Corporaion (PSPC) Pakistan Security Printing Corporation (PSPC) Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-05",
-   "type": "Electrical Items · REQ-1026-2-00159 Services Required for the Testing, Tuning, and Calibration of the Diesel Generator Frequency and Engine RPM",
-   "relevant": true,
-   "score": 20,
-   "categories": [
-    "gen"
-   ],
-   "category": "gen",
-   "keywords": [
-    "diesel generat",
-    "generator"
-   ],
-   "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000016891E",
    "title": "OP-20151-NZ-Replacement of Radiator of 500 kVA DG Set with Heavy-Duty Copper Radiator at PSO Depot Tarujabba",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016891E",
@@ -394,7 +371,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -727,7 +704,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -793,7 +770,7 @@
     "electrical and mechanical"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -815,7 +792,7 @@
     "dg set"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -1013,7 +990,7 @@
     "panels"
    ],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -1075,7 +1052,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -1093,7 +1070,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -1187,9 +1164,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114652",
-   "title": "Repair / maintenance of Cantt Fund Roads",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114652",
+   "id": "EPADS Federal:federal114673",
+   "title": "Repair / maintenance of Misc. Public Improvement",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114673",
    "org": "Cantonment Board Jhelum (RHQ Lahore)",
    "province": "Federal",
    "posted": "2026-10-15",
@@ -1201,25 +1178,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168990",
-   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -1237,6 +1196,24 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168930",
+   "title": "Annual Maintenance & Repair of Water Supply",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168930",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
    "isNew": true
   },
   {
@@ -1255,13 +1232,13 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114673",
-   "title": "Repair / maintenance of Misc. Public Improvement",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114673",
+   "id": "EPADS Federal:federal114652",
+   "title": "Repair / maintenance of Cantt Fund Roads",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114652",
    "org": "Cantonment Board Jhelum (RHQ Lahore)",
    "province": "Federal",
    "posted": "2026-10-15",
@@ -1273,7 +1250,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168990",
+   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -1291,7 +1286,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -1399,7 +1394,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -1673,24 +1668,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000015149E",
-   "title": "Procurement of 10,916-Nos. of Asset Performance Management System (APMS) for Pole Mounted Distribution Transformers as per PPMC specification No. DS-01:2026 including Supply, Installation, Testing & Commissioning with allied accessories",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000015149E",
-   "org": "Ministry of Energy (Power Division) Project Management Unit Sukkur - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-05",
-   "type": "Invitation for E-Bid · Procurement of 10,916-Nos. of Asset Performance... · Electrical Items · Ref erence No. P138519",
-   "relevant": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000016879E",
    "title": "PUBLIC TENDER NOTICE",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016879E",
@@ -1813,7 +1790,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -1831,7 +1808,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2137,7 +2114,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2155,7 +2132,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2173,7 +2150,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2191,7 +2168,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2317,7 +2294,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2371,7 +2348,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2407,7 +2384,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2515,7 +2492,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -2788,24 +2765,6 @@
    "isNew": false
   },
   {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6676",
-   "title": "Maintenance of Vehicle",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792586491LVVN1%20-%20Tender%20Health.pdf",
-   "org": "Health Department – Health Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-21",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
    "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017234E",
    "title": "COMPREHENSIVE INFRASTRUCTURE REHABILITATION, STRUCTURAL REPAIR AND RESTORATION WORKS AT TPS RESIDENTIAL COLONY, MUZAFFARGARH",
@@ -3019,7 +2978,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -3220,6 +3179,42 @@
    "isNew": false
   },
   {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167403",
+   "title": "Construction of 2x Residence for Class III staff",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167403",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal114628",
+   "title": "Construction of footpath at Haq Nawaz Kiyani Road Gul-Afshan Colony",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114628",
+   "org": "Cantonment Board Jhelum (RHQ Lahore)",
+   "province": "Federal",
+   "posted": "2026-10-15",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
    "source": "AJK PPRA",
    "id": "AJK PPRA:Tender Notice 6682",
    "title": "Supply of Tyres and Tubes",
@@ -3257,24 +3252,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114628",
-   "title": "Construction of footpath at Haq Nawaz Kiyani Road Gul-Afshan Colony",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114628",
-   "org": "Cantonment Board Jhelum (RHQ Lahore)",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal114601",
    "title": "Re-carpeting of Shami Road Jhelum Cantt",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/114601",
@@ -3289,25 +3266,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167403",
-   "title": "Construction of 2x Residence for Class III staff",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167403",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -3325,7 +3284,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4153,7 +4112,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4207,7 +4166,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -4261,7 +4220,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4279,7 +4238,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4693,7 +4652,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4711,7 +4670,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5071,7 +5030,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5089,7 +5048,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5269,7 +5228,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5431,7 +5390,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -5503,7 +5462,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5539,7 +5498,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5647,7 +5606,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5809,7 +5768,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5827,7 +5786,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5917,7 +5876,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5935,7 +5894,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -6479,258 +6438,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016857E",
-   "title": "Lok Mela 2026",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016857E",
-   "org": "National Heritage & Culture Division Procurement Office Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-04",
-   "closing": "2026-11-05",
-   "type": "Non-Consultancy services are required for different lots for Lok Mela 2026 · Non-Consultancy services are required for... · Services · P163413",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017211E",
-   "title": "CONSULTANCY SERVICES FOR DESIGNING, PROCUREMENT AND DETAILED SUPERVISION OF INFRASTRUCTURE DEVELOPMENT WORKS OF SECTOR F-12, ISLAMABAD",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017211E",
-   "org": "Cabinet Division NESPAK Lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-31",
-   "closing": "2026-11-05",
-   "type": "INVITATION FOR E-BIDS · The details are attached. · Civil Works · Nespak049",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6677",
-   "title": "Tender Notice for Works (3)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792586564BUJE9%20-%20Tender%20HW%20Mzd%20Construction.pdf",
-   "org": "C&W – Highways Division Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-21",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6675",
-   "title": "Electrification of Remaining Areas in District Mzd, Jhelum Valley & Bagh (Opr. Div. Garhi DUpatta)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792586432T9094%20-%20Tender%20Electricity%20Garhi%20dupatta.pdf",
-   "org": "Energy and Water Resource – Electricity Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-21",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6672",
-   "title": "Hiring of Consultancy Services for Master Planning of Tourist Potential Sites of AJ&K",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792499944GIE0J%20-%20Tender%20Tourism.pdf",
-   "org": "Tourism and Archaeology – Tourism and Archaeology Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-20",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6669",
-   "title": "Tender for Services (2)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792499400YRGJR%20-%20Tender%20AJK%20PDO.pdf",
-   "org": "AJK PDO – PDO Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-20",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Prequalification Notice 6667",
-   "title": "Procurement of Livestock Feeds & Minerals",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/17924990884AVL5%20-%20Tende%20Livestock%20Mzd.pdf",
-   "org": "Agriculture – Live Stock Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-20",
-   "closing": "2026-11-05",
-   "type": "Prequalification Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6665",
-   "title": "Construction of 1 Km New link road and black topping of existing 1 Km road from Chunjhal hill across to danna arota (Con. Sajad House) Length 2 Km District Sudhnuti",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792414022X83GN%20-%20Tender%20HW%20Sudhnoti.pdf",
-   "org": "C&W – Highways Division Sudhnoti",
-   "province": "AJK",
-   "posted": "2026-10-19",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6664",
-   "title": "Tender for Services (Canteen)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792164875GEX79%20-%20Tender%20Notice%20Building%20Rawalkot16-10-2026%20.pdf",
-   "org": "PP&H – PP&H Poonch",
-   "province": "AJK",
-   "posted": "2026-10-16",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6636",
-   "title": "Hiring of Solid Waste Management Services for Municipal Committee Kahutta City for Five Years",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1790249442JIA5X%20-%20Tender%20MC%20Kahuta.pdf",
-   "org": "Corporations – Municipal Corporation Kahutta/Haveli",
-   "province": "AJK",
-   "posted": "2026-09-24",
-   "closing": "2026-11-05",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "World Bank",
-   "id": "World Bank:OP00476719",
-   "title": "Development of Scanning and Data Entry Application",
-   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476719",
-   "org": "Board of Revenue Punjab",
-   "province": "Donor",
-   "posted": "2026-10-22",
-   "closing": "2026-11-05",
-   "type": "Invitation for Bids",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "UNDP",
-   "id": "UNDP:UNDP-PAK-01743,1 ",
-   "title": "UNDP-IC-2026-250; Consultant for Development of Training Manual",
-   "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=50957",
-   "org": "UNDP Pakistan",
-   "province": "Donor",
-   "posted": "2026-10-22",
-   "closing": "2026-11-05",
-   "type": "IC - Individual contractor",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "UNDP",
-   "id": "UNDP:UNDP-PAK-01732,1 ",
-   "title": "UNDP-RFQ-2026-241 - Procurement and Supply of IT Equipment to establish Virtual",
-   "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=50482",
-   "org": "UNDP Pakistan",
-   "province": "Donor",
-   "posted": "2026-10-08",
-   "closing": "2026-11-05",
-   "type": "RFQ - Request for quotation",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000014550E",
-   "title": "“Development of Engine O/H Kit”",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000014550E",
-   "org": "Ministry of Defence Production Heavy Industries Taxila Taxila - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-05",
-   "type": "5647/IT-04/Dev/AR · Miscellaneous · 5647/IT-04/Dev/AR",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017426E",
    "title": "Invitation to Bid for Supply of LNG",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017426E",
@@ -7105,7 +6812,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -7181,42 +6888,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167463",
-   "title": "Hiring of Cyber Security Consultant",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167463",
-   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167406",
-   "title": "Hiring of Communication & Media Firm",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167406",
-   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal175947",
    "title": "HIRING OF A THIRD-PARTY FIRM FOR IMPACT ASSESSMENT OF FOODAG PAKISTAN 2026",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/175947",
@@ -7235,6 +6906,24 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167463",
+   "title": "Hiring of Cyber Security Consultant",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167463",
+   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "2026-11-09",
+   "type": "Consultancy Services Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal134706",
    "title": "Hiring of Individual Engineering Consultant for Design, Cost Estimation, Tender Documentat...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/134706",
@@ -7243,6 +6932,24 @@
    "posted": "2026-10-30",
    "closing": "2026-11-09",
    "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167406",
+   "title": "Hiring of Communication & Media Firm",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167406",
+   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "2026-11-09",
+   "type": "Consultancy Services Single Stage-One Envelope",
    "relevant": false,
    "score": 0,
    "categories": [],
@@ -7537,7 +7244,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -7573,7 +7280,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -7829,24 +7536,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal176823",
-   "title": "HIRING OF CHARTERED ACCOUNTANT FIRM FOR AUDIT OF WAZIR-E-AZAM APNA GHAR PROGRAM (GHAR HO T...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/176823",
-   "org": "PHA-Foundation (Ministry of Housing and Works)",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-10",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal111658",
    "title": "Appointment of Transaction Advisor for the Proposed Joint Venture at Mouza Charahan, Angor...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/111658",
@@ -7865,12 +7554,174 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal176823",
+   "title": "HIRING OF CHARTERED ACCOUNTANT FIRM FOR AUDIT OF WAZIR-E-AZAM APNA GHAR PROGRAM (GHAR HO T...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/176823",
+   "org": "PHA-Foundation (Ministry of Housing and Works)",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "2026-11-10",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166941",
+   "title": "NCB No. 104-2026 All kind of Electrification Works under Deposit works in PK-87 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166941",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal150651",
+   "title": "Infrastructure Works of Off-Dock Terminal at Gwadar",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/150651",
+   "org": "Gwadar Port Authority (Gwadar Port Authority)",
+   "province": "Federal",
+   "posted": "2026-10-18",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166707",
+   "title": "NCB No. 92-2026 PAF Base Saidu Sharif Feeder At District Swat.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166707",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-26",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166818",
+   "title": "NCB No. 98-2026 12 No. works iro PDA, 04 No. NHA works under Govt Deposit Head in Peshawar...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166818",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166257",
+   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166869",
+   "title": "NCB No. 100-2026 All kind of Electrification Works under Deposit works in NA-33 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166869",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166134",
+   "title": "NCB No. 80-2026 Bifurcation of 11 KV College Town Kohat under ELR Head.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166134",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166299",
    "title": "NCB No. 86-2026 All Kind Of Electrification Works iro District D.I.Khan (PK-111,PK-112,PK-...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166299",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
    "posted": "2026-10-23",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166911",
+   "title": "NCB No. 102-2026 All kind of Electrification Works under Deposit works in PK-85 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166911",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -7901,12 +7752,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166911",
-   "title": "NCB No. 102-2026 All kind of Electrification Works under Deposit works in PK-85 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166911",
+   "id": "EPADS Federal:federal166320",
+   "title": "NCB No. 87-2026 All Kind Of Electrification Works iro District D.I.Khan (NA-44 & NA-45) Pa...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166320",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-27",
+   "posted": "2026-10-24",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -7914,7 +7765,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-04",
+   "first_seen": "2026-11-03",
    "isNew": false
   },
   {
@@ -7955,12 +7806,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166320",
-   "title": "NCB No. 87-2026 All Kind Of Electrification Works iro District D.I.Khan (NA-44 & NA-45) Pa...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166320",
+   "id": "EPADS Federal:federal166926",
+   "title": "NCB No. 103-2026 All kind of Electrification Works under Deposit works in PK-86 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166926",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-24",
+   "posted": "2026-10-27",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -7968,7 +7819,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-03",
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -7991,12 +7842,30 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166926",
-   "title": "NCB No. 103-2026 All kind of Electrification Works under Deposit works in PK-86 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166926",
+   "id": "EPADS Federal:federal166407",
+   "title": "NCB No. 88-2026 All Kind Of Electrification Works iro District Tank. (Pk-108)",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166407",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-27",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal163869",
+   "title": "D(P)-EHV-II-NGC-HYD-02-2026",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/163869",
+   "org": "Director (Projects) - Hyderabad (National Grid Company (NGC))",
+   "province": "Federal",
+   "posted": "2026-10-22",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8063,56 +7932,20 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal121276",
-   "title": "Providing & Applying Plastic Emulsion Paint of Banking Hall and Electrical Lighting Works ...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/121276",
-   "org": "SBP Banking Services Corporation (SBP Banking Services Corporation (BSC))",
+   "id": "EPADS Federal:federal166953",
+   "title": "NCB No. 105-2026 All kind of Electrification Works under Deposit works in PK-88 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166953",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
    "posted": "2026-10-27",
    "closing": "2026-11-10",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166407",
-   "title": "NCB No. 88-2026 All Kind Of Electrification Works iro District Tank. (Pk-108)",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166407",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal163869",
-   "title": "D(P)-EHV-II-NGC-HYD-02-2026",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/163869",
-   "org": "Director (Projects) - Hyderabad (National Grid Company (NGC))",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
+   "first_seen": "2026-11-03",
    "isNew": false
   },
   {
@@ -8153,12 +7986,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166953",
-   "title": "NCB No. 105-2026 All kind of Electrification Works under Deposit works in PK-88 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166953",
+   "id": "EPADS Federal:federal166446",
+   "title": "NCB No. 89-2026 All Kind Of Electrification Works iro District Lakki.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166446",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-27",
+   "posted": "2026-10-24",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8166,7 +7999,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-03",
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -8225,30 +8058,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166446",
-   "title": "NCB No. 89-2026 All Kind Of Electrification Works iro District Lakki.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166446",
+   "id": "EPADS Federal:federal166287",
+   "title": "NCB No. 85-2026 All Kind of Electrification Works in NA-25 & PK-66 of District Charsada.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166287",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167019",
-   "title": "NCB No. 106-2026 All kind of Electrification Works under Deposit works in PK-89 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167019",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
+   "posted": "2026-10-23",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8261,12 +8076,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166287",
-   "title": "NCB No. 85-2026 All Kind of Electrification Works in NA-25 & PK-66 of District Charsada.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166287",
+   "id": "EPADS Federal:federal167019",
+   "title": "NCB No. 106-2026 All kind of Electrification Works under Deposit works in PK-89 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167019",
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-23",
+   "posted": "2026-10-27",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8405,48 +8220,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166707",
-   "title": "NCB No. 92-2026 PAF Base Saidu Sharif Feeder At District Swat.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166707",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-26",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166941",
-   "title": "NCB No. 104-2026 All kind of Electrification Works under Deposit works in PK-87 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166941",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "id": "EPADS Federal:federal121276",
+   "title": "Providing & Applying Plastic Emulsion Paint of Banking Hall and Electrical Lighting Works ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/121276",
+   "org": "SBP Banking Services Corporation (SBP Banking Services Corporation (BSC))",
    "province": "Federal",
    "posted": "2026-10-27",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal150651",
-   "title": "Infrastructure Works of Off-Dock Terminal at Gwadar",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/150651",
-   "org": "Gwadar Port Authority (Gwadar Port Authority)",
-   "province": "Federal",
-   "posted": "2026-10-18",
    "closing": "2026-11-10",
    "type": "Works Single Stage-Two Envelope",
    "relevant": false,
@@ -8454,35 +8233,17 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166818",
-   "title": "NCB No. 98-2026 12 No. works iro PDA, 04 No. NHA works under Govt Deposit Head in Peshawar...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166818",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
    "first_seen": "2026-11-04",
    "isNew": false
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166257",
-   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "id": "EPADS Federal:federal177339",
+   "title": "Improvement of underground damaged/Corroded High Pressure Sui Gas Pipeline in Loco Shops i...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/177339",
+   "org": "DS/W, P.R, Moghalpura (Ministry of Railways)",
    "province": "Federal",
-   "posted": "2026-10-23",
+   "posted": "2026-10-29",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8490,43 +8251,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166134",
-   "title": "NCB No. 80-2026 Bifurcation of 11 KV College Town Kohat under ELR Head.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166134",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166869",
-   "title": "NCB No. 100-2026 All kind of Electrification Works under Deposit works in NA-33 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166869",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
+   "first_seen": "2026-11-05",
    "isNew": false
   },
   {
@@ -8545,25 +8270,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal95716",
-   "title": "MISCELLANEOUS IMPROVEMENT WORKS FOR DEVELOPMENT OF PUBLIC ADDRESS ROOMS AT DIFFERENT LOCAT...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/95716",
-   "org": "JINNAH INTERNATIONAL AIRPORT (Pakistan Airports Authority (PAA))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -8581,25 +8288,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal169908",
-   "title": "Bill Distribution for Mumtazabad Division",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/169908",
-   "org": "MECPO CIRCLE MULTAN (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -8617,16 +8306,34 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal177339",
-   "title": "Improvement of underground damaged/Corroded High Pressure Sui Gas Pipeline in Loco Shops i...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/177339",
-   "org": "DS/W, P.R, Moghalpura (Ministry of Railways)",
+   "id": "EPADS Federal:federal169908",
+   "title": "Bill Distribution for Mumtazabad Division",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/169908",
+   "org": "MECPO CIRCLE MULTAN (Multan Electric Power Company (MEPCO))",
    "province": "Federal",
-   "posted": "2026-10-29",
+   "posted": "2026-10-30",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal95716",
+   "title": "MISCELLANEOUS IMPROVEMENT WORKS FOR DEVELOPMENT OF PUBLIC ADDRESS ROOMS AT DIFFERENT LOCAT...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/95716",
+   "org": "JINNAH INTERNATIONAL AIRPORT (Pakistan Airports Authority (PAA))",
+   "province": "Federal",
+   "posted": "2026-10-23",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -8635,7 +8342,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -8653,7 +8360,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -8671,25 +8378,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal171372",
-   "title": "WELDING OF TOWER NUTS, BOLTS & APPLICATION OF ANTI RUST PAINT FROM 8.0 METERS TO 15.0 METE...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/171372",
-   "org": "Director General (Field Operations) Faisalabad (Executive Director (Field Operations) North, Lahore)",
-   "province": "Federal",
-   "posted": "2026-10-25",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -8707,7 +8396,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal171372",
+   "title": "WELDING OF TOWER NUTS, BOLTS & APPLICATION OF ANTI RUST PAINT FROM 8.0 METERS TO 15.0 METE...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/171372",
+   "org": "Director General (Field Operations) Faisalabad (Executive Director (Field Operations) North, Lahore)",
+   "province": "Federal",
+   "posted": "2026-10-25",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
   },
   {
    "source": "AJK PPRA",
@@ -9157,7 +8864,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -9175,7 +8882,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -9661,7 +9368,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11821,7 +11528,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11893,7 +11600,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11929,7 +11636,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11947,7 +11654,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11965,7 +11672,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12073,7 +11780,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12091,7 +11798,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "AJK PPRA",
@@ -12145,7 +11852,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12163,7 +11870,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12181,7 +11888,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12199,7 +11906,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12217,7 +11924,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12235,7 +11942,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12253,7 +11960,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12271,7 +11978,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12289,7 +11996,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12307,7 +12014,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12325,7 +12032,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12343,7 +12050,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12361,7 +12068,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12379,7 +12086,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12397,7 +12104,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12415,7 +12122,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -12433,7 +12140,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -13013,6 +12720,24 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal173328",
+   "title": "HIRING OF CHARTERED ACCOUNTANT FIRMS FOR THIRD-PARTY COMPREHENSIVE AUDIT OF CUSTOMS BONDED...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/173328",
+   "org": "Federal Board of Revenue (Revenue Division/Federal Board of Revenue (FBR))",
+   "province": "Federal",
+   "posted": "2026-10-29",
+   "closing": "2026-11-16",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal159045",
    "title": "Hiring of Individual / Consultant for Pharmaceutical Sector at TDAP",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/159045",
@@ -13027,24 +12752,6 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal181812",
-   "title": "SSGC/SC/NR/EPADS2/14537 (Hiring of Consulting Services of EIA/IEE of Laying and Integratio...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/181812",
-   "org": "SSGC (PROCUREMENT DEPARTMENT)",
-   "province": "Federal",
-   "posted": "2026-11-03",
-   "closing": "2026-11-16",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
    "isNew": false
   },
   {
@@ -13081,24 +12788,24 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal173328",
-   "title": "HIRING OF CHARTERED ACCOUNTANT FIRMS FOR THIRD-PARTY COMPREHENSIVE AUDIT OF CUSTOMS BONDED...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/173328",
-   "org": "Federal Board of Revenue (Revenue Division/Federal Board of Revenue (FBR))",
+   "id": "EPADS Federal:federal181812",
+   "title": "SSGC/SC/NR/EPADS2/14537 (Hiring of Consulting Services of EIA/IEE of Laying and Integratio...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/181812",
+   "org": "SSGC (PROCUREMENT DEPARTMENT)",
    "province": "Federal",
-   "posted": "2026-10-29",
+   "posted": "2026-11-03",
    "closing": "2026-11-16",
-   "type": "Consultancy Services Single Stage-Two Envelope",
+   "type": "Consultancy Services Single Stage-One Envelope",
    "relevant": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-02",
+   "first_seen": "2026-11-03",
    "isNew": false
   },
   {
@@ -13801,7 +13508,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -13819,7 +13526,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -14021,6 +13728,24 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal178233",
+   "title": "ESTABLISHMENT OF 500 LABOUR QUARTERS AT HUB",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/178233",
+   "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "2026-11-17",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal177423",
    "title": "ESTABLISHMENT OF 200 HOUSES AT DERA MURAD JAMALI",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/177423",
@@ -14042,24 +13767,6 @@
    "id": "EPADS Federal:federal175995",
    "title": "ESTABLISHMENT OF 200 LABOUR QUARTERS AT BAIKAR, NORTH DERA BUGTI",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/175995",
-   "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-17",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal178233",
-   "title": "ESTABLISHMENT OF 500 LABOUR QUARTERS AT HUB",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/178233",
    "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
    "province": "Federal",
    "posted": "2026-10-30",
@@ -14395,7 +14102,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -14665,7 +14372,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "World Bank",
@@ -14975,6 +14682,24 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000014554E",
+   "title": "IFB, Bidding Documents for Procurement of cafeteria services for NHA HQs Islamabad",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000014554E",
+   "org": "Ministry of Communications National Highway Authority (NHA) Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-06",
+   "closing": "2026-11-19",
+   "type": "Civil Works · Store",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017505E",
    "title": "WAPDA DIRECTOR COMPUTER PRD NO.122",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017505E",
@@ -14989,7 +14714,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15007,7 +14732,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15025,7 +14750,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15115,7 +14840,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15133,7 +14858,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15262,42 +14987,6 @@
    "isNew": false
   },
   {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017121E",
-   "title": "procurement of Industrial Chemical / Gases",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017121E",
-   "org": "Wah Industries Limited Wah Industries Wah Cantt - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-19",
-   "type": "chemical items · Tender Enquiry for procurement of Industrial... · Chemical Items · 0027/LP/P-782/P-WIL/55",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017122E",
-   "title": "procurement of Industrial Chemical / Gases",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017122E",
-   "org": "Wah Industries Limited Wah Industries Wah Cantt - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-19",
-   "type": "Industrial Chemicals & Gases · Tender enquiry for procurement of Industrial... · Chemical Items · 0031/LP/P-782/P-WIL/55",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
    "source": "KPPRA",
    "id": "KPPRA:33474",
    "title": "Supply & Installation of Vehicle Tracking Device along with monthly monitering charges for 1 year.",
@@ -15367,6 +15056,42 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017121E",
+   "title": "procurement of Industrial Chemical / Gases",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017121E",
+   "org": "Wah Industries Limited Wah Industries Wah Cantt - Pakistan",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "2026-11-19",
+   "type": "chemical items · Tender Enquiry for procurement of Industrial... · Chemical Items · 0027/LP/P-782/P-WIL/55",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017122E",
+   "title": "procurement of Industrial Chemical / Gases",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017122E",
+   "org": "Wah Industries Limited Wah Industries Wah Cantt - Pakistan",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "2026-11-19",
+   "type": "Industrial Chemicals & Gases · Tender enquiry for procurement of Industrial... · Chemical Items · 0031/LP/P-782/P-WIL/55",
+   "relevant": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
    "isNew": false
   },
   {
@@ -15565,7 +15290,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15619,7 +15344,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -15637,7 +15362,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -15691,7 +15416,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -15709,7 +15434,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -15835,7 +15560,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15853,7 +15578,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15871,7 +15596,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16033,7 +15758,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -16051,7 +15776,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -16087,7 +15812,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16123,7 +15848,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16267,7 +15992,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -16285,7 +16010,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -16303,7 +16028,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -16393,7 +16118,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16411,7 +16136,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16843,7 +16568,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16861,7 +16586,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16879,7 +16604,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16897,7 +16622,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16915,7 +16640,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16933,7 +16658,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16951,7 +16676,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16969,7 +16694,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -16987,7 +16712,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17005,7 +16730,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17023,7 +16748,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17041,7 +16766,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17131,7 +16856,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17149,7 +16874,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17221,7 +16946,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -17311,7 +17036,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -17383,7 +17108,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17401,7 +17126,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17419,7 +17144,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17437,7 +17162,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17455,7 +17180,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17599,7 +17324,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17617,7 +17342,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17635,7 +17360,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17653,7 +17378,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17779,7 +17504,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17797,7 +17522,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17815,7 +17540,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "AJK PPRA",
@@ -18049,7 +17774,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18067,7 +17792,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18085,7 +17810,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18103,7 +17828,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18121,7 +17846,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18139,7 +17864,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18431,9 +18156,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal144804",
-   "title": "Tender No.41 for Survey of 132KV T/Line Jaouharabad – Quaidabad in & out at 132KV G/S No...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/144804",
+   "id": "EPADS Federal:federal144801",
+   "title": "Tender No.40 for Transportation, Shifting, Erection & Stringing of 132KV D/C T/Line F/F 13...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/144801",
    "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
    "province": "Federal",
    "posted": "2026-10-04",
@@ -18449,9 +18174,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal144801",
-   "title": "Tender No.40 for Transportation, Shifting, Erection & Stringing of 132KV D/C T/Line F/F 13...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/144801",
+   "id": "EPADS Federal:federal144804",
+   "title": "Tender No.41 for Survey of 132KV T/Line Jaouharabad – Quaidabad in & out at 132KV G/S No...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/144804",
    "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
    "province": "Federal",
    "posted": "2026-10-04",
@@ -19429,7 +19154,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -19483,7 +19208,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -19501,7 +19226,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -19519,7 +19244,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -19537,7 +19262,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -19969,7 +19694,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -19987,7 +19712,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -20077,7 +19802,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -20095,7 +19820,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -20225,6 +19950,24 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000015301E",
+   "title": "Tank Spares, Medicine, Med, Medical Disposable Items & Lab Kit & Implant",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000015301E",
+   "org": "Directorate General Procurement (Army) Directorate General Procurement (Army) Rawalpindi. - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-06",
+   "closing": "2027-01-07",
+   "type": "5xP-14, 32x P-26, 10x P-27, 4x P-28B & 5 x P-29 · Corrigendum pub on 16 Oct 2026 against tender... · Miscellaneous · 5xP-14, 32x P-26, 10x P-27, 4x P-28B & 5 x P-29",
+   "relevant": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000012493E",
    "title": "MT Spares, Avn, Armnt, Tank Spares, Medicine & Lab Kits & Implants",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012493E",
@@ -20243,10 +19986,12 @@
   }
  ],
  "notify_log": {
-  "at": "2026-11-05T22:35:51.893310+05:00",
+  "at": "2026-11-06T09:25:50.052426+05:00",
   "entries": [
    "Email: secrets missing (GMAIL_USER/GMAIL_APP_PASS/NOTIFY_EMAIL)",
-   "WhatsApp: WA_TO secret not set"
+   "Push (ntfy) sent: 200",
+   "WhatsApp 92303***70: no key/token",
+   "WhatsApp 92332***40: no key/token"
   ]
  }
 }
