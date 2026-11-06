@@ -415,10 +415,27 @@ def main():
     alert = new_rel if not first_run else [t for t in tenders if t["relevant"]]
     try: send_email(alert, len(new), len(tenders), data["stats"]["relevant"], health)
     except Exception as ex: print("Email failed:", ex); NOTIFY_LOG.append(f"Email failed: {ex}"[:200])
+    send_push(alert, len(new), data["stats"]["relevant"])
     if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY") or os.environ.get("FORCE_NOTIFY"):
         try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
         except Exception as ex: print("WhatsApp failed:", ex); NOTIFY_LOG.append(f"WhatsApp failed: {ex}"[:200])
 
+
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "rss-tenders-1b945081"
+
+def send_push(new_rel, new_all_count, total_rel):
+    """Phone push via ntfy.sh — install the free 'ntfy' app and subscribe to NTFY_TOPIC."""
+    if not new_rel and not os.environ.get("FORCE_NOTIFY"): return
+    body = "\n".join(f"• {t['title'][:100]} (closes {t['closing'] or '—'})" for t in
+                     sorted(new_rel, key=lambda x: x.get("closing") or "9999")[:8]) or "No new related tenders."
+    if len(new_rel) > 8: body += f"\n…and {len(new_rel)-8} more"
+    try:
+        r = requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=body.encode("utf-8"), timeout=30, headers={
+            "Title": f"{len(new_rel)} new tenders for RSS - {NOW:%d %b}",
+            "Click": DASHBOARD_URL, "Tags": "building_construction", "Priority": "high" if new_rel else "default"})
+        NOTIFY_LOG.append(f"Push (ntfy) sent: {r.status_code}")
+    except Exception as ex:
+        NOTIFY_LOG.append(f"Push (ntfy) failed: {ex}"[:200])
 
 def save_notify_log():
     try:
