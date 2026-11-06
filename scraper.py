@@ -293,6 +293,22 @@ def src_tenderalert(pages=15):
         time.sleep(10)
     return out
 
+def src_sindh_phone():
+    """Sindh tenders sent by the Termux phone scanner through ntfy (last 24h)."""
+    out = []
+    r = get(f"https://ntfy.sh/{NTFY_TOPIC}-sindh/json", params={"poll": "1", "since": "24h"})
+    if not r: return out
+    for line in r.text.splitlines():
+        try:
+            msg = json.loads(line)
+            if msg.get("event") != "message": continue
+            for it in json.loads(msg.get("message") or "[]"):
+                out.append(T("SPPRA Sindh (phone)", it["id"], it["title"], it["url"], it.get("org", ""),
+                             "Sindh", it.get("posted", ""), it.get("closing", "")))
+        except Exception:
+            continue
+    return out
+
 SOURCES = [
     ("PPRA EPMS (Federal)", src_epms, "https://epms.ppra.gov.pk/public/tenders/active-tenders"),
     ("EPADS Federal", lambda: src_epads("federal", "Federal"), "https://epads.gov.pk/?jurisdiction=federal"),
@@ -301,6 +317,7 @@ SOURCES = [
     ("GB PPRA", src_gb, "https://gbppra.gov.pk/public/viewall"),
     ("UNDP Pakistan", src_undp, "https://procurement-notices.undp.org/"),
     ("TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)", src_tenderalert, "https://tenderalert.pk/all-pakistan-tenders"),
+    ("SPPRA Sindh (via phone)", src_sindh_phone, "https://ppms.pprasindh.gov.pk/"),
     ("World Bank (Pakistan)", src_worldbank, "https://projects.worldbank.org/en/projects-operations/procurement"),
 ]
 MANUAL = [  # robots.txt blocks automation / JS-only — shown on dashboard as one-click checks
