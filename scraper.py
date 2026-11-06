@@ -43,20 +43,20 @@ DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "https://sonoodevil.github.io/te
 CATEGORIES = {
     "el": ("Elevators & Escalators", [
         r"\blifts?\b", r"elevators?", r"escalators?", r"travelator", r"moving walkway",
-        r"dumb ?waiter", r"\bmrl\b", r"vvvf", r"bed lift"]),
+        r"dumb ?waiter", r"\bmrl\b", r"vvvf", r"bed lift", r"passenger lift", r"goods lift", r"vertical transport", r"car lift", r"service lift"]),
     "hvac": ("HVAC & Cooling", [
         r"\bhvac", r"air[- ]?condition", r"\bvrf\b", r"\bvrv\b", r"chillers?", r"\bahus?\b",
         r"air handling", r"fan ?coil", r"\bfcus?\b", r"ventilation", r"exhaust fans?",
         r"cooling tower", r"cold room", r"split (ac|unit)", r"\ba/?c plant", r"\bducting\b",
-        r"refrigeration", r"\bac(s)?\b"]),
+        r"refrigeration", r"\bac(s)?\b", r"air cooler", r"cold storage", r"chilled water", r"tonn?(age)? of refrigeration", r"heat pump", r"package unit", r"inverter ac", r"kitchen hood"]),
     "gen": ("Generators & Power", [
         r"generators?", r"gen-?sets?", r"diesel generat", r"\bdg set", r"\bkva\b",
         r"synchroni[sz]", r"\bats\b", r"amf panel", r"change ?over switch", r"load bank",
-        r"\bups\b"]),
+        r"\bups\b", r"standby power", r"power house", r"alternator", r"\bavr\b"]),
     "mep": ("E&M / MEP", [
         r"\be ?& ?m\b", r"electro[- ]?mechanical", r"\bmep\b", r"mechanical works",
         r"electrical (and|&) mechanical", r"building services", r"switch ?gear",
-        r"\bltp?\b panel", r"electrical works", r"\bpanels?\b"]),
+        r"\bltp?\b panel", r"electrical works", r"\bpanels?\b", r"\be&m\b", r"\be & m\b", r"electrical (and|&) allied", r"building maintenance", r"plumbing", r"fire fighting", r"fire alarm", r"\bbms\b"]),
 }
 BOOST = [r"supply,? installation", r"testing (and|&) commissioning", r"\bsitc\b",
          r"maintenance", r"\bamc\b", r"repair", r"turnkey", r"hospital", r"\bthq\b",
@@ -76,9 +76,11 @@ def score(text):
     s += 2 * sum(1 for p in BOOST if re.search(p, t))
     s -= 15 * sum(1 for p in EXCLUDE if re.search(p, t))
     # weak-only matches (just "ac"/"panel"/"maintenance") shouldn't count alone
-    strong = [k for k in kws if k not in ("ac", "acs", "panel", "panels", "ups")]
+    WEAK = ("ac", "acs", "panel", "panels", "ups", "plumbing", "fire fighting", "fire alarm", "bms", "building maintenance", "air cooler", "alternator", "avr", "kitchen hood")
+    strong = [k for k in kws if k not in WEAK]
     relevant = s >= 10 and bool(strong)
-    return relevant, s, cats, sorted(set(kws))
+    maybe = (not relevant) and bool(kws) and s > 0
+    return relevant, s, cats, sorted(set(kws)), maybe
 
 # ── helpers ─────────────────────────────────────────────────────────────
 S = requests.Session(); S.headers.update(UA)
@@ -114,7 +116,7 @@ def T(source, sid, title, url, org="", province="", posted="", closing="", ttype
                 type=clean(ttype))
 
 # ── Sources ─────────────────────────────────────────────────────────────
-def src_epms(pages=8):
+def src_epms(pages=60):
     out, base = [], "https://epms.ppra.gov.pk"
     for p in range(1, pages + 1):
         s = soup(f"{base}/public/tenders/active-tenders?page={p}")
@@ -142,7 +144,7 @@ def src_epms(pages=8):
         time.sleep(2)
     return out
 
-def src_epads(jur, label, pages=6):
+def src_epads(jur, label, pages=40):
     out, base = [], "https://epads.gov.pk"
     for p in range(1, pages + 1):
         s = soup(f"{base}/?jurisdiction={jur}&page={p}")
@@ -265,7 +267,7 @@ def city_province(cities):
         if any(n in c for n in names.split()): return prov
     return "Pakistan"
 
-def src_tenderalert(pages=8):
+def src_tenderalert(pages=15):
     """TenderAlert.pk — newspaper/provincial tenders (covers Punjab, Sindh, Balochistan portals that block bots).
     Respects robots.txt crawl-delay of 10s."""
     out, base = [], "https://tenderalert.pk"
@@ -425,8 +427,8 @@ def main():
     today = NOW.strftime("%Y-%m-%d")
     merged, new = {}, []
     for tid, t in fresh.items():
-        rel, sc, cats, kws = score(f"{t['title']} {t['type']} {t['org']}")
-        t.update(relevant=rel, score=sc, categories=cats, category=cats[0] if cats else "", keywords=kws)
+        rel, sc, cats, kws, maybe = score(f"{t['title']} {t['type']} {t['org']}")
+        t.update(relevant=rel, maybe=maybe, score=sc, categories=cats, category=cats[0] if cats else "", keywords=kws)
         if tid in old:
             t["first_seen"] = old[tid].get("first_seen", today)
         else:
@@ -445,6 +447,7 @@ def main():
     data = dict(updated=NOW.isoformat(), stats=dict(
         total=len(tenders), relevant=sum(t["relevant"] for t in tenders),
         new=0 if first_run else len(new), new_relevant=0 if first_run else len(new_rel),
+        maybe=sum(1 for t in tenders if t.get("maybe")),
         portals=len(SOURCES)), health=health,
         manual=[dict(name=n, url=u, note=d) for n, u, d in MANUAL], tenders=tenders)
     json.dump(data, open(DATA_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -455,6 +458,7 @@ def main():
     try: send_email(alert, len(new), len(tenders), data["stats"]["relevant"], health)
     except Exception as ex: print("Email failed:", ex); NOTIFY_LOG.append(f"Email failed: {ex}"[:200])
     send_push(alert, len(new), data["stats"]["relevant"])
+    if os.environ.get("GITHUB_EVENT_SCHEDULE", "").startswith("37 1") or os.environ.get("FORCE_WEEKLY"): weekly_maybe_push(tenders)
     if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY") or os.environ.get("FORCE_NOTIFY"):
         try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
         except Exception as ex: print("WhatsApp failed:", ex); NOTIFY_LOG.append(f"WhatsApp failed: {ex}"[:200])
@@ -475,6 +479,17 @@ def send_push(new_rel, new_all_count, total_rel):
         NOTIFY_LOG.append(f"Push (ntfy) sent: {r.status_code}")
     except Exception as ex:
         NOTIFY_LOG.append(f"Push (ntfy) failed: {ex}"[:200])
+
+def weekly_maybe_push(tenders):
+    if NOW.weekday() != 0 and not os.environ.get("FORCE_WEEKLY"): return
+    m = [t for t in tenders if t.get("maybe")]
+    if not m: return
+    body = "\n".join(f"• {t['title'][:90]}" for t in m[:10]) + (f"\n…and {len(m)-10} more" if len(m) > 10 else "")
+    try:
+        r = requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=body.encode("utf-8"), timeout=30, headers={
+            "Title": f"Weekly check: {len(m)} possibly-related tenders", "Click": DASHBOARD_URL + "#maybe", "Tags": "mag"})
+        NOTIFY_LOG.append(f"Weekly maybe push: {r.status_code}")
+    except Exception as ex: NOTIFY_LOG.append(f"Weekly push failed: {ex}"[:200])
 
 def save_notify_log():
     try:

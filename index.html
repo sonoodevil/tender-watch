@@ -94,12 +94,14 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
     <div class="st"><small>Open tenders tracked</small><b id="sTotal">—</b></div>
     <div class="st"><small>Related to our work</small><b id="sRel">—</b></div>
     <div class="st"><small>New today</small><b id="sNew">—</b></div>
+    <div class="st"><small>Check these (maybe)</small><b id="sMaybe">—</b></div>
     <div class="st"><small>Auto-scanned portals</small><b id="sPort">—</b></div>
   </div>
 
   <div class="bar">
     <div class="tabs">
       <button class="tab on" data-t="rel">Related to our work</button>
+      <button class="tab" data-t="maybe">Check these</button>
       <button class="tab" data-t="all">All tenders</button>
       <button class="tab" data-t="src">Portals</button>
     </div>
@@ -133,7 +135,7 @@ function fmt(d){if(!/^\d{4}-\d\d-\d\d$/.test(d||""))return d||"—";return new D
 function days(d){return /^\d{4}-/.test(d||"")?Math.round((new Date(d+"T00:00")-new Date(today+"T00:00"))/864e5):null}
 async function load(){
   try{const r=await fetch("tenders.json?t="+Date.now());D=await r.json();}catch(e){$("#grid").innerHTML='<div class="empty">No data yet — the first scan has not run.</div>';return}
-  const s=D.stats||{};$("#sTotal").textContent=s.total??0;$("#sRel").textContent=s.relevant??0;$("#sNew").textContent=s.new??0;$("#sPort").textContent=s.portals??0;
+  const s=D.stats||{};$("#sTotal").textContent=s.total??0;$("#sRel").textContent=s.relevant??0;$("#sNew").textContent=s.new??0;$("#sPort").textContent=s.portals??0;$("#sMaybe").textContent=s.maybe??0;
   $("#upd").textContent=new Date(D.updated).toLocaleString("en-GB",{timeZone:"Asia/Karachi",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})+" PKT";
   [...new Set(D.tenders.map(t=>t.province).filter(Boolean))].sort().forEach(p=>$("#prov").insertAdjacentHTML("beforeend",`<option>${esc(p)}</option>`));
   render();portals();
@@ -148,7 +150,7 @@ function card(t){
 function render(){
   if(tab==="src")return;
   const q=$("#q").value.toLowerCase(), pv=$("#prov").value, so=$("#sort").value;
-  let L=D.tenders.filter(t=>(tab==="all"||t.relevant)&&(!cat||(t.categories||[]).includes(cat))&&(!pv||t.province===pv)
+  let L=D.tenders.filter(t=>(tab==="all"||(tab==="maybe"?t.maybe:t.relevant))&&(!cat||(t.categories||[]).includes(cat))&&(!pv||t.province===pv)
     &&(!q||(t.title+" "+t.org+" "+t.source).toLowerCase().includes(q)));
   if(so==="new")L.sort((a,b)=>(b.first_seen+b.posted).localeCompare(a.first_seen+a.posted));
   else if(so==="closing")L.sort((a,b)=>(a.closing>=today?a.closing:"9").localeCompare(b.closing>=today?b.closing:"9"));
@@ -164,6 +166,7 @@ document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelect
   const src=tab==="src";$("#p-src").classList.toggle("on",src);$("#p-list").classList.toggle("on",!src);$("#chips").style.display=$("#ctl").style.display=src?"none":"";render();});
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));b.classList.add("on");cat=b.dataset.c;render();});
 ["#q","#prov","#sort"].forEach(s=>$(s).addEventListener("input",render));
+if(location.hash==="#maybe"){tab="maybe";document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("on",b.dataset.t==="maybe"));}
 load();
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
