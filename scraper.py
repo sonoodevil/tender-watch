@@ -252,6 +252,45 @@ def src_worldbank():
                      pdate((n.get("noticedate") or "")[:11], ["%d-%b-%Y"]), dl, n.get("notice_type")))
     return out
 
+PROV_CITIES = {
+ "Punjab": "lahore rawalpindi faisalabad multan gujranwala sialkot bahawalpur sargodha sahiwal dera ghazi khan d.g. khan rahim yar khan jhang sheikhupura kasur okara gujrat attock jhelum chakwal mianwali bhakkar layyah muzaffargarh vehari khanewal lodhran pakpattan toba tek singh hafizabad narowal mandi bahauddin taunsa rajanpur chiniot nankana",
+ "Sindh": "karachi hyderabad sukkur larkana nawabshah shaheed benazirabad mirpurkhas thatta badin jacobabad shikarpur khairpur dadu sanghar umerkot tharparkar jamshoro ghotki kashmore",
+ "Balochistan": "quetta gwadar turbat kech khuzdar sibi zhob loralai chaman hub lasbela panjgur kalat mastung nushki",
+ "Khyber Pakhtunkhwa": "peshawar abbottabad mardan swat mingora haripur kohat bannu dera ismail khan d.i. khan nowshera charsadda swabi mansehra chitral",
+ "Federal": "islamabad",
+}
+def city_province(cities):
+    c = cities.lower()
+    for prov, names in PROV_CITIES.items():
+        if any(n in c for n in names.split()): return prov
+    return "Pakistan"
+
+def src_tenderalert(pages=8):
+    """TenderAlert.pk — newspaper/provincial tenders (covers Punjab, Sindh, Balochistan portals that block bots).
+    Respects robots.txt crawl-delay of 10s."""
+    out, base = [], "https://tenderalert.pk"
+    for p in range(1, pages + 1):
+        s = soup(f"{base}/all-pakistan-tenders" + (f"?page={p}" if p > 1 else ""))
+        if not s: break
+        seen = set()
+        for a in s.find_all("a", href=re.compile(r"^(https://tenderalert\.pk)?/\d{5,}/")):
+            href = a["href"]
+            if href in seen: continue
+            seen.add(href)
+            box = a
+            for _ in range(5): box = box.parent
+            parts = [x for x in box.get_text("|", strip=True).split("|") if x.strip()]
+            if len(parts) < 3: continue
+            title, desc = clean(parts[0]), clean(parts[1])
+            cities = clean(parts[2]).strip(", ")
+            m = re.search(r"Publish Date:\s*\|?\s*(\d{4}/\d{2}/\d{2})", box.get_text("|", strip=True))
+            if re.search(r"auction|lease|recruitment|job|admission", title + " " + desc, re.I): continue
+            sid = re.search(r"/(\d{5,})/", href).group(1)
+            out.append(T("TenderAlert (newspapers)", sid, f"{title}: {desc}", urljoin(base, href),
+                         title, city_province(cities), m.group(1).replace("/", "-") if m else "", "", cities))
+        time.sleep(10)
+    return out
+
 SOURCES = [
     ("PPRA EPMS (Federal)", src_epms, "https://epms.ppra.gov.pk/public/tenders/active-tenders"),
     ("EPADS Federal", lambda: src_epads("federal", "Federal"), "https://epads.gov.pk/?jurisdiction=federal"),
@@ -259,17 +298,17 @@ SOURCES = [
     ("AJK PPRA", src_ajk, "https://ajkppra.gov.pk/searchadvertisements.php"),
     ("GB PPRA", src_gb, "https://gbppra.gov.pk/public/viewall"),
     ("UNDP Pakistan", src_undp, "https://procurement-notices.undp.org/"),
+    ("TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)", src_tenderalert, "https://tenderalert.pk/all-pakistan-tenders"),
     ("World Bank (Pakistan)", src_worldbank, "https://projects.worldbank.org/en/projects-operations/procurement"),
 ]
 MANUAL = [  # robots.txt blocks automation / JS-only — shown on dashboard as one-click checks
-    ("PPRA Punjab e-Proc", "https://eproc.punjab.gov.pk/ActiveTenders.aspx", "Punjab — portal blocks bots, check manually"),
-    ("Sindh EPADS / SPPRA", "https://sindh.eprocure.gov.pk/", "Sindh — JavaScript portal, check manually"),
-    ("BPPRA", "https://www.bppra.gob.pk/", "Balochistan — check manually"),
+    ("PPRA Punjab e-Proc", "https://eproc.punjab.gov.pk/ActiveTenders.aspx", "Punjab — firewall blocks automated access; Punjab newspaper tenders come in via TenderAlert"),
+    ("Sindh EPADS / SPPRA", "https://sindh.eprocure.gov.pk/", "Sindh — firewall blocks automated access; Sindh newspaper tenders come in via TenderAlert"),
+    ("BPPRA", "https://www.bppra.gob.pk/", "Balochistan — covered via TenderAlert newspapers; check portal for e-bids"),
     ("LDA Lahore", "https://lda.gop.pk/website/tender_notices.php", "Lahore Development Authority"),
     ("IDAP Punjab", "https://www.idap.pk/details/tenders", "Punjab hospitals & infrastructure"),
     ("CDA Islamabad", "https://www.cda.gov.pk/tenders", "Islamabad"),
     ("WAPDA", "https://wapda.gov.pk/wapda-tenders/", "Dams, power stations, WAPDA hospitals"),
-    ("TenderAlert.pk", "https://tenderalert.pk/all-pakistan-tenders", "Newspaper tenders aggregator"),
 ]
 
 # ── Email ───────────────────────────────────────────────────────────────
