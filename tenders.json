@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T20:52:07.156084+05:00",
+ "updated": "2026-11-08T12:55:31.099683+05:00",
  "stats": {
-  "total": 2728,
-  "relevant": 93,
-  "new": 244,
-  "new_relevant": 8,
+  "total": 2723,
+  "relevant": 94,
+  "new": 11,
+  "new_relevant": 1,
   "maybe": 27,
   "portals": 9
  },
@@ -12,7 +12,7 @@
   {
    "name": "PPRA EPMS (Federal)",
    "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders",
-   "count": 1950,
+   "count": 1866,
    "status": "ok"
   },
   {
@@ -48,8 +48,8 @@
   {
    "name": "TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)",
    "url": "https://tenderalert.pk/all-pakistan-tenders",
-   "count": 343,
-   "status": "ok"
+   "count": 0,
+   "status": "empty"
   },
   {
    "name": "SPPRA Sindh (via phone)",
@@ -180,7 +180,7 @@
     "kva"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -619,7 +619,7 @@
     "generator"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -764,7 +764,7 @@
     "mep"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1004,7 +1004,7 @@
     "generators"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1029,7 +1029,7 @@
     "generator"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1054,7 +1054,7 @@
     "ups"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1078,7 +1078,7 @@
     "generators"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1102,7 +1102,7 @@
     "generator"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1126,7 +1126,7 @@
     "kva"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1589,7 +1589,7 @@
     "hvac"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -1635,7 +1635,7 @@
     "elevator"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1846,6 +1846,29 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017508E",
+   "title": "TENDER NOTICE FOR PROVIDING/ INSTALLATION AND REPLACEMENT OF OLD DETERIORATED AIR CONDITIONING UNITS FOR VARIOUS OPERATIONAL AREAS AT MIAP MULTAN",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017508E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-16",
+   "type": "TENDER NOTICE FOR PROVIDING/ INSTALLATION AND REPLACEMENT OF OLD DETERIORATED AIR CONDITIONING UNITS FOR VARIOUS OPERATIONAL AREAS AT MIAP MULTAN · TENDER NOTICE FOR PROVIDING/ INSTALLATION AND... · Miscellaneous · 12648",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "hvac"
+   ],
+   "category": "hvac",
+   "keywords": [
+    "air condition"
+   ],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017237E",
    "title": "Procurement of 30xAir Conditioners(1.5 Ton) and 170 x Mattresses single Bed",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017237E",
@@ -2049,7 +2072,7 @@
     "mechanical works"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2072,7 +2095,7 @@
     "mechanical works"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2095,7 +2118,7 @@
     "generator"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2118,7 +2141,7 @@
     "electrical works"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2783,7 +2806,7 @@
     "panel"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2806,7 +2829,7 @@
     "ac"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2829,7 +2852,7 @@
     "panel"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -3092,25 +3115,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016981E",
-   "title": "Military Engineer Services",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016981E",
-   "org": "Military Engineering Services (Navy) MES(Navy) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Any Thing · Repair/ Replacement/ Maintenance of Works · Repair/Maintenance · 6401-Tender/04/E-6",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000014636E",
    "title": "PROC OF SPARES FOR MAINTENANCE / REPAIR",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000014636E",
@@ -3149,69 +3153,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168864",
-   "title": "Annual Maintenance & Repair of Roads",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168864",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal114658",
    "title": "Repair / maintenance of Sewerage / Drainage System",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/114658",
    "org": "Cantonment Board Jhelum (RHQ Lahore)",
    "province": "Federal",
    "posted": "2026-10-15",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168930",
-   "title": "Annual Maintenance & Repair of Water Supply",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168930",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168990",
-   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
    "closing": "2026-11-10",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -3240,6 +3187,63 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168990",
+   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168864",
+   "title": "Annual Maintenance & Repair of Roads",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168864",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168930",
+   "title": "Annual Maintenance & Repair of Water Supply",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168930",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
    "isNew": false
   },
   {
@@ -3544,7 +3548,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -3563,7 +3567,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -3956,25 +3960,6 @@
     "kva"
    ],
    "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6668",
-   "title": "Maintenance of Building & Machinery (AIMS) (2)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1792499233VL3VX%20-%20Tender%20AIMS.pdf",
-   "org": "Health Department – Health Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-20",
-   "closing": "2026-11-07",
-   "type": "Tender Notice",
-   "relevant": false,
-   "maybe": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
    "isNew": false
   },
   {
@@ -5415,7 +5400,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5434,7 +5419,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5453,7 +5438,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5472,7 +5457,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5491,7 +5476,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5510,7 +5495,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5529,7 +5514,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5548,7 +5533,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5567,7 +5552,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5586,7 +5571,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5605,7 +5590,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5624,7 +5609,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5643,7 +5628,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5662,7 +5647,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5681,7 +5666,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5700,7 +5685,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5719,7 +5704,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5738,7 +5723,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5757,7 +5742,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5776,7 +5761,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5795,7 +5780,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5814,7 +5799,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5833,7 +5818,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5852,7 +5837,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5871,7 +5856,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6777,139 +6762,6 @@
    "isNew": false
   },
   {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016959E",
-   "title": "4805-Chemicals, Consumables, Glassware, General Items and Batteries for Laboratory Use for 2026-27 under ORF Testing Services Head of IRCBM,",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016959E",
-   "org": "COMSATS University Islamabad COMSATS University Islamabad (CUI) - Lahore Campus lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "CUI-Lahore Campus · Consumable Items · CUI-LHR-TN-26-1954",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016980E",
-   "title": "Supply of Sweet Soil, Flower & Horticulture Items (Total Area 32175) for MLC Club Malir Cantt.",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016980E",
-   "org": "Ministry of Defence Cantonment Board Malir Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Supply of Sweet soil, Flower & Horticulture... · Miscellaneous · P134290",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016983E",
-   "title": "Slaughter House (Auction)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016983E",
-   "org": "Ministry of Defence Military Lands & Cantonments Department (ML&CD) Cantt Board Peshawar Peshawar - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Collection of Slaughtring Fee · Slaughter House (Auction) · Miscellaneous · 58507",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016991E",
-   "title": "REQUIREMENT FOR PLANTS & FERTILE SOIL FOR TREE PLANTATION",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016991E",
-   "org": "Ministry of Defence Cantonment Board Malir Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "REQUIREMENT FOR PLANTS & FERTILE SOIL FOR... · Miscellaneous · P175443",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016930E",
-   "title": "Tender for renewal of existing oracle License support/maintenance/up-dates CSI 20084703",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016930E",
-   "org": "Directorate General of Immigration & Passports Directorate General of Immigration & Passports Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Oracle License Support · Hiring of company for for renewal of existing... · Services · 11/1/2024/ORacle/Logistics",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016884E",
-   "title": "Procurement of Planter Stainless steel",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016884E",
-   "org": "Islamabad High Court Islamabad High Court Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-07",
-   "type": "Procurement of Planter Stainless steel · Miscellaneous · P173115",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016769E",
-   "title": "Procurement of Uniforms & Protective Clothing (Summer & Winter)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016769E",
-   "org": "Islamabad High Court Islamabad High Court Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-07",
-   "type": "Procurement of Uniforms & Protective Clothing (Summer & Winter) · Clothing/Uniform · P169416",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
    "source": "GB PPRA",
    "id": "GB PPRA:TSE-202611043310",
    "title": "Establishment of emergency services 1122 complex at Hunza.",
@@ -7766,25 +7618,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114553",
-   "title": "Recarpeting of Lane No. 1 & 2 at Farooq Road Gul-Afshan Colony Jhelum Cantt",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114553",
-   "org": "Cantonment Board Jhelum (RHQ Lahore)",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal114628",
    "title": "Construction of footpath at Haq Nawaz Kiyani Road Gul-Afshan Colony",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/114628",
@@ -7857,6 +7690,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal114553",
+   "title": "Recarpeting of Lane No. 1 & 2 at Farooq Road Gul-Afshan Colony Jhelum Cantt",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114553",
+   "org": "Cantonment Board Jhelum (RHQ Lahore)",
+   "province": "Federal",
+   "posted": "2026-10-15",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
    "isNew": false
   },
   {
@@ -8920,7 +8772,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -9186,7 +9038,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -10214,6 +10066,25 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017587E",
+   "title": "Tender for Horticulture works during Financial Year 2026–27- Rawalpindi Cantonment Board",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017587E",
+   "org": "Ministry of Defence Rawalpindi Cantonment Board Rawalpindi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "2026-11-18",
+   "type": "Tender for Horticulture works during Financial Year 2026–27- Rawalpindi Cantonment Board · Tender for Horticulture works during Financial... · Civil Works · P188331",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017609E",
    "title": "Provision, Installation, and Commissioning of Internet Connectivity Services at PSW Offices, Bahria Complex-I and Bahria Complex-III, Karachi",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017609E",
@@ -10438,7 +10309,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11765,7 +11636,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11784,7 +11655,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11803,7 +11674,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11822,7 +11693,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11841,7 +11712,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11860,7 +11731,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11879,7 +11750,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11898,7 +11769,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11917,7 +11788,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11936,7 +11807,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11955,7 +11826,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11974,7 +11845,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11993,7 +11864,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12012,7 +11883,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12031,7 +11902,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12050,7 +11921,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12069,7 +11940,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12088,7 +11959,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12107,7 +11978,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12126,7 +11997,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12145,7 +12016,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12164,7 +12035,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12183,7 +12054,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12202,7 +12073,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12221,7 +12092,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12240,7 +12111,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12259,7 +12130,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12278,7 +12149,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12297,7 +12168,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12316,7 +12187,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12335,7 +12206,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12354,7 +12225,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12373,7 +12244,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12392,7 +12263,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12411,7 +12282,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12430,7 +12301,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12449,7 +12320,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12468,7 +12339,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12487,7 +12358,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12506,7 +12377,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12525,7 +12396,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12544,7 +12415,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12563,7 +12434,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12582,7 +12453,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12601,7 +12472,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12620,7 +12491,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12639,7 +12510,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12658,7 +12529,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12677,7 +12548,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12696,7 +12567,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12715,7 +12586,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12734,7 +12605,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12753,7 +12624,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12772,7 +12643,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12791,7 +12662,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -15939,120 +15810,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016967E",
-   "title": "Tender Notice of Conservancy Contract FY 2026-27 PAF Base, Qadri Skardu",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016967E",
-   "org": "Ministry of Defence Pakistan Airforce islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Tender Notice of Conservancy Contract FY 2026-27... · Miscellaneous · AHQ/3504/2/DGPR (AF)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016994E",
-   "title": "Qlik Sense HA/DR Implementation and Administration Services",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016994E",
-   "org": "Pakistan State Oil (PSO) PSO Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Info and Comm Tech · IT-20142-SJ",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016996E",
-   "title": "Dispensing Units Paint Works at Retail Outlets - North Zone",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016996E",
-   "org": "Pakistan State Oil (PSO) PSO Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Miscellaneous · RC-20127-SJ",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017000E",
-   "title": "Dispensing Unit Paint Graphics Works at Retail Outlets - Faisalabad Division",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017000E",
-   "org": "Pakistan State Oil (PSO) PSO Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Miscellaneous · RC-20031-SJR",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016856E",
-   "title": "Cutting and Stitching of Uniform of Sector M-2 (South) P172107",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016856E",
-   "org": "Ministry of Communications National Highway and Motorway Police (NHMP) Sargodha - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Cutting and Stitching of Uniform for the officers and officials of Sector M-2 (South), Silmore, Sargodha · E-pad Procurement Number P172107 · Services · Tender No.01/SSP/M-2(S)/NHMP/2026-27",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016690E",
-   "title": "Proc Items Environment Test Chambers and Vibration System",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016690E",
-   "org": "Ministry of Defence Production Dte of Logistics (786-A) Kamra - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Attached · Miscellaneous · APF/786-A/1921/1/LOG/PC-29 (2026-27)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017688E",
    "title": "Open Auction for Lease of Fishing Rights of Rawal Dam, ISB",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017688E",
@@ -16679,139 +16436,6 @@
    "isNew": false
   },
   {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal175947",
-   "title": "HIRING OF A THIRD-PARTY FIRM FOR IMPACT ASSESSMENT OF FOODAG PAKISTAN 2026",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/175947",
-   "org": "Trade Development Authority of Pakistan (TDAP, HQ Karachi)",
-   "province": "Federal",
-   "posted": "2026-10-29",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal134706",
-   "title": "Hiring of Individual Engineering Consultant for Design, Cost Estimation, Tender Documentat...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/134706",
-   "org": "Collectorate of Custom Enforcement, Gadani (Pakistan Customs)",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167463",
-   "title": "Hiring of Cyber Security Consultant",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167463",
-   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167406",
-   "title": "Hiring of Communication & Media Firm",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167406",
-   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal119785",
-   "title": "Construction of New Islamabad Convention, Exhibition and Expo Centre, Islamabad",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/119785",
-   "org": "Works Directorate (Capital Development Authority)",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Works Single Stage-Two Envelope (with Prequalification)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167013",
-   "title": "CONSTRUCTION OF FOOD STORE AT ISLAMABAD CLUB RE",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167013",
-   "org": "Islamabad Club (Islamabad Club)",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal143103",
-   "title": "Horticulture Rehabilitation/Up-gradation of different areas of Environment Directorate Par...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/143103",
-   "org": "Environment Park Div (Capital Development Aurhority (CDA))",
-   "province": "Federal",
-   "posted": "2026-10-21",
-   "closing": "2026-11-09",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
    "source": "AJK PPRA",
    "id": "AJK PPRA:Expression of Interest 6655",
    "title": "Establishment and Operation of an LPG Facility Serving Langerpura, Thota Satellite Towns and Suburbs at Muzaffarabad",
@@ -17188,7 +16812,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17207,7 +16831,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -18750,63 +18374,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167019",
-   "title": "NCB No. 106-2026 All kind of Electrification Works under Deposit works in PK-89 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167019",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal150651",
-   "title": "Infrastructure Works of Off-Dock Terminal at Gwadar",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/150651",
-   "org": "Gwadar Port Authority (Gwadar Port Authority)",
-   "province": "Federal",
-   "posted": "2026-10-18",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166257",
-   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166134",
    "title": "NCB No. 80-2026 Bifurcation of 11 KV College Town Kohat under ELR Head.",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166134",
@@ -19358,25 +18925,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166941",
-   "title": "NCB No. 104-2026 All kind of Electrification Works under Deposit works in PK-87 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166941",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-10",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166707",
    "title": "NCB No. 92-2026 PAF Base Saidu Sharif Feeder At District Swat.",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166707",
@@ -19392,6 +18940,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166941",
+   "title": "NCB No. 104-2026 All kind of Electrification Works under Deposit works in PK-87 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166941",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -19449,6 +19016,63 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167019",
+   "title": "NCB No. 106-2026 All kind of Electrification Works under Deposit works in PK-89 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167019",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal150651",
+   "title": "Infrastructure Works of Off-Dock Terminal at Gwadar",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/150651",
+   "org": "Gwadar Port Authority (Gwadar Port Authority)",
+   "province": "Federal",
+   "posted": "2026-10-18",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166257",
+   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "2026-11-10",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -24428,6 +24052,25 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017530E",
+   "title": "TENDER NOTICE FOR INCREASING HEIGHT OF EXISTING OPEN DRAIN WALLS AND COVERING WITH PRECAST GIRDERS / SLABS NEAR CAR PARK ENTRY AND EXIT AT AIIAP, LAHORE",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017530E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-16",
+   "type": "TENDER NOTICE FOR INCREASING HEIGHT OF EXISTING OPEN DRAIN WALLS AND COVERING WITH PRECAST GIRDERS / SLABS NEAR CAR PARK ENTRY AND EXIT AT AIIAP, LAHORE · TENDER NOTICE FOR INCREASING HEIGHT OF EXISTING... · Civil Works · 12649",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017547E",
    "title": "SSGC/SC/NR/EPADS/14500 Construction of 02 Nos. CPS Solar Rooms, SMS Shahdadpur & Tando Haider at Hyderabad and Mirpurkhas Regions, (as Per BOQ)(Having Valid PEC Certificate Category C-6 Or above Having specialization of CE-10 Category) (Under Single Stage one Envelope Bidding Procedure) (On Complete Package Basis",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017547E",
@@ -26374,7 +26017,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -26393,7 +26036,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -28403,7 +28046,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -28422,7 +28065,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -28727,6 +28370,25 @@
    "keywords": [],
    "first_seen": "2026-11-05",
    "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017550E",
+   "title": "NOTICE INVITING E-BIDDING FOR PROVISION OF FILE CABINETS IN ADMIN & RECORD ROOM OF ESTATE SECTION AT JIAP KARACHI",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017550E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-19",
+   "type": "NOTICE INVITING E-BIDDING FOR PROVISION OF FILE CABINETS IN ADMIN & RECORD ROOM OF ESTATE SECTION AT JIAP KARACHI · NOTICE INVITING E-BIDDING FOR PROVISION OF FILE... · Civil Works · 12650",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
   },
   {
    "source": "PPRA EPMS",
@@ -29581,7 +29243,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "World Bank",
@@ -29600,7 +29262,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "World Bank",
@@ -29980,7 +29642,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "AJK PPRA",
@@ -30192,6 +29854,44 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017733E",
+   "title": "Supply of Quick and Xpress Oil Change Canopies at PSO Retail Outlets - North Zone.",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017733E",
+   "org": "Pakistan State Oil (PSO) PSO Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "2026-11-23",
+   "type": "Miscellaneous · RC-20176-IA",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:FW0000017735E",
+   "title": "INVITATION FOR PREQUALIFICATION OF HIRING OF TRAVEL AGENCIES",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/FW0000017735E",
+   "org": "Ministry of National Health Services, Regulation & Coordination Jinnah Medical Construction Company (JMC) Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "2026-11-23",
+   "type": "Services · Proc-04ffO-TWJMC/2026-27",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017722E",
    "title": "Procurement of Equipment",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017722E",
@@ -30207,7 +29907,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -30762,25 +30462,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal140484",
-   "title": "Hiring of Transaction Advisor for Development of Islamabad Technopolis Project in PPP Mode",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/140484",
-   "org": "Special Technology Zones Authority (STZA) (Special Technology Zones Authority (STZA))",
-   "province": "Federal",
-   "posted": "2026-10-05",
-   "closing": "2026-11-23",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal76810",
    "title": "Audit of Financial Statement of PTA",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/76810",
@@ -30815,7 +30496,26 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal140484",
+   "title": "Hiring of Transaction Advisor for Development of Islamabad Technopolis Project in PPP Mode",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/140484",
+   "org": "Special Technology Zones Authority (STZA) (Special Technology Zones Authority (STZA))",
+   "province": "Federal",
+   "posted": "2026-10-05",
+   "closing": "2026-11-23",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
   },
   {
    "source": "GB PPRA",
@@ -31672,6 +31372,25 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017643E",
+   "title": "INVITATION TO BID FOR PROCUREMENT OF MEGA BRACKET FANS FOR R.Y.KHAN AIRPORT LC(N)/2011/09/RNSN/5562",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017643E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-06",
+   "closing": "2026-11-25",
+   "type": "INVITATION TO BID FOR PROCUREMENT OF MEGA BRACKET FANS FOR R.Y.KHAN AIRPORT LC(N)/2011/09/RNSN/5562 · INVITATION TO BID FOR PROCUREMENT OF MEGA BRACKET... · Miscellaneous · 12651",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017707E",
    "title": "PROVISION OF CERTAIN FACILITIES AT KARACHI AND ISLD",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017707E",
@@ -31745,6 +31464,25 @@
    "keywords": [],
    "first_seen": "2026-11-06",
    "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017488E",
+   "title": "TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS OPPORTUNITY AT JINNAH INTERNATIONAL AIRPORT KARACHI GRANT OF LICENSE TO ESTABLISH, OPERATE AND MAINTAIN “FOREIGN CURRENCY EXCHANGE COUNTER” ON LEFT SIDE WHILE EXIT FROM ARRIVAL UNDER KCL SHED LEVEL-I OF JINNAH TERMINAL, JIAP, KARACHI",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017488E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-04",
+   "closing": "2026-11-25",
+   "type": "TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS OPPORTUNITY AT JINNAH INTERNATIONAL AIRPORT KARACHI GRANT OF LICENSE TO ESTABLISH, OPERATE AND MAINTAIN “FOREIGN CURRENCY EXCHANGE COUNTER” ON LEFT SIDE WHILE EXIT FROM ARRIVAL UNDER KCL SHED LEVEL-I OF JINNAH TERMINAL, JIAP, KARACHI · TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS... · Services · 12646",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
   },
   {
    "source": "PPRA EPMS",
@@ -32445,6 +32183,25 @@
    "keywords": [],
    "first_seen": "2026-11-05",
    "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017491E",
+   "title": "TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS OPPORTUNITY AT JINNAH INTERNATIONAL AIRPORT KARACHI ESTABLISH, OPERATE AND MAINTAIN “BAGGAGE WRAPPING FACILITY NO. 01” IN INTERNATIONAL DEPARTURE (BRIEFING AREA) OF JINNAH TERMINAL, JIAP, KARACHI",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017491E",
+   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-04",
+   "closing": "2026-11-26",
+   "type": "TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS OPPORTUNITY AT JINNAH INTERNATIONAL AIRPORT KARACHI ESTABLISH, OPERATE AND MAINTAIN “BAGGAGE WRAPPING FACILITY NO. 01” IN INTERNATIONAL DEPARTURE (BRIEFING AREA) OF JINNAH TERMINAL, JIAP, KARACHI · TENDER NOTICE (REVERSE PROCUREMENT) BUSINESS... · Services · 12647",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
   },
   {
    "source": "PPRA EPMS",
@@ -33317,6 +33074,44 @@
    "keywords": [],
    "first_seen": "2026-11-02",
    "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:FW0000017734E",
+   "title": "HIRING OF TECHNICAL SERVICES UNDER OPEN FRAMEWORK AGREEMENTS FOR POWER INFRASTRUCTURE PROJECTS",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/FW0000017734E",
+   "org": "Ministry of Energy (Power Division) Energy Infrastruture Development and Management Company (EIDMC) Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "2026-12-03",
+   "type": "Services · FFW10114",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:FW0000017736E",
+   "title": "HIRING OF TECHNICAL SERVICES UNDER OPEN FRAMEWORK AGREEMENTS FOR POWER INFRASTRUCTURE PROJECTS",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/FW0000017736E",
+   "org": "Ministry of Energy (Power Division) Energy Infrastruture Development and Management Company (EIDMC) Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "2026-12-03",
+   "type": "Services · FFW10980",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-08",
+   "isNew": true
   },
   {
    "source": "PPRA EPMS",
@@ -34497,6 +34292,139 @@
    "isNew": false
   },
   {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal175947",
+   "title": "HIRING OF A THIRD-PARTY FIRM FOR IMPACT ASSESSMENT OF FOODAG PAKISTAN 2026",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/175947",
+   "org": "Trade Development Authority of Pakistan (TDAP, HQ Karachi)",
+   "province": "Federal",
+   "posted": "2026-10-29",
+   "closing": "",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal134706",
+   "title": "Hiring of Individual Engineering Consultant for Design, Cost Estimation, Tender Documentat...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/134706",
+   "org": "Collectorate of Custom Enforcement, Gadani (Pakistan Customs)",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167463",
+   "title": "Hiring of Cyber Security Consultant",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167463",
+   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "",
+   "type": "Consultancy Services Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167406",
+   "title": "Hiring of Communication & Media Firm",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167406",
+   "org": "Pakistan Education Endowment Fund: PEEF (Pakistan Education Endowment Fund: PEEF)",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "",
+   "type": "Consultancy Services Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal119785",
+   "title": "Construction of New Islamabad Convention, Exhibition and Expo Centre, Islamabad",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/119785",
+   "org": "Works Directorate (Capital Development Authority)",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope (with Prequalification)",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal167013",
+   "title": "CONSTRUCTION OF FOOD STORE AT ISLAMABAD CLUB RE",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167013",
+   "org": "Islamabad Club (Islamabad Club)",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal143103",
+   "title": "Horticulture Rehabilitation/Up-gradation of different areas of Environment Directorate Par...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/143103",
+   "org": "Environment Park Div (Capital Development Aurhority (CDA))",
+   "province": "Federal",
+   "posted": "2026-10-21",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
    "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311440",
    "title": "Institude of Business Administration Karachi Tender Invitation: media coverage services",
@@ -34513,7 +34441,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34532,7 +34460,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34551,7 +34479,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34570,7 +34498,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34589,7 +34517,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34608,7 +34536,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34627,7 +34555,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34646,7 +34574,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34665,7 +34593,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34684,7 +34612,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34703,7 +34631,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34722,7 +34650,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34741,7 +34669,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34760,7 +34688,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34779,7 +34707,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34798,7 +34726,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34817,7 +34745,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34836,7 +34764,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34855,7 +34783,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34874,7 +34802,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34893,7 +34821,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34912,7 +34840,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34931,7 +34859,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34950,7 +34878,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34969,7 +34897,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -34988,7 +34916,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35007,7 +34935,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35026,7 +34954,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35045,7 +34973,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35064,7 +34992,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35083,7 +35011,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35102,7 +35030,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35121,7 +35049,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35140,7 +35068,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35159,7 +35087,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35178,7 +35106,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35197,7 +35125,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35216,7 +35144,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35235,7 +35163,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35254,7 +35182,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35273,7 +35201,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35292,7 +35220,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35311,7 +35239,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35330,7 +35258,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35349,7 +35277,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35368,7 +35296,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35387,7 +35315,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35406,7 +35334,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35425,7 +35353,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35444,7 +35372,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35463,7 +35391,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35482,7 +35410,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35501,7 +35429,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35520,7 +35448,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35539,7 +35467,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35558,7 +35486,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35577,7 +35505,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35596,7 +35524,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35615,7 +35543,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35634,7 +35562,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35653,7 +35581,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35672,7 +35600,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35691,7 +35619,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35710,7 +35638,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35729,7 +35657,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35748,7 +35676,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35767,7 +35695,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35786,7 +35714,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35805,7 +35733,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35824,7 +35752,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35843,7 +35771,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35862,7 +35790,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35881,7 +35809,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35900,7 +35828,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35919,7 +35847,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35938,7 +35866,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35957,7 +35885,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35976,7 +35904,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -35995,7 +35923,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36014,7 +35942,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36033,7 +35961,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36052,7 +35980,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36071,7 +35999,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36090,7 +36018,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36109,7 +36037,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36128,7 +36056,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36147,7 +36075,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36166,7 +36094,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36185,7 +36113,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36204,7 +36132,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36223,7 +36151,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36242,7 +36170,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36261,7 +36189,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36280,7 +36208,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36299,7 +36227,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36318,7 +36246,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36337,7 +36265,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36356,7 +36284,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36375,7 +36303,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36394,7 +36322,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36413,7 +36341,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36432,7 +36360,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36451,7 +36379,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36470,7 +36398,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36489,7 +36417,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36508,7 +36436,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36527,7 +36455,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36546,7 +36474,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36565,7 +36493,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36584,7 +36512,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36603,7 +36531,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36622,7 +36550,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36641,7 +36569,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36660,7 +36588,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36679,7 +36607,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36698,7 +36626,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36717,7 +36645,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36736,7 +36664,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36755,7 +36683,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36774,7 +36702,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36793,7 +36721,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36812,7 +36740,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36831,7 +36759,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36850,7 +36778,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36869,7 +36797,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36888,7 +36816,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36907,7 +36835,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36926,7 +36854,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36945,7 +36873,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36964,7 +36892,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36983,7 +36911,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37002,7 +36930,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37021,7 +36949,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37040,7 +36968,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37059,7 +36987,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37078,7 +37006,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37097,7 +37025,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37116,7 +37044,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37135,7 +37063,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37154,7 +37082,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37173,7 +37101,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37192,7 +37120,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37211,7 +37139,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37230,7 +37158,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37249,7 +37177,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37268,7 +37196,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37287,7 +37215,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37306,7 +37234,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37325,7 +37253,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37344,7 +37272,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37363,7 +37291,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37382,7 +37310,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37401,7 +37329,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37420,7 +37348,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37439,7 +37367,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37458,7 +37386,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37477,7 +37405,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37496,7 +37424,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37515,7 +37443,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37534,7 +37462,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37553,7 +37481,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37572,7 +37500,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37591,7 +37519,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37610,7 +37538,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37629,7 +37557,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37648,7 +37576,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37667,7 +37595,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37686,7 +37614,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37705,7 +37633,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37724,7 +37652,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37743,7 +37671,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37762,7 +37690,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37781,7 +37709,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37800,7 +37728,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37819,7 +37747,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37838,7 +37766,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37857,7 +37785,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37876,7 +37804,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37895,7 +37823,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37914,7 +37842,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37933,7 +37861,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37952,7 +37880,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37971,7 +37899,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37990,7 +37918,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38009,7 +37937,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38028,7 +37956,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38047,7 +37975,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38066,7 +37994,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38085,7 +38013,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38104,7 +38032,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38123,7 +38051,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38142,7 +38070,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38161,7 +38089,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38180,7 +38108,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38199,7 +38127,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38218,7 +38146,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38237,7 +38165,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38256,7 +38184,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38275,7 +38203,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38294,7 +38222,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38313,7 +38241,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38332,7 +38260,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38351,7 +38279,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38370,7 +38298,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38389,7 +38317,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38408,7 +38336,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38427,7 +38355,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38446,7 +38374,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38465,7 +38393,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38484,7 +38412,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38503,7 +38431,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38522,7 +38450,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38541,7 +38469,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38560,7 +38488,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38579,7 +38507,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38598,7 +38526,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38617,7 +38545,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38636,7 +38564,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38655,7 +38583,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38674,7 +38602,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38693,7 +38621,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38712,7 +38640,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38731,7 +38659,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38750,7 +38678,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38769,7 +38697,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38788,7 +38716,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38807,7 +38735,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38826,7 +38754,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38845,7 +38773,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38864,7 +38792,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38883,7 +38811,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38902,7 +38830,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38921,7 +38849,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38940,7 +38868,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38959,7 +38887,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38978,7 +38906,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38997,7 +38925,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39016,7 +38944,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39035,7 +38963,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39054,7 +38982,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39073,7 +39001,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39092,7 +39020,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39111,7 +39039,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39130,7 +39058,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39149,7 +39077,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39168,7 +39096,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39187,7 +39115,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39206,7 +39134,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39225,7 +39153,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39244,7 +39172,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39263,7 +39191,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39282,7 +39210,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39301,7 +39229,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39320,7 +39248,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39339,7 +39267,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39358,7 +39286,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39377,7 +39305,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39396,7 +39324,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39415,7 +39343,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39434,7 +39362,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39453,7 +39381,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39472,7 +39400,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39491,7 +39419,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39510,7 +39438,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39529,7 +39457,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39548,7 +39476,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39567,7 +39495,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39586,7 +39514,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39605,7 +39533,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39624,7 +39552,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39643,7 +39571,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39662,7 +39590,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39681,7 +39609,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39700,7 +39628,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39719,7 +39647,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39738,7 +39666,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39757,7 +39685,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39776,7 +39704,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39795,7 +39723,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39814,7 +39742,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39833,7 +39761,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39852,7 +39780,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39871,7 +39799,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39890,7 +39818,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39909,7 +39837,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39928,7 +39856,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39947,7 +39875,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39966,7 +39894,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -39985,7 +39913,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -40004,7 +39932,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -40023,7 +39951,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -40042,7 +39970,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -40061,7 +39989,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49371,7 +49299,7 @@
     "panel"
    ],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -49482,7 +49410,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49501,7 +49429,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49520,7 +49448,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -49557,7 +49485,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50089,7 +50017,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -50203,7 +50131,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50222,7 +50150,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50241,7 +50169,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50260,7 +50188,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50279,7 +50207,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50673,25 +50601,6 @@
    "type": "Works Single Stage-Two Envelope (with Prequalification)",
    "relevant": false,
    "score": -13,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017010E",
-   "title": "Tender for Water Filtration Plant",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017010E",
-   "org": "Ministry of Interior and Narcotics Control National Police Academy Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-07",
-   "type": "Health/Medicines · P175827",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
    "categories": [],
    "category": "",
    "keywords": [],
@@ -51892,7 +51801,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51911,7 +51820,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51930,7 +51839,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51949,7 +51858,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51968,7 +51877,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51987,7 +51896,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52006,7 +51915,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52025,7 +51934,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52329,7 +52238,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52348,11 +52257,11 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-07",
-   "isNew": true
+   "isNew": false
   }
  ],
  "notify_log": {
-  "at": "2026-11-07T20:52:07.156084+05:00",
+  "at": "2026-11-08T12:55:31.099683+05:00",
   "entries": [
    "Email: secrets missing (GMAIL_USER/GMAIL_APP_PASS/NOTIFY_EMAIL)",
    "Push (ntfy) sent: 200",
