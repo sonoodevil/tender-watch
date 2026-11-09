@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-09T13:38:47.059808+05:00",
+ "updated": "2026-11-10T00:58:35.289491+05:00",
  "stats": {
-  "total": 3007,
-  "relevant": 112,
-  "new": 179,
-  "new_relevant": 13,
-  "maybe": 30,
+  "total": 3102,
+  "relevant": 115,
+  "new": 137,
+  "new_relevant": 6,
+  "maybe": 31,
   "portals": 9
  },
  "health": [
   {
    "name": "PPRA EPMS (Federal)",
    "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders",
-   "count": 1776,
+   "count": 1716,
    "status": "ok"
   },
   {
@@ -42,13 +42,13 @@
   {
    "name": "UNDP Pakistan",
    "url": "https://procurement-notices.undp.org/",
-   "count": 9,
+   "count": 10,
    "status": "ok"
   },
   {
    "name": "TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)",
    "url": "https://tenderalert.pk/all-pakistan-tenders",
-   "count": 343,
+   "count": 339,
    "status": "ok"
   },
   {
@@ -307,7 +307,7 @@
     "hvac"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -480,7 +480,7 @@
     "mep"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -505,7 +505,7 @@
     "mep"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -818,6 +818,31 @@
   },
   {
    "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311659",
+   "title": "Fauji Foundition Hospital Rawalpindi Manshera Multan and Kallar Kahar Tender Notice: Cable collection box, tap off, flexible copper, Main power distribution boards, factor improvement plant, Earthing system body, Structural data telephone network, Group Control panel Lifts",
+   "url": "https://tenderalert.pk/311659/fauji-foundition-hospital-rawalpindi-manshera-multan-and-kallar-kahar-tender-notice",
+   "org": "Fauji Foundition Hospital Rawalpindi Manshera Multan and Kallar Kahar Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Multan, Rawalpindi, Mansehra, Kallar Kahar",
+   "relevant": true,
+   "maybe": false,
+   "score": 22,
+   "categories": [
+    "el",
+    "mep"
+   ],
+   "category": "el",
+   "keywords": [
+    "lifts",
+    "panel"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311522",
    "title": "PSO Karachi Tender Notice: Mobile application support services, IT hardware maintenance, DR facility, PMC field audit team for oil storage tracking, Safety shoes, HES industry training, Software licenses, Lab equipment, KVA UPS, Vehicle hiring, LPG, Mogas 92 RON, Courier services",
    "url": "https://tenderalert.pk/311522/pso-karachi-tender-notice",
@@ -1127,7 +1152,7 @@
     "ups"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1152,7 +1177,7 @@
     "generator"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1176,7 +1201,7 @@
     "generator"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1583,75 +1608,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016665E",
-   "title": "Purchase of 25 x New Non-Inverter Split Type Air Conditioners for Bahria University Karachi Campus",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016665E",
-   "org": "Higher Education Commission (HEC) Procurement Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Air Conditioners · Appliances · P1678742026-27",
-   "relevant": true,
-   "maybe": false,
-   "score": 12,
-   "categories": [
-    "hvac"
-   ],
-   "category": "hvac",
-   "keywords": [
-    "air condition"
-   ],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016557E",
-   "title": "TC-318 SUPPLY OF JANITORIAL SERVICES (UN-SKILLED LABOUR) THROUGH A CONTRACTOR FOR CLEANINGH OF BUILDING, ROADS AND FOR COLLECTING AND REMOVAL OF WASTE MATERIAL THROUGH WHEEL BARROW AT THE POWER HOUSE AREA TPS, JAMSHORO",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016557E",
-   "org": "Ministry of Energy (Power Division) Jamshoro Power Company Limited (JPCL) Jamshoro - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-21",
-   "closing": "2026-11-09",
-   "type": "JPCL INVITING TENDER NOTICE · TC-318 SUPPLY OF JANITORIAL SERVICES (UN-SKILLED... · Services · TC-318",
-   "relevant": true,
-   "maybe": false,
-   "score": 12,
-   "categories": [
-    "gen"
-   ],
-   "category": "gen",
-   "keywords": [
-    "power house"
-   ],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016660E",
-   "title": "Purchase of 25 x New Non-Inverter Split Type Air Conditioners for Bahria University Karachi Campus",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016660E",
-   "org": "Higher Education Commission (HEC) Procurement Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Air Conditioners · Purchase of 25 x New Non-Inverter (10 x 1.5 Ton... · Appliances · P1678742026-27",
-   "relevant": true,
-   "maybe": false,
-   "score": 12,
-   "categories": [
-    "hvac"
-   ],
-   "category": "hvac",
-   "keywords": [
-    "air condition"
-   ],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000016851E",
    "title": "Procurement of Electrical Power Cables, Electrical, Air Conditioning, Paint, Sanitary, Carpentry, Aluminium & Civil Items",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016851E",
@@ -1855,7 +1811,7 @@
     "generators"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1878,7 +1834,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1901,7 +1857,7 @@
     "dg set"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1924,7 +1880,7 @@
     "dg set"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1947,7 +1903,7 @@
     "generators"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2411,6 +2367,121 @@
   },
   {
    "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311842",
+   "title": "Peoples Primary Healthcare Initiative karachi Tender Notice: Procurement and Provision of Generators",
+   "url": "https://tenderalert.pk/311842/peoples-primary-healthcare-initiative-karachi-tender-notice",
+   "org": "Peoples Primary Healthcare Initiative karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "gen"
+   ],
+   "category": "gen",
+   "keywords": [
+    "generators"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311832",
+   "title": "Punjab Wildlife And Parks Department Lahore Tender Notice: Procurement, Generators, 20KVA & 5KVA Backup Generators",
+   "url": "https://tenderalert.pk/311832/punjab-wildlife-and-parks-department-lahore-tender-notice",
+   "org": "Punjab Wildlife And Parks Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "gen"
+   ],
+   "category": "gen",
+   "keywords": [
+    "generators"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311690",
+   "title": "Peoples Primary Healthcare Initiative Sindh Karachi Tender otice: procuremnt of generator",
+   "url": "https://tenderalert.pk/311690/peoples-primary-healthcare-initiative-sindh-karachi-tender-otice",
+   "org": "Peoples Primary Healthcare Initiative Sindh Karachi Tender otice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "gen"
+   ],
+   "category": "gen",
+   "keywords": [
+    "generator"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311689",
+   "title": "PPHI Sindh Karachi Tender Notice: procurement of generator and other items",
+   "url": "https://tenderalert.pk/311689/pphi-sindh-karachi-tender-notice",
+   "org": "PPHI Sindh Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "gen"
+   ],
+   "category": "gen",
+   "keywords": [
+    "generator"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311682",
+   "title": "PPHI Sindh Karachi Tender Notice: purchase of generator",
+   "url": "https://tenderalert.pk/311682/pphi-sindh-karachi-tender-notice",
+   "org": "PPHI Sindh Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": true,
+   "maybe": false,
+   "score": 10,
+   "categories": [
+    "gen"
+   ],
+   "category": "gen",
+   "keywords": [
+    "generator"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311676",
    "title": "State Life Insurance Corporation Of Pakistan Nawabshah Tender Notice: Split Air Conditioners",
    "url": "https://tenderalert.pk/311676/state-life-insurance-corporation-of-pakistan-nawabshah-tender-notice",
@@ -2430,7 +2501,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2453,7 +2524,7 @@
     "generator"
    ],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2753,6 +2824,52 @@
    "isNew": false
   },
   {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311867",
+   "title": "Punjab Building Department Rawalpindi and Jhelum Tender Notice: Provision of Missing Facilities at Circuit House, M and R to Residence, Staff Colony, Civil Court, Maintenance Repair of Attached Washroom, Judicial Complex Wardrobe Repair of AC Work, EI Work, Misc Work",
+   "url": "https://tenderalert.pk/311867/punjab-building-department-rawalpindi-and-jhelum-tender-notice",
+   "org": "Punjab Building Department Rawalpindi and Jhelum Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi, Jhelum",
+   "relevant": false,
+   "maybe": true,
+   "score": 20,
+   "categories": [
+    "hvac"
+   ],
+   "category": "hvac",
+   "keywords": [
+    "ac"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311804",
+   "title": "Building Division Jhelum and Rawalpindi Tender Notice: Provision, Missing Facilities, Circuit House, M&R, Residence, A.D.C G, Lot wise, Mr. Toheed, DAO Staff Colony, Awais Arshad, DC, Shahid, Civil Court No, Misc. Work, Maintenance, Repair, Attached Washroom, Court, Consolidation, Hamza Ali, Senior Auditor, D.A.O, No. 7/12, 12, Pool Type, Ishtiaq, D.D. (Dev), Dr. Shakeel, Magistrate, Judicial Complex Sohawa, Wardrobe, AC, E.I",
+   "url": "https://tenderalert.pk/311804/building-division-jhelum-and-rawalpindi-tender-notice",
+   "org": "Building Division Jhelum and Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi, Jhelum",
+   "relevant": false,
+   "maybe": true,
+   "score": 20,
+   "categories": [
+    "hvac"
+   ],
+   "category": "hvac",
+   "keywords": [
+    "ac"
+   ],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
    "source": "PPRA EPMS",
    "id": "PPRA EPMS:FW0000017225E",
    "title": "PRE-QUALIFICATION OF FIRMS FOR REPAIR & MAINTENANCE OF OFFICE BUILDINGS, INCLUDING CIVIL, ELECTRICAL, PLUMBING AND ALLIED WORKS ETC",
@@ -2771,29 +2888,6 @@
    "category": "mep",
    "keywords": [
     "plumbing"
-   ],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017006E",
-   "title": "T-4251-FA-Procurement of Services for Supply, Installation, Repair, and Alteration of Emergency Exit Gates and M.S. Doors with Wicket Gates (ACS Doors) as per BOQs",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017006E",
-   "org": "Pakistan Security Printing Corporaion (PSPC) Pakistan Security Printing Corporation (PSPC) Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "T-4251-FA-REQ-0926-2-00199/00225 · Services · T-4251-FA-REQ-0926-2-00199/00225 (Procurement of Services for Supply, Installation, Repair, and Alteration of Emergency Exit Gates and M.S. Doors with Wicket Gates (ACSDoors) as per BOQs)",
-   "relevant": false,
-   "maybe": true,
-   "score": 14,
-   "categories": [
-    "hvac"
-   ],
-   "category": "hvac",
-   "keywords": [
-    "acs"
    ],
    "first_seen": "2026-11-02",
    "isNew": false
@@ -3877,9 +3971,28 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168864",
-   "title": "Annual Maintenance & Repair of Roads",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168864",
+   "id": "EPADS Federal:federal114658",
+   "title": "Repair / maintenance of Sewerage / Drainage System",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114658",
+   "org": "Cantonment Board Jhelum (RHQ Lahore)",
+   "province": "Federal",
+   "posted": "2026-10-15",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168897",
+   "title": "Annual Maintenance & Repair of Drains",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168897",
    "org": "Cantonment Board Okara (Military Lands & Cantonments)",
    "province": "Federal",
    "posted": "2026-10-24",
@@ -3896,9 +4009,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168930",
-   "title": "Annual Maintenance & Repair of Water Supply",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168930",
+   "id": "EPADS Federal:federal168990",
+   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
    "org": "Cantonment Board Okara (Military Lands & Cantonments)",
    "province": "Federal",
    "posted": "2026-10-24",
@@ -3910,7 +4023,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-06",
+   "first_seen": "2026-11-05",
    "isNew": false
   },
   {
@@ -3953,69 +4066,50 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168864",
+   "title": "Annual Maintenance & Repair of Roads",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168864",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal168930",
+   "title": "Annual Maintenance & Repair of Water Supply",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/168930",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
+   "province": "Federal",
+   "posted": "2026-10-24",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 6,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal114673",
    "title": "Repair / maintenance of Misc. Public Improvement",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/114673",
    "org": "Cantonment Board Jhelum (RHQ Lahore)",
    "province": "Federal",
    "posted": "2026-10-15",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114658",
-   "title": "Repair / maintenance of Sewerage / Drainage System",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114658",
-   "org": "Cantonment Board Jhelum (RHQ Lahore)",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168990",
-   "title": "Annual Maintenance & Repair of Misc. Public Improvement",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168990",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal168897",
-   "title": "Annual Maintenance & Repair of Drains",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/168897",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
    "closing": "",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -5388,6 +5482,25 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017768E",
+   "title": "onsultancy Services for Design Vetting, Construction Supervision, Quality Assurance and Contract Administration for Construction of Pre-Engineered Building (PEB) Industry Hub – Daanish University, Islamabad",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017768E",
+   "org": "Ministry of Federal Education and Professional Training Ministry of Federal Education & Professional Training Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "2026-11-20",
+   "type": "Civil Works · P191199",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017674E",
    "title": "EOI- RENTED BUILDING / FACILITIES REQUIRED FOR VU CAMPUS AT PATTOKI (GEN)",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017674E",
@@ -5536,7 +5649,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -5824,25 +5937,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal162912",
-   "title": "Repair/maintenance of House No 21, Street 40, F-7/1, Islamabad",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/162912",
-   "org": "Maintenance Division-I (Capital Development Aurhority (CDA))",
-   "province": "Federal",
-   "posted": "2026-10-26",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal124210",
    "title": "Supply, Installation, Testing and Commissioning of DANFOSS Turbo Core compressor for Magne...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/124210",
@@ -5881,6 +5975,82 @@
   },
   {
    "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311852",
+   "title": "Punjab Industrial Estate Development and Management Lahore Tender Notice: Construction of Repair Maintenance Works Overlay of Main Boulevard Denim Road",
+   "url": "https://tenderalert.pk/311852/punjab-industrial-estate-development-and-management-lahore-tender-notice",
+   "org": "Punjab Industrial Estate Development and Management Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311806",
+   "title": "Rawalpindi Waste Management Company Tender Notice: Hiring, Firms Workshops, Fleet Maintenance, Repair Services",
+   "url": "https://tenderalert.pk/311806/rawalpindi-waste-management-company-tender-notice",
+   "org": "Rawalpindi Waste Management Company Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311798",
+   "title": "University of Sufism and Modern Sciences Bhitshah Matiari Tender Notice: Supply, Installation, Solar System, Sciences",
+   "url": "https://tenderalert.pk/311798/university-of-sufism-and-modern-sciences-bhitshah-matiari-tender-notice",
+   "org": "University of Sufism and Modern Sciences Bhitshah Matiari Tender Notice",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Matiari",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311797",
+   "title": "Daanish University Islamabad Tender Notice: Consultancy Services, Design Vetting, Construction Supervision, Quality Assurance, Contract Administration, Pre-Engineered Building Industry Hub",
+   "url": "https://tenderalert.pk/311797/daanish-university-islamabad-tender-notice",
+   "org": "Daanish University Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311769",
    "title": "Building Division Jhal Magsi Tender Notice: Repair and Renovation of Tehsildar Office Gandawah",
    "url": "https://tenderalert.pk/311769/building-division-jhal-magsi-tender-notice",
@@ -5896,7 +6066,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5915,7 +6085,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5934,7 +6104,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5953,6 +6123,63 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311651",
+   "title": "Fatima Jinnah Women University Rawalpindi Tender Notice: Maintenance Rehabilitation of University Washrooms, Miscellaneous Works",
+   "url": "https://tenderalert.pk/311651/fatima-jinnah-women-university-rawalpindi-tender-notice",
+   "org": "Fatima Jinnah Women University Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311649",
+   "title": "World Bank Peshawar Tender Invitation: Supply, Installation, Testing & Commissioning of Commercial Meter Data Management System (MDMS) along with compatible Meters and Commercial Metering Devices, Consumer Portal, Outage Management and other allied systems, and services",
+   "url": "https://tenderalert.pk/311649/world-bank-peshawar-tender-invitation",
+   "org": "World Bank Peshawar Tender Invitation",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311640",
+   "title": "Public Health Engineering Division Kurram Tender Invitation: Solarization of DWSS DHQ Hospital, CIVIL WORK",
+   "url": "https://tenderalert.pk/311640/public-health-engineering-division-kurram-tender--invitation",
+   "org": "Public Health Engineering Division Kurram Tender Invitation",
+   "province": "Pakistan",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Kurram",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -5972,7 +6199,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5991,6 +6218,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311571",
+   "title": "Punjab Building Division Sargodha Tender Notice: Integrated Record Preservation, Public Access Management System, Construction, Multi Story Building, Rehabilitation, Offices, MR, Residence, Civil Judge, Masjid, Rest House, OHR, Judicial Complex, Banglow, Govt Associate College For Women, Suit",
+   "url": "https://tenderalert.pk/311571/punjab-building-division-sargodha-tender-notice",
+   "org": "Punjab Building Division Sargodha Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Sargodha",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -6029,6 +6275,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-08",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal162912",
+   "title": "Repair/maintenance of House No 21, Street 40, F-7/1, Islamabad",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/162912",
+   "org": "Maintenance Division-I (Capital Development Aurhority (CDA))",
+   "province": "Federal",
+   "posted": "2026-10-26",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
    "isNew": false
   },
   {
@@ -7445,120 +7710,6 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017158E",
-   "title": "Hiring of Rental Buildings for NADRA Registration Centers (Non-Consultancy Services)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017158E",
-   "org": "Ministry of Interior and Narcotics Control NADRA Regional Office Lahore Lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Hiring of Rental Buildings for NADRA Registration Centers (Non-Consultancy Services) · Leasing · Hiring of Rental Buildings for NADRA Registration Centers (Non-Consultancy Services)",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017106E",
-   "title": "Hiring of Individual Engineering Consultant for Design, Cost Estimation, Tender Documentation, Construction Supervision and Contract Administration of Repair, Renovation and Upgradation Works at Collectorate of Customs (Enforcement), Gadani",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017106E",
-   "org": "Federal Board of Revenue (FBR) Collectorate of Customs Enforcement Gadani - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-29",
-   "closing": "2026-11-09",
-   "type": "Tender for hiring an individual engineering consultant for repair, renovation and upgradation works at Collectorate of Customs (Enforcement), Gadani, through EPADS. · Hiring of an individual engineering consultant... · Miscellaneous · P134706",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016963E",
-   "title": "Kerosene oil, Surface Treatment Items, Aluminium billets, CCTV Networking turnkey solution",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016963E",
-   "org": "Pakistan Machine Tool Factory Pakistan Machine Tool Factory Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "Kerosene oil, Surface Treatment Items, Aluminum... · Miscellaneous · 101434, 101442, 101444, CCTV Networking turnkey solution",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016998E",
-   "title": "Provision of Miscellaneous items for Food Cell",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016998E",
-   "org": "Ministry of Defence Military Lands & Cantonments Department (ML&CD) Cantt Board Peshawar Peshawar - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "Provision of Miscellaneous items for Food Cell · Provision of Miscellaneous items for Food Cell · Food Items · 58506",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016944E",
-   "title": "Disposal of remaining material for the custom house building recover in phase 2 and 3",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016944E",
-   "org": "Ministry of Finance Collectorate of Customs Enforcement Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-09",
-   "type": "Civil Goods · D11301",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016772E",
-   "title": "INVITATION OF SEALED QUOTATIONS FOR HIRING OF RUBBISH COMPACTORS ON MONTHLY RENTAL BASIS",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016772E",
-   "org": "Military Lands & Cantonments (ML&C) Cantonment Board Bahawalpur - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-09",
-   "type": "INVITATION OF SEALED QUOTATIONS FOR HIRING OF... · Miscellaneous · CBB/Advertisement/2026/1309",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
    "isNew": false
   },
   {
@@ -11166,7 +11317,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11281,6 +11432,25 @@
    "keywords": [],
    "first_seen": "2026-11-02",
    "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal191199",
+   "title": "Consultancy Services for Design Vetting and Construction Supervision for “Construction o...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/191199",
+   "org": "Daanish University Trust (Daanish University Trust)",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "2026-11-20",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
   },
   {
    "source": "AJK PPRA",
@@ -11581,7 +11751,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -11810,6 +11980,25 @@
    "keywords": [],
    "first_seen": "2026-11-02",
    "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017680E",
+   "title": "Notice of Tender",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017680E",
+   "org": "Ministry of Defence CMES SSD South Gwd Gwadar - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-06",
+   "closing": "2026-11-26",
+   "type": "Contractor shall provide certificate that they are not involved in any type of litigation with Govt Department in the court of law. · Civil Works · 6000-Adv/46/E-6",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
   },
   {
    "source": "PPRA EPMS",
@@ -12151,7 +12340,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "KPPRA",
@@ -12212,12 +12401,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114628",
-   "title": "Construction of footpath at Haq Nawaz Kiyani Road Gul-Afshan Colony",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114628",
-   "org": "Cantonment Board Jhelum (RHQ Lahore)",
+   "id": "EPADS Federal:federal167403",
+   "title": "Construction of 2x Residence for Class III staff",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/167403",
+   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
    "province": "Federal",
-   "posted": "2026-10-15",
+   "posted": "2026-10-24",
    "closing": "",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -12269,28 +12458,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal167403",
-   "title": "Construction of 2x Residence for Class III staff",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/167403",
-   "org": "Cantonment Board Okara (Military Lands & Cantonments)",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal114622",
-   "title": "Conversion of 04x water filtration plant UV to RO system in Cantt area",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/114622",
+   "id": "EPADS Federal:federal114628",
+   "title": "Construction of footpath at Haq Nawaz Kiyani Road Gul-Afshan Colony",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114628",
    "org": "Cantonment Board Jhelum (RHQ Lahore)",
    "province": "Federal",
    "posted": "2026-10-15",
@@ -12302,7 +12472,7 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-06",
+   "first_seen": "2026-11-05",
    "isNew": false
   },
   {
@@ -12325,6 +12495,272 @@
    "isNew": false
   },
   {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal114622",
+   "title": "Conversion of 04x water filtration plant UV to RO system in Cantt area",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/114622",
+   "org": "Cantonment Board Jhelum (RHQ Lahore)",
+   "province": "Federal",
+   "posted": "2026-10-15",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311876",
+   "title": "Building Division Lahore Tender Notice: Rehabilitation, Addition Alteration and Missing Facilities in Police Officers Residences",
+   "url": "https://tenderalert.pk/311876/building-division-lahore-tender-notice",
+   "org": "Building Division Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311873",
+   "title": "Punjab Central Business District Development Authority Lahore Tender Notice: Supply of equipment, Materials, IT products, Office, Machinery, Furniture, Vehicles, General services, Technical, Maintenance, Security, HR, Operational",
+   "url": "https://tenderalert.pk/311873/punjab-central-business-district-development-authority-lahore-tender-notice",
+   "org": "Punjab Central Business District Development Authority Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311870",
+   "title": "Punjab Highway Department Gujranwala and Sialkot Tender Notice: Annual Repair to Roads in Highway Sub Division, Supply of Material at Store",
+   "url": "https://tenderalert.pk/311870/punjab-highway-department-gujranwala-and-sialkot-tender-notice",
+   "org": "Punjab Highway Department Gujranwala and Sialkot Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Gujranwala, Sialkot",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311866",
+   "title": "University of Agriculture Faisalabad Tender Notice: Paper Reams, Allied Material for Preparation of Answer Books",
+   "url": "https://tenderalert.pk/311866/university-of-agriculture-faisalabad-tender-notice",
+   "org": "University of Agriculture Faisalabad Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Faisalabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311865",
+   "title": "Benazir Bhutto Hospital Rawalpindi Tender Notice: Bulk Purchase of Ortho Implants",
+   "url": "https://tenderalert.pk/311865/benazir-bhutto-hospital-rawalpindi-tender-notice",
+   "org": "Benazir Bhutto Hospital Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311863",
+   "title": "Fatima Jinnah Women University Rawalpindi Tender Notice: Security Related Works for Operationalization of Hostel",
+   "url": "https://tenderalert.pk/311863/fatima-jinnah--women-university-rawalpindi-tender-notice",
+   "org": "Fatima Jinnah Women University Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311828",
+   "title": "Municipal Committee Chichawatni Tender Invitation: Construction, Repair, CI Frames, RCC Slabs, Sewer Providing, Fixing, RCC Manhole Cover, RFC Manhole Frame Composite",
+   "url": "https://tenderalert.pk/311828/municipal-committee--chichawatni-tender-invitation",
+   "org": "Municipal Committee Chichawatni Tender Invitation",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Chichawatni",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311813",
+   "title": "National Defence University Islamabad Tender Notice: Quotations, Foreign Study Tour, Travel Agents",
+   "url": "https://tenderalert.pk/311813/national-defence-university-islamabad-tender-notice",
+   "org": "National Defence University Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311812",
+   "title": "Pakistan Airports Authority Karachi and Lahore Tender Notice: Establishment, Maintenance, Operation, Branded Traditional Restaurant, Concourse Hall Level I, Fast Food Level II",
+   "url": "https://tenderalert.pk/311812/pakistan-airports-authority-karachi-and-lahore--tender-notice",
+   "org": "Pakistan Airports Authority Karachi and Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore, Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311802",
+   "title": "Benazir Bhutto Hospital Rawalpindi Tender Notice: Bulk Purchase, Ortho Implants, Orthopedic Department",
+   "url": "https://tenderalert.pk/311802/benazir-bhutto-hospital-rawalpindi-tender-notice",
+   "org": "Benazir Bhutto Hospital Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311800",
+   "title": "National Defence University Islamabad Tender Notice: Sponsor, Foreign Study Tour, Travel Agencies",
+   "url": "https://tenderalert.pk/311800/national-defence-university-islamabad-tender-notice",
+   "org": "National Defence University Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311794",
+   "title": "Horticulture Agency Lahore Tender Notice: Hire Charges, Temporary Illumination, Buildings, Various Sites, Procurement, Electrical Items",
+   "url": "https://tenderalert.pk/311794/horticulture-agency-lahore-tender-notice",
+   "org": "Horticulture Agency Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311793",
+   "title": "King Edward Medical University Lahore Tender Notice: Procurement, Virtual Dissection Tables, 3D Anatomy, Histology Department",
+   "url": "https://tenderalert.pk/311793/king-edward-medical-university-lahore-tender-notice",
+   "org": "King Edward Medical University Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
    "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311790",
    "title": "Pir Mehr Ali Shah Arid Agriculture University Rawalpindi Tender Notice: Procurement of Equipment/Technologies under PSDP Funded Project ENCIB",
@@ -12341,7 +12777,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12360,7 +12796,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12379,7 +12815,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12398,7 +12834,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12417,7 +12853,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12436,7 +12872,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12455,7 +12891,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12474,7 +12910,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12493,7 +12929,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12512,7 +12948,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12531,7 +12967,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12550,7 +12986,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12569,7 +13005,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12588,7 +13024,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12607,7 +13043,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12626,7 +13062,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12645,6 +13081,139 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311661",
+   "title": "Transkarachi Company Karachi Tender Notice: Procurement of Rolling Stock, BRT E Bus Fleet, charging management system, buses, spare parts, technical supervision, Workshop tools, Maintenance, Training, Homologation, registration",
+   "url": "https://tenderalert.pk/311661/transkarachi-company-karachi-tender-notice",
+   "org": "Transkarachi Company Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311657",
+   "title": "Khyber Pass Economic Corridor Peshawar Tender Notice: Supply Installation of Specialized Museum Showcases",
+   "url": "https://tenderalert.pk/311657/khyber-pass-economic-corridor-peshawar-tender-notice",
+   "org": "Khyber Pass Economic Corridor Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311652",
+   "title": "Fauji Foundation Hospital Peshawar Tender Notice: Hospital Clothing, Liveries, Staff Uniform, Furniture, Electrical Items",
+   "url": "https://tenderalert.pk/311652/fauji-foundation-hospital-peshawar-tender-notice",
+   "org": "Fauji Foundation Hospital Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311638",
+   "title": "Pakistan Airports Authority Karachi Tender Notice: Establishment, Maintenance and Operation of Branded Traditional Restaurant, Fast Food Restaurant",
+   "url": "https://tenderalert.pk/311638/pakistan-airports-authority-karachi-tender-notice",
+   "org": "Pakistan Airports Authority Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311634",
+   "title": "University of Education Lahore Tender Notice: Provision and Installation of 200 KW Grid Tied Solar PV System With Elevated Mounted Structure",
+   "url": "https://tenderalert.pk/311634/university-of-education-lahore-tender-notice",
+   "org": "University of Education Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311632",
+   "title": "Horticulture Agency Lahore Tender Notice: Hire charges of Temporary Illumination to litup the different buildings of various sites",
+   "url": "https://tenderalert.pk/311632/horticulture-agency-lahore-tender-notice",
+   "org": "Horticulture Agency Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311631",
+   "title": "Municipal Committee Mianwali Tender Invitation: Procurement of providing and supplying of Electrical Items Through Framework Contract, Providing and supplying of Drum Mover with PTO Comp 190CM TKY, Repair of Tractor.3519",
+   "url": "https://tenderalert.pk/311631/municipal-committee--mianwali-tender-invitation",
+   "org": "Municipal Committee Mianwali Tender Invitation",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Mianwali",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -12664,7 +13233,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12683,7 +13252,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12702,7 +13271,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12721,7 +13290,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12740,7 +13309,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12759,7 +13328,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12778,7 +13347,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12797,6 +13366,44 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311578",
+   "title": "Oil and Gas Regulatory Authority Islamabad and Multan Tender Notice: Building, Office, Rent, Regional",
+   "url": "https://tenderalert.pk/311578/oil-and-gas-regulatory-authority-islamabad-and-multan--tender-notice",
+   "org": "Oil and Gas Regulatory Authority Islamabad and Multan Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Multan, Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311572",
+   "title": "King Edward Medical University Lahore Tender Notice: Procurement, Laboratory Items, Research Grant",
+   "url": "https://tenderalert.pk/311572/king-edward-medical-university-lahore-tender-notice",
+   "org": "King Edward Medical University Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -12816,7 +13423,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12835,7 +13442,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -12854,7 +13461,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -17218,537 +17825,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016381E",
-   "title": "Tender No. 4444 PROCUREMENT OF T&P ITEMS",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016381E",
-   "org": "Ministry of Energy (Power Division) Material Management Directorate, Lahore Electric Supply Company Ltd (LESCO) Lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-09",
-   "type": "Miscellaneous · Tender No. 4444 PROCUREMENT OF T&P ITEMS",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016370E",
-   "title": "SSGC/SC/NR/EPADS2/14508 Renovation / Re-Construction of Boundary Wall at Rs-Golarchi and Paver Block Flooring Under MW Tower (43' X 43') at Hq-Shikarpur Section and Paver Block Flooring Under Solar Module (35' X 23') at Rs-1, Hq-Shikarpur Section (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis).",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016370E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Limited (SSGCL) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-04",
-   "closing": "2026-11-09",
-   "type": "Renovation / Re-Construction of Boundary Wall at Rs-Golarchi and Paver Block Flooring Under MW Tower (43' X 43') at Hq-Shikarpur Section and Paver Block Flooring Under Solar Module (35' X 23') at Rs-1, Hq-Shikarpur Section (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis). · Renovation / Re-Construction of Boundary Wall at... · Services · SSGC/SC/NR/EPADS2/14508",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016644E",
-   "title": "SSGC/SC/PT/EPADS2/14507Civil Works Construction of CPS Solar Rooms at MP-53.5, Rustom, MP-85.5 Karani, MP-103 Kumb and MP-107 Sim Nala In HQ-1, Sukkur Transmission Section (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis).",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016644E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Limited (SSGCL) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-04",
-   "closing": "2026-11-09",
-   "type": "Civil Works Construction of CPS Solar Rooms at MP-53.5, Rustom, MP-85.5 Karani, MP-103 Kumb and MP-107 Sim Nala In HQ-1, Sukkur Transmission Section (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis). · Civil Works Construction of CPS Solar Rooms at... · Services · SSGC/SC/PT/EPADS2/14507",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017033E",
-   "title": "CORRIGENDUM PROCUREMENT OF SCARE CROWS CLOTHING FOR BIRD ERADICATION, AT JIAP-CB104/01/AIRSIDE REF # P173454",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017033E",
-   "org": "Pakistan Airports Authority (PAA) Pakistan Airports Authority (PAA) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-03",
-   "closing": "2026-11-09",
-   "type": "CORRIGENDUM PROCUREMENT OF SCARE CROWS CLOTHING FOR BIRD ERADICATION, AT JIAP-CB104/01/AIRSIDE REF # P173454 · CORRIGENDUM PROCUREMENT OF SCARE CROWS CLOTHING... · Clothing/Uniform · 12636C",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017260E",
-   "title": "Renovation / Refurbishment work of Executive Washroom at 2nd floor (L/S) NBP H.O Karachi",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017260E",
-   "org": "National Bank of Pakistan (NBP) NBP Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-02",
-   "closing": "2026-11-09",
-   "type": "Renovation / Refurbishment work of Executive Washroom at 2nd floor (L/S) NBP H.O Karachi · Renovation / Refurbishment work of Executive... · Civil Works · 177327",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017127E",
-   "title": "Purchase of Cream for Butter",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017127E",
-   "org": "Ministry of Defence HQ Military Farms Group Renala Renala Khurd - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Contractor did not participate in any above... · Food Items · 4101/RFK-KLGU05",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017140E",
-   "title": "Allocation of Funds for Special ATG FY 2026/2027",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017140E",
-   "org": "Ministry of Defence 8 Sindh Regt Havellian - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "8 Sind Regt Havelian Cantt · 8 Sind Regiment Havelian Cantt intends to... · Miscellaneous · 2140/G",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017141E",
-   "title": "CONSERVANCY CONTRACT 2026-27 OF PNS DARMAANJAH AT ORMARA, BLOCHISTAN",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017141E",
-   "org": "Pakistan Navy Commanding Officer Ormara - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "All PN registered firm may be approached for... · Services · 01/2026",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017145E",
-   "title": "PROCUREMENT OF IT HARDWARE, MACHINERY AND EQUIPMENT",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017145E",
-   "org": "Federal Public Service Commission FPSC Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Single Stage-Two Envelope will be used by... · Info and Comm Tech · FPSC/Project/Proc/001/26",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017146E",
-   "title": "Miscellaneous Tenders for FOODAG 2026 event",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017146E",
-   "org": "Ministry of Commerce Trade Development Authority of Pakistan Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Miscellaneous · TDAP/AFD/EMC-FA/2026",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016968E",
-   "title": "NJHPC: Hiring Firm for Recruitment and Testing Services",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016968E",
-   "org": "Water and Power Development Authority (WAPDA) WAPDA Muzaffarabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "Services · EPADs Reference No. P166992",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000015720E",
-   "title": "Procurement of IT Equipment Laptops, Desktops, Printers and LED Monitors",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000015720E",
-   "org": "Ministry of Privatisation-Privatisation Commission Privatisation Commission Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "Procurement of IT Equipment Laptops, Desktops, Printers and LED Monitors · Procurement of IT Equipment Laptops, Desktops,... · Equipments · 21 (89)/ Service/ PC/ 2026-27",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017012E",
-   "title": "Tender for Civil works in AoR under AGE (N) Mauripur",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017012E",
-   "org": "Military Engineering Services (Navy) AGE (Navy) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "2026-11-09",
-   "type": "Tender will be submitted to this office on due date mentioned. · Civil Works · 6000-Advt/02/E-6 dated 28 Oct 2026",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016925E",
-   "title": "SSGC/SC/PT/EPADS2/14486Civil Works for Renovation and Upgradation of Newly Installed SMS Nawabshah (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis).",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016925E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Limited (SSGCL) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-09",
-   "type": "Civil Works for Renovation and Upgradation of Newly Installed SMS Nawabshah (as per BOQ) (Having Valid PEC Certificate Category C-6 or above having Specialization of CE-10) (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis). · Civil Works for Renovation and Upgradation of... · Services · SSGC/SC/PT/EPADS2/14486",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016926E",
-   "title": "SSGC/SC/PT/EPADS2/14506Establishing Lab Collection Points at SSGC Medical Centre Quetta (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis).",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016926E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Limited (SSGCL) Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "2026-11-09",
-   "type": "Establishing Lab Collection Points at SSGC Medical Centre Quetta (Under Single Stage One Envelope Bidding Procedure) (On Complete Package Basis). · Establishing Lab Collection Points at SSGC... · Services · SSGC/SC/PT/EPADS2/14506",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016773E",
-   "title": "Purchase of Uniform for Security Staff of FESCO",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016773E",
-   "org": "Faisalabad Electric Supply Company (FESCO) Administration Directorate, HQs FESCO Faisalabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-09",
-   "type": "Purchase of Uniform for Security Staff of FESCO · Clothing/Uniform · P167613",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016702E",
-   "title": "PROCUREMENT OF MISC SPARES AND GOODS",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016702E",
-   "org": "Ministry of Defence Pakistan Navy Karachi. - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-09",
-   "type": "LOCAL TENDER · Tender bulletin of Misc spares / goods of items... · Miscellaneous · CLP/IT/1211",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016728E",
-   "title": "SPARES FOR CNC MACHINES",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016728E",
-   "org": "Ministry of Defence Production Dte of Log JF-17 Kamra - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-09",
-   "type": "Miscellaneous · AMF/751-A/4604/647/LOG-R",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016595E",
-   "title": "(03/HR/CONTRACTOR/JPCL/2026) HIRING OF FIRM / CONTRACTOR FOR SUPPLY OF SKILLED / UN-SKILLED MANPOWER AT JPCL TPS, JAMSHORO",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016595E",
-   "org": "Ministry of Energy (Power Division) Jamshoro Power Company Limited (JPCL) Jamshoro - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "JPCL INVITING TENDER NOTICE · (03/HR/CONTRACTOR/JPCL/2026) HIRING OF FIRM /... · Services · 03/HR/CONTRACTOR/JPCL/2026",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016611E",
-   "title": "Replacement of Two Number Broken Monkey Ladders SLL at Port Qasim Terminal",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016611E",
-   "org": "Sui Southern Gas Company (SSGC) SSGC LPG Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "SLL-1470 · Replacement of Two Number Broken Monkey Ladders... · Services · SLL-1470",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016447E",
-   "title": "Civil Works",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016447E",
-   "org": "Ministry of Defence CMES (Navy) Com Log Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-20",
-   "closing": "2026-11-09",
-   "type": "Civil Works · Civil Works · 6300-PPRA/07/E6",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016268E",
-   "title": "SSGC/LP/EPADS2/PT/2194334 (Branch Routers)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016268E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Ltd. (SSGC) Karachi Head Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-16",
-   "closing": "2026-11-09",
-   "type": "SSGC/LP/EPADS2/PT/2194334 (Branch Routers) · Branch Routers, Min. 2xgigabit Ethernet... · Miscellaneous · SSGC/LP/EPADS2/PT/2194334",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016190E",
-   "title": "SSGC/LP/EPADS2/PT/2194336 (Large Format Plotters)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016190E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Ltd. (SSGC) Karachi Head Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "2026-11-09",
-   "type": "SSGC/LP/EPADS2/PT/2194336 (Large Format Plotters) · Large Format Plotters, Min. 5 Colors or above,... · Miscellaneous · SSGC/LP/EPADS2/PT/2194336",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016197E",
-   "title": "SSGC/LP/EPADS2/PT/2194337 (Rack Mountable Server)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016197E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Ltd. (SSGC) Karachi Head Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "2026-11-09",
-   "type": "SSGC/LP/EPADS2/PT/2194337 (Rack Mountable Server) · Rack Mountable Server-2U, MIN. 02 CPU Sockets,... · Miscellaneous · SSGC/LP/EPADS2/PT/2194337",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016213E",
-   "title": "SSGC/LP/EPADS2/PT/2194335 (Switches)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016213E",
-   "org": "Ministry of Energy (Petroleum Division) Sui Southern Gas Company Ltd. (SSGC) Karachi Head Office Karachi - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-15",
-   "closing": "2026-11-09",
-   "type": "SSGC/LP/EPADS2/PT/2194335 (Switches) · ♦ Switches, Min. 48 x 10/100/1000 Base-T... · Miscellaneous · SSGC/LP/EPADS2/PT/2194335",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000014564E",
-   "title": "Tender notice for misc items",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000014564E",
-   "org": "Pakistan Railways Pakistan Railways Lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-09-24",
-   "closing": "2026-11-09",
-   "type": "Flush valve (K 189-46-06/3) etc. = 14 Items, Ball... · Miscellaneous · 197-S/1/A.T-DSW/2026-27(8834-8897)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Expression of Interest 6655",
-   "title": "Establishment and Operation of an LPG Facility Serving Langerpura, Thota Satellite Towns and Suburbs at Muzaffarabad",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1791375676YKL9B%20-%20EOI%20DAM.pdf",
-   "org": "Development Authorities – Development Authority Muzaffarabad",
-   "province": "AJK",
-   "posted": "2026-10-07",
-   "closing": "2026-11-09",
-   "type": "Expression of Interest",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "GB PPRA",
-   "id": "GB PPRA:TSE-202610223268",
-   "title": "General Overhauling of Govt. Vehicle registration No-GLT B-159 in W&P Kharmang",
-   "url": "https://gbppra.gov.pk/public/procurementdetails/3268",
-   "org": "XEN W&P Division Kharmang",
-   "province": "Gilgit-Baltistan",
-   "posted": "2026-10-22",
-   "closing": "2026-11-09",
-   "type": "Tender Notice",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017426E",
    "title": "Invitation to Bid for Supply of LNG",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017426E",
@@ -18650,25 +18726,6 @@
    "posted": "2026-10-23",
    "closing": "2026-11-10",
    "type": "NOTICE INVITING E-BIDDING FOR MISC. IMPROVEMENT WORKS FOR DEVELOPMENT OF PUBLIC ADDRESS ROOMS AT DIFFERENT LOCATIONS OF JIAP KARACHI · NOTICE INVITING E-BIDDING FOR MISC. IMPROVEMENT... · Civil Works · 12626",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016725E",
-   "title": "Procurement of Color Printer (TU-5142-2026)",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016725E",
-   "org": "Ministry of Defence Production National Radio Telecommunication Corporation (NRTC) Haripur - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-10",
-   "type": "Required for Office Use · No. Proc: TU-5142-2026 Sealed bids are invited... · Equipments · TU-5142-2026",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -22972,7 +23029,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -25973,25 +26030,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal159045",
-   "title": "Hiring of Individual / Consultant for Pharmaceutical Sector at TDAP",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/159045",
-   "org": "Trade Development Authority of Pakistan (TDAP, HQ Karachi)",
-   "province": "Federal",
-   "posted": "2026-10-26",
-   "closing": "2026-11-16",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal144867",
    "title": "REQUEST FOR EXPRESSION OF INTEREST FOR PROVISION OF HEADHUNTING SERVICES",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/144867",
@@ -26038,6 +26076,25 @@
    "posted": "2026-10-29",
    "closing": "2026-11-16",
    "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal159045",
+   "title": "Hiring of Individual / Consultant for Pharmaceutical Sector at TDAP",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/159045",
+   "org": "Trade Development Authority of Pakistan (TDAP, HQ Karachi)",
+   "province": "Federal",
+   "posted": "2026-10-26",
+   "closing": "2026-11-16",
+   "type": "Consultancy Services Single Stage-One Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -26608,7 +26665,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -26627,7 +26684,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -28485,6 +28542,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000017770E",
+   "title": "Other Items",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017770E",
+   "org": "Ministry of Federal Education and Professional Training Islamabad Model College for Boys (IMCB), G-11/1, Islamabad Islamabad - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "2026-11-19",
+   "type": "Miscellaneous · \"P157062\"",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -29819,6 +29895,25 @@
   },
   {
    "source": "PPRA EPMS",
+   "id": "PPRA EPMS:TS0000016725E",
+   "title": "Procurement of Color Printer (TU-5142-2026)",
+   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016725E",
+   "org": "Ministry of Defence Production National Radio Telecommunication Corporation (NRTC) Haripur - Pakistan",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "2026-11-20",
+   "type": "Required for Office Use · Sealed bids are invited from reputable firms/... · Equipments · TU-5142-2026",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-06",
+   "isNew": false
+  },
+  {
+   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017638E",
    "title": "TENDER FOR PROCUREMENT AND SUPPLY OF 4 INCH GI & HDPE PIPES, FITTINGS AND ACCESSORIES FOR REHABILITATION/IMPROVEMENT OF THE WATER SUPPLY SYSTEM AT PMDC SALT MINES, WARCHA, DISTRICT KHUSHAB",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017638E",
@@ -30939,21 +31034,21 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal76810",
-   "title": "Audit of Financial Statement of PTA",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/76810",
-   "org": "Pakistan Telcommunication Authority (PTA)",
+   "id": "EPADS Federal:federal182979",
+   "title": "Hiring of Human Resource Consulting Firm for Executive Search Head Hunting and Recruitment...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/182979",
+   "org": "State Life Insurance Corporation of Pakistan(SLIC) (State Life Insurance Corporation of Pakistan (SLIC))",
    "province": "Federal",
-   "posted": "2026-11-06",
+   "posted": "2026-11-07",
    "closing": "2026-11-23",
-   "type": "Consultancy Services Single Stage-One Envelope",
+   "type": "Consultancy Services Single Stage-Two Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-06",
+   "first_seen": "2026-11-07",
    "isNew": false
   },
   {
@@ -30977,21 +31072,21 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal182979",
-   "title": "Hiring of Human Resource Consulting Firm for Executive Search Head Hunting and Recruitment...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/182979",
-   "org": "State Life Insurance Corporation of Pakistan(SLIC) (State Life Insurance Corporation of Pakistan (SLIC))",
+   "id": "EPADS Federal:federal76810",
+   "title": "Audit of Financial Statement of PTA",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/76810",
+   "org": "Pakistan Telcommunication Authority (PTA)",
    "province": "Federal",
-   "posted": "2026-11-07",
+   "posted": "2026-11-06",
    "closing": "2026-11-23",
-   "type": "Consultancy Services Single Stage-Two Envelope",
+   "type": "Consultancy Services Single Stage-One Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-06",
    "isNew": false
   },
   {
@@ -31561,7 +31656,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -31866,6 +31961,25 @@
    "keywords": [],
    "first_seen": "2026-11-03",
    "isNew": false
+  },
+  {
+   "source": "UNDP",
+   "id": "UNDP:UNDP-PAK-01754 ",
+   "title": "UNDP-IC-2026-260- Development of Sustainability Reporting Toolkit",
+   "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=51555",
+   "org": "UNDP Pakistan",
+   "province": "Donor",
+   "posted": "2026-11-09",
+   "closing": "2026-11-24",
+   "type": "IC - Individual contractor",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
   },
   {
    "source": "World Bank",
@@ -33210,7 +33324,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33721,7 +33835,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33740,7 +33854,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33759,7 +33873,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33778,7 +33892,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33797,7 +33911,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -33816,7 +33930,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -35093,120 +35207,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166845",
-   "title": "NCB No. 99-2026 All kind of Electrification works under ADP/ELR/DOP in NA-32 District Pesh...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166845",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal165279",
-   "title": "NCB No. 76-2026 All Kind of Electrification Works in PK- 73, PK-81, PK-82, PK-84 Of Distri...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/165279",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166257",
-   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166134",
-   "title": "NCB No. 80-2026 Bifurcation of 11 KV College Town Kohat under ELR Head.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166134",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166905",
-   "title": "NCB No. 101-2026 All kind of Electrification Works under Deposit works in NA-34 Nowshera",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166905",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal166299",
-   "title": "NCB No. 86-2026 All Kind Of Electrification Works iro District D.I.Khan (PK-111,PK-112,PK-...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/166299",
-   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166671",
    "title": "NCB No. 90-2026 All Kind of Electrification Works in District D.I.Khan under ELR DOP Head.",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166671",
@@ -35321,25 +35321,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal121276",
-   "title": "Providing & Applying Plastic Emulsion Paint of Banking Hall and Electrical Lighting Works ...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/121276",
-   "org": "SBP Banking Services Corporation (SBP Banking Services Corporation (BSC))",
-   "province": "Federal",
-   "posted": "2026-10-27",
-   "closing": "",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166941",
    "title": "NCB No. 104-2026 All kind of Electrification Works under Deposit works in PK-87 Nowshera",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166941",
@@ -35365,25 +35346,6 @@
    "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
    "posted": "2026-10-24",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal163869",
-   "title": "D(P)-EHV-II-NGC-HYD-02-2026",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/163869",
-   "org": "Director (Projects) - Hyderabad (National Grid Company (NGC))",
-   "province": "Federal",
-   "posted": "2026-10-22",
    "closing": "",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -35469,6 +35431,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal121276",
+   "title": "Providing & Applying Plastic Emulsion Paint of Banking Hall and Electrical Lighting Works ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/121276",
+   "org": "SBP Banking Services Corporation (SBP Banking Services Corporation (BSC))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -35758,6 +35739,25 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal163869",
+   "title": "D(P)-EHV-II-NGC-HYD-02-2026",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/163869",
+   "org": "Director (Projects) - Hyderabad (National Grid Company (NGC))",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal166953",
    "title": "NCB No. 105-2026 All kind of Electrification Works under Deposit works in PK-88 Nowshera",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/166953",
@@ -35796,21 +35796,116 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal113974",
-   "title": "Upgradation and Replacement of the Existing Hipath 3550 PABX System with an Advanced and U...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/113974",
-   "org": "SBP Banking Services Corporation (SBP-BSC) Multan (SBP Banking Services Corporation (BSC))",
+   "id": "EPADS Federal:federal166845",
+   "title": "NCB No. 99-2026 All kind of Electrification works under ADP/ELR/DOP in NA-32 District Pesh...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166845",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
    "province": "Federal",
-   "posted": "2026-10-22",
+   "posted": "2026-10-27",
    "closing": "",
-   "type": "Works Single Stage-Two Envelope",
+   "type": "Works Single Stage-One Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-05",
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal165279",
+   "title": "NCB No. 76-2026 All Kind of Electrification Works in PK- 73, PK-81, PK-82, PK-84 Of Distri...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/165279",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166257",
+   "title": "NCB No. 84-2026 All Kind of Electrification Works in NA-24 & PK-65 of District Charsada.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166257",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166134",
+   "title": "NCB No. 80-2026 Bifurcation of 11 KV College Town Kohat under ELR Head.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166134",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166905",
+   "title": "NCB No. 101-2026 All kind of Electrification Works under Deposit works in NA-34 Nowshera",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166905",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-27",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-03",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal166299",
+   "title": "NCB No. 86-2026 All Kind Of Electrification Works iro District D.I.Khan (PK-111,PK-112,PK-...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/166299",
+   "org": "PESCO (Peshawar Electric Supply Company (PESCO))",
+   "province": "Federal",
+   "posted": "2026-10-23",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
    "isNew": false
   },
   {
@@ -35872,25 +35967,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal165219",
-   "title": "PROVIDING, INSTALLATION, TESTING & COMMISIONING OF 50 KW HYBRID SOLAR SYSTEM WITH GREEN M...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/165219",
-   "org": "Pakistan Infrastructure Development Co. Ltd. (PIDCL (Pakistan Infrastructure Development Co. Ltd. (PIDCL))",
-   "province": "Federal",
-   "posted": "2026-10-26",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal177213",
    "title": "Improvement of Underground Corroded Sui Gas Pipelines in C&W Shops in the Section of IOW/ ...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/177213",
@@ -35910,6 +35986,44 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal165219",
+   "title": "PROVIDING, INSTALLATION, TESTING & COMMISIONING OF 50 KW HYBRID SOLAR SYSTEM WITH GREEN M...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/165219",
+   "org": "Pakistan Infrastructure Development Co. Ltd. (PIDCL (Pakistan Infrastructure Development Co. Ltd. (PIDCL))",
+   "province": "Federal",
+   "posted": "2026-10-26",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal113974",
+   "title": "Upgradation and Replacement of the Existing Hipath 3550 PABX System with an Advanced and U...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/113974",
+   "org": "SBP Banking Services Corporation (SBP-BSC) Multan (SBP Banking Services Corporation (BSC))",
+   "province": "Federal",
+   "posted": "2026-10-22",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal177768",
    "title": "Tender No. 153/26 for Bill Distribution under MEPCO (Op.) Division S.R.Alam",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/177768",
@@ -35918,6 +36032,25 @@
    "posted": "2026-10-30",
    "closing": "",
    "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-05",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal144807",
+   "title": "Tender No.42 for Construction of Pole Foundations for 132KV D/C T/Line from 500/132KV G/S ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/144807",
+   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
+   "province": "Federal",
+   "posted": "2026-10-04",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -35966,23 +36099,859 @@
    "isNew": false
   },
   {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal144807",
-   "title": "Tender No.42 for Construction of Pole Foundations for 132KV D/C T/Line from 500/132KV G/S ...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/144807",
-   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
-   "province": "Federal",
-   "posted": "2026-10-04",
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311872",
+   "title": "Faisalabad Institute of Cardiology Tender Notice: Lab Kits, Chemicals, Blood Bank Items",
+   "url": "https://tenderalert.pk/311872/faisalabad-institute-of-cardiology-tender-notice",
+   "org": "Faisalabad Institute of Cardiology Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
    "closing": "",
-   "type": "Works Single Stage-One Envelope",
+   "type": "Faisalabad",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311871",
+   "title": "District Council Sahiwal Tender Notice: Beautification of Canal Bank and Adjacent Area Eastern Bypass, Boundary Wall Along with Allied Works to Pakpattan Chowk Road",
+   "url": "https://tenderalert.pk/311871/district-council-sahiwal-tender-notice",
+   "org": "District Council Sahiwal Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Sahiwal",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311869",
+   "title": "Punjab Industrial Estate Development and Management Lahore Tender Notice: Supply of Natural Gas, RLNG",
+   "url": "https://tenderalert.pk/311869/punjab-industrial-estate-development-and-management-lahore-tender-notice",
+   "org": "Punjab Industrial Estate Development and Management Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311868",
+   "title": "Municipal Corporation Rawalpindi Tender Notice: Items for National Religious Celebration Functions, Hiring of Machinery Vehicles",
+   "url": "https://tenderalert.pk/311868/municipal-corporation-rawalpindi-tender-notice",
+   "org": "Municipal Corporation Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311862",
+   "title": "Social Welfare and Bait ul Mall Department Lahore Tender Notice: IT Equipment for Command Control Centre, Field Offices",
+   "url": "https://tenderalert.pk/311862/social-welfare-and-bait-ul-mall-department-lahore-tender-notice",
+   "org": "Social Welfare and Bait ul Mall Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311860",
+   "title": "Municipal Committee Lawa Tender Notice: Construction of Street Drain with Other Allied Works",
+   "url": "https://tenderalert.pk/311860/municipal-committee-lawa-tender-notice",
+   "org": "Municipal Committee Lawa Tender Notice",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Talagang",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311858",
+   "title": "Human Rights and Minorities Affairs Department Lahore Tender Notice: Hiring of Event Management Services for Celebration of Human Rights Day",
+   "url": "https://tenderalert.pk/311858/human-rights-and-minorities-affairs-department-lahore-tender-notice",
+   "org": "Human Rights and Minorities Affairs Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311857",
+   "title": "Information Technology and Innovation Department Lahore Tender Notice: Implementation of Online Frontier Technology Skills Training Through a Learning Management System",
+   "url": "https://tenderalert.pk/311857/information-technology-and-innovation-department-lahore-tender-notice",
+   "org": "Information Technology and Innovation Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311856",
+   "title": "Information Technology and Innovation Department Lahore Tender Notice: Establishment and Operation of Incubation and Sandbox Infrastructure",
+   "url": "https://tenderalert.pk/311856/information-technology-and-innovation-department-lahore-tender-notice",
+   "org": "Information Technology and Innovation Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311855",
+   "title": "Municipal Corporation Murree Tender Notice: Construction of Street Road Main Kohala Bridal, Upgradation Beautification of Darya Gali Bazar and Allied Work, Ratti",
+   "url": "https://tenderalert.pk/311855/municipal-corporation-murree-tender-notice",
+   "org": "Municipal Corporation Murree Tender Notice",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Murree",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311853",
+   "title": "Punjab Education Curriculum Training and Assessment Authority Lahore Tender Notice: Procurement of Title Covers for Single Textbooks and Practical Note Books Through Framework Contract for Academic Session",
+   "url": "https://tenderalert.pk/311853/punjab-education-curriculum-training-and-assessment-authority-lahore-tender-notice",
+   "org": "Punjab Education Curriculum Training and Assessment Authority Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311851",
+   "title": "Metropolitan Corporation Lahore Tender Notice: Providing and Fixing of Barbed Wire Around Ponds, Rehabilitation of Metalled Road along Canal Service",
+   "url": "https://tenderalert.pk/311851/metropolitan-corporation-lahore-tender-notice",
+   "org": "Metropolitan Corporation Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311850",
+   "title": "Sindh Peoples Housing for Flood Affectees Karachi Tender Notice: Design and Renovation of Office for Star Wash Project",
+   "url": "https://tenderalert.pk/311850/sindh-peoples-housing-for-flood-affectees-karachi-tender-notice",
+   "org": "Sindh Peoples Housing for Flood Affectees Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311849",
+   "title": "Private Power and Infrastructure Board Islamabad Tender Notice: Third-Party Validation Services for Non-Solar Works of Solar PV Project",
+   "url": "https://tenderalert.pk/311849/private-power-and-infrastructure-board-islamabad-tender-notice",
+   "org": "Private Power and Infrastructure Board Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311848",
+   "title": "Capital Development Authority Islamabad Tender Notice: Construction of Shahdara Dam on EPC Basis",
+   "url": "https://tenderalert.pk/311848/capital-development-authority-islamabad-tender-notice",
+   "org": "Capital Development Authority Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311847",
+   "title": "Nadra Islamabad Tender Notice: Improvement of Data Center Facility Components",
+   "url": "https://tenderalert.pk/311847/nadra-islamabad-tender-notice",
+   "org": "Nadra Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311846",
+   "title": "Federal Government Employees Housing Authority Islamabad Tender Notice: Hiring of Educational Institutes, Establishment and Operation of State of the Art Gross Revenue Sharing",
+   "url": "https://tenderalert.pk/311846/federal-government-employees-housing-authority-islamabad-tender-notice",
+   "org": "Federal Government Employees Housing Authority Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311845",
+   "title": "Capital Development Authority Islamabad Tender Notice: Hiring of International Zoological Consultant Firm for Wildlife Safari Park",
+   "url": "https://tenderalert.pk/311845/capital-development-authority-islamabad-tender-notice",
+   "org": "Capital Development Authority Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311844",
+   "title": "Safe Blood Transfusion Program Quetta Tender Notice: Medical Equipment and Accessories",
+   "url": "https://tenderalert.pk/311844/safe-blood-transfusion-program-quetta-tender-notice",
+   "org": "Safe Blood Transfusion Program Quetta Tender Notice",
+   "province": "Balochistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Quetta",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311843",
+   "title": "Pakistan Television Corporation Limited Islamabad Tender Notice: Procure Various Services Under Open Framework Agreement",
+   "url": "https://tenderalert.pk/311843/pakistan-television-corporation-limited-islamabad-tender-notice",
+   "org": "Pakistan Television Corporation Limited Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311840",
+   "title": "School Education Department Gujranwala Gujrat Rawalpindi and Sargodha Tender Notice: Re Construction of Dangerous Classrooms",
+   "url": "https://tenderalert.pk/311840/school-education-department-gujranwala-gujrat-rawalpindi-and-sargodha-tender-notice",
+   "org": "School Education Department Gujranwala Gujrat Rawalpindi and Sargodha Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Gujranwala, Sargodha, Rawalakot, Gujrat",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311839",
+   "title": "School Education Department Bahawalpur DG Khan and Multan Tender Notice: Re-construction, Dangerous Classrooms, South Zone, Bahawalpur, DG Khan, Multan Divisions",
+   "url": "https://tenderalert.pk/311839/school-education-department-bahawalpur-dg-khan-and-multan-tender-notice",
+   "org": "School Education Department Bahawalpur DG Khan and Multan Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Dera Ghazi Khan, Multan, Bahawalpur",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311838",
+   "title": "Pakistan Kidney and Liver Institute and Research Center Rawalpindi Tender Notice: Prequalification, Procurement, Supply, Geneal Surgical Disposable Consumables",
+   "url": "https://tenderalert.pk/311838/pakistan-kidney-and-liver-institute-and-research-center-rawalpindi-tender-notice",
+   "org": "Pakistan Kidney and Liver Institute and Research Center Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311836",
+   "title": "Punjab Industrial Estates Development and Management Company Lahore Tender Notice: Internal Infrastructure, Laying, Ducts, Optical Fiber Cable, Associated Equipment, Quaid-E-Azam Business Park, Sheikhupura, Package-II",
+   "url": "https://tenderalert.pk/311836/punjab-industrial-estates-development-and-management-company-lahore-tender-notice",
+   "org": "Punjab Industrial Estates Development and Management Company Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311835",
+   "title": "Punjab Industrial Estates Development and Management Company Lahore Tender Notice: Survey, Supply, Laying, Jointing, Testing, Commissioning, Optical Fiber Cable",
+   "url": "https://tenderalert.pk/311835/punjab-industrial-estates-development-and-management-company-lahore-tender-notice",
+   "org": "Punjab Industrial Estates Development and Management Company Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311833",
+   "title": "District Council Jhelum Tender Notice: Bidding, Scheme, Single Stage Two Envelope",
+   "url": "https://tenderalert.pk/311833/district-council-jhelum-tender-notice",
+   "org": "District Council Jhelum Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Jhelum",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311831",
+   "title": "Communication and Works Department Lahore Tender Invatation: Rehabilitation, Addition, Alteration, Missing Facilities, Police Officers Residences",
+   "url": "https://tenderalert.pk/311831/communication-and-works-department-lahore-tender--invatation",
+   "org": "Communication and Works Department Lahore Tender Invatation",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311829",
+   "title": "Punjab Employees Social Security Institution Lahore Tender Notice: Procurement, IT Items",
+   "url": "https://tenderalert.pk/311829/punjab-employees-social-security-institution-lahore--tender-notice",
+   "org": "Punjab Employees Social Security Institution Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311827",
+   "title": "Punjab Agriculture Food and Drug Authority Lahore Tender Notice: Procurement, Video Surveillance System, Pedestrian Entrance Control System",
+   "url": "https://tenderalert.pk/311827/punjab-agriculture-food-and-drug-authority-lahore-tender-notice",
+   "org": "Punjab Agriculture Food and Drug Authority Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311825",
+   "title": "Agriculture Department Lahore Tender Notice: Procurement, Tablets",
+   "url": "https://tenderalert.pk/311825/agriculture-department--lahore-tender-notice",
+   "org": "Agriculture Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311824",
+   "title": "Pakistan Airforce Rawalpindi Tender Notice: Procurement, NBCW Requirement, High Pressure Supply Spares, PVE Items, Replacement, Vintage Firewalls, Firewall Software, Workstation,",
+   "url": "https://tenderalert.pk/311824/pakistan-airforce-rawalpindi-tender-notice",
+   "org": "Pakistan Airforce Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311823",
+   "title": "Punjab Employees Social Security Institution Lahore Tender Notice: Procurement, IT Items",
+   "url": "https://tenderalert.pk/311823/punjab-employees-social-security-institution-lahore--tender-notice",
+   "org": "Punjab Employees Social Security Institution Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311822",
+   "title": "Communication and Works Department Karak Tender Invatation: Construction, Improvement, Rehabilitation, Widening, BT Road",
+   "url": "https://tenderalert.pk/311822/communication-and-works-department-karak-tender--invatation",
+   "org": "Communication and Works Department Karak Tender Invatation",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Karak",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311821",
+   "title": "Police Department Peshawar Tender Notice: Construction, Police Station",
+   "url": "https://tenderalert.pk/311821/police-department-peshawar-tender-notice",
+   "org": "Police Department Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311820",
+   "title": "Police Department Peshawar Tender Notice: Construction, Police Station",
+   "url": "https://tenderalert.pk/311820/police-department-peshawar-tender-notice",
+   "org": "Police Department Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311819",
+   "title": "Paraplegic Centre Peshawar Tender Notice: Tender, Group Life Insurance, Health",
+   "url": "https://tenderalert.pk/311819/paraplegic-centre-peshawar-tender-notice",
+   "org": "Paraplegic Centre Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311815",
+   "title": "Military Engineering Services Quetta Tender Notice: Provision, Certain Facilities",
+   "url": "https://tenderalert.pk/311815/military-engineering-services-quetta-tender-notice",
+   "org": "Military Engineering Services Quetta Tender Notice",
+   "province": "Balochistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Quetta",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311811",
+   "title": "National Engineering Services Pakistan Lahore Tender Notice: Supply, Toner Cartridges, Drum Imaging Unit, Ink",
+   "url": "https://tenderalert.pk/311811/national-engineering-services-pakistan-lahore-tender-notice",
+   "org": "National Engineering Services Pakistan Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311810",
+   "title": "Ogdcl Islamabad Tender Notice: Sale, Crude Oil",
+   "url": "https://tenderalert.pk/311810/ogdcl-islamabad-tender-notice",
+   "org": "Ogdcl Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311808",
+   "title": "Punjab Employees Social Security Institution Lahore Tender Notice: Procurement, IT Items, Equipment",
+   "url": "https://tenderalert.pk/311808/punjab-employees-social-security-institution-lahore--tender-notice",
+   "org": "Punjab Employees Social Security Institution Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311807",
+   "title": "Pakistan Kidney and Liver Institute and Research Center Rawalpindi Tender Notice: Prequalification, Procurement, Supply, Geneal Surgical Disposable Consumables",
+   "url": "https://tenderalert.pk/311807/pakistan-kidney-and-liver-institute-and-research-center-rawalpindi-tender-notice",
+   "org": "Pakistan Kidney and Liver Institute and Research Center Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311805",
+   "title": "Municipal Corporation Rawalpindi Tender Notice: Annual Frame Work Contract, Items For National Religious Celebration Functions, Hiring, Machinery Vehicles",
+   "url": "https://tenderalert.pk/311805/municipal-corporation-rawalpindi-tender-notice",
+   "org": "Municipal Corporation Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311801",
+   "title": "National Tariff Commission Islamabad Tender Notice: Preliminary Determination, Anti-Dumping Investigation, Imposition, Provisional Duty, Dumped Imports, Crockery, Porcelain, China, Tableware, Kitchenware, Plates, Bowls, Cups, Saucers, Mugs, Tea Sets, Dinner, Serving Dishes, Trays",
+   "url": "https://tenderalert.pk/311801/national-tariff-commission-islamabad-tender-notice",
+   "org": "National Tariff Commission Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311796",
+   "title": "Pakistan Kidney and Liver Institute and Research Center Lahore Tender Notice: Procurment, Housekeeping Consumables",
+   "url": "https://tenderalert.pk/311796/pakistan-kidney-and-liver-institute-and-research-center-lahore-tender-notice",
+   "org": "Pakistan Kidney and Liver Institute and Research Center Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311795",
+   "title": "Agriculture Department Lahore Tender Notice: Procurement, Tablets",
+   "url": "https://tenderalert.pk/311795/agriculture-department--lahore-tender-notice",
+   "org": "Agriculture Department Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36001,7 +36970,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36020,7 +36989,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36039,7 +37008,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36058,7 +37027,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36077,7 +37046,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36096,7 +37065,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36115,7 +37084,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36134,7 +37103,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36153,7 +37122,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36172,7 +37141,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36191,7 +37160,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36210,7 +37179,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36229,7 +37198,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36248,7 +37217,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36267,7 +37236,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36286,7 +37255,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36305,7 +37274,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36324,7 +37293,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36343,7 +37312,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36362,7 +37331,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36381,7 +37350,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36400,7 +37369,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36419,7 +37388,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36438,7 +37407,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36457,7 +37426,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36476,7 +37445,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36495,7 +37464,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36514,7 +37483,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36533,7 +37502,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36552,7 +37521,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36571,7 +37540,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36590,7 +37559,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36609,7 +37578,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36628,7 +37597,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36647,7 +37616,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36666,7 +37635,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36685,7 +37654,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36704,7 +37673,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36723,7 +37692,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36742,7 +37711,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36761,7 +37730,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36780,6 +37749,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311729",
+   "title": "Pakistan Army Rawalpindi Tender Notice: Tyre Pneumatic Tube Type, Tubeless, Spares, French Fleets, Firing Cable, Remote, TI Sight, Camera System Surveillance Infrared, Laser, Megapixel, Digital Zoom, Optical, Procurement, Road Wheel, Bearing, Tank AlZarrar, Spirit Methylated, Sheath, Introducer, Vascular, Arterial, Radial, Standard, Catheter, Guiding, XB, Balloon Dilation, Cardiovascular Non Compliant PCI, Guide Wire, PTCA, Exchange, Inch",
+   "url": "https://tenderalert.pk/311729/pakistan-army-rawalpindi-tender-notice",
+   "org": "Pakistan Army Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -36799,7 +37787,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36818,7 +37806,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36837,7 +37825,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36856,7 +37844,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36875,6 +37863,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311722",
+   "title": "Transport Department Karachi Tender Notice: IR Thermal Camera, CD R, DVD, Computer, Writer, Portable USB Harddrive, Nas, Vacuum Pump, Battery, Paint, Wash Primer, Thiner, Manometer",
+   "url": "https://tenderalert.pk/311722/transport-department--karachi-tender--notice",
+   "org": "Transport Department Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -36894,7 +37901,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36913,7 +37920,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36932,7 +37939,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36951,7 +37958,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36970,7 +37977,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -36989,7 +37996,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37008,7 +38015,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37027,7 +38034,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37046,6 +38053,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311703",
+   "title": "Private Power and Infrastructure Board Islamabad tender Notice: Expression, Interest, ThirdParty Validation Services, Solar Works, PV Project",
+   "url": "https://tenderalert.pk/311703/private-power-and-infrastructure-board-islamabad-tender-notice",
+   "org": "Private Power and Infrastructure Board Islamabad tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -37065,7 +38091,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37084,7 +38110,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37103,7 +38129,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37122,7 +38148,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37141,6 +38167,139 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311694",
+   "title": "Provincial Highway Division Jamshoro Tender Notice: construction works",
+   "url": "https://tenderalert.pk/311694/provincial-highway-division-jamshoro-tender-notice",
+   "org": "Provincial Highway Division Jamshoro Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Jamshoro",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311691",
+   "title": "SIHPP Karachi Tender Notice: consultancy service",
+   "url": "https://tenderalert.pk/311691/sihpp-karachi-tender-notice",
+   "org": "SIHPP Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311688",
+   "title": "Pakistan Airports Authority Karachi Tender Notice: procurement of cargo vehicle scanner for jiap",
+   "url": "https://tenderalert.pk/311688/pakistan-airports-authority-karachi-tender-notice",
+   "org": "Pakistan Airports Authority Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311686",
+   "title": "Indus Resource Centre Karachi Tender Notice: car for rent",
+   "url": "https://tenderalert.pk/311686/indus-resource-centre-karachi-tender-notice",
+   "org": "Indus Resource Centre Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311685",
+   "title": "NICVD Karachi Tender Notice: zakat donation for ptmc patient",
+   "url": "https://tenderalert.pk/311685/nicvd-karachi-tender-notice",
+   "org": "NICVD Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311684",
+   "title": "NHA Shikarpur Sukkur and Larkana Tender Notice: 10 security guards and other staff",
+   "url": "https://tenderalert.pk/311684/nha-shikarpur-sukkur-and-larkana-tender-notice",
+   "org": "NHA Shikarpur Sukkur and Larkana Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Larkana, Sukkur, Shikarpur",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311683",
+   "title": "Lyari Development Authority LDA Karachi Tender Notice: chartered accountant firms hiring",
+   "url": "https://tenderalert.pk/311683/lyari-development-authority-lda-karachi-tender-notice",
+   "org": "Lyari Development Authority LDA Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -37160,7 +38319,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37179,7 +38338,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37198,7 +38357,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37217,7 +38376,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37236,7 +38395,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37255,7 +38414,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37274,7 +38433,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37293,7 +38452,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37312,12 +38471,12 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311666",
-   "title": "Unhcr Islamabad Tender Notice: Training in Administration and Financial Management of the Mini grid",
+   "title": "Unhcr Islamabad Tender Notice: Training for Community Members in Naguman Area, Peshawar, Training in Administration and Financial Management of the Mini grid",
    "url": "https://tenderalert.pk/311666/unhcr-islamabad-tender-notice",
    "org": "Unhcr Islamabad Tender Notice",
    "province": "Federal",
@@ -37331,7 +38490,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37350,7 +38509,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37369,7 +38528,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37388,7 +38547,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37407,6 +38566,405 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311660",
+   "title": "Szabist Karachi Tender Notice: Procurement of Rental Fabricated Stalls, Decoration, Career Fair",
+   "url": "https://tenderalert.pk/311660/szabist-karachi-tender-notice",
+   "org": "Szabist Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311658",
+   "title": "Dha City Karachi Tender Notice: Construction of Underground Water Tank",
+   "url": "https://tenderalert.pk/311658/dha-city-karachi-tender-notice",
+   "org": "Dha City Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311656",
+   "title": "Ptv Islamabad Tender Notice: Fabrication of FHD Outdoor Broadcast Equipped Truck, allied equipment",
+   "url": "https://tenderalert.pk/311656/ptv-islamabad-tender-notice",
+   "org": "Ptv Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311655",
+   "title": "Ptv Islamabad Tender Invitataion: Electronics Bids for Pre-Qualification",
+   "url": "https://tenderalert.pk/311655/ptv-islamabad-tender--invitataion",
+   "org": "Ptv Islamabad Tender Invitataion",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311654",
+   "title": "US Consulate General of Pakistan Embassy Karachi Tender Notice: RFQ Supply and Installation of Swimming Pool Deck Tiles",
+   "url": "https://tenderalert.pk/311654/us-consulate-general-of-pakistan-embassy-karachi-tender-notice",
+   "org": "US Consulate General of Pakistan Embassy Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311653",
+   "title": "Giki Swabi Tender Notice: Healthcare insurance services",
+   "url": "https://tenderalert.pk/311653/giki-swabi-tender-notice",
+   "org": "Giki Swabi Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Swabi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311650",
+   "title": "World Bank Peshawar Tender Notice: Solarization of Existing Drinking Water Supply Schemes",
+   "url": "https://tenderalert.pk/311650/world-bank-peshawar-tender-notice",
+   "org": "World Bank Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311648",
+   "title": "World Bank lahore Tender Notice: Development and Integration of Digital Fund Utilization Tracking Module for Non-Salary Budget (NSB) Of Schools",
+   "url": "https://tenderalert.pk/311648/world-bank-lahore-tender-notice",
+   "org": "World Bank lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311647",
+   "title": "World Bank Lahore Tender Notice: Hiring of Consultant for Establishment of Digital Content",
+   "url": "https://tenderalert.pk/311647/world-bank-lahore-tender-notice",
+   "org": "World Bank Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311646",
+   "title": "World Bank Karachi Tender Notice: Request for Expression of Interest (Individual Consultant) for a Sediment Management Specialist",
+   "url": "https://tenderalert.pk/311646/world-bank-karachi-tender-notice",
+   "org": "World Bank Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311645",
+   "title": "World Bank Karachi Tender Notice: Request for Expression of Interest (Individual Consultant) for a Field Measurement Specialist",
+   "url": "https://tenderalert.pk/311645/world-bank-karachi-tender-notice",
+   "org": "World Bank Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311644",
+   "title": "Giki Swabi Tender Notice: Capacitive Pens for the Digital Smart Board (E-Blackboard)",
+   "url": "https://tenderalert.pk/311644/giki-swabi-tender-notice",
+   "org": "Giki Swabi Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Swabi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311643",
+   "title": "Police Department Peshawar Tender Notice: Construction of Command-and-Control Center for Safe City Project Peshawar",
+   "url": "https://tenderalert.pk/311643/police-department-peshawar-tender-notice",
+   "org": "Police Department Peshawar Tender Notice",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Peshawar",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311641",
+   "title": "Urban Area Development Authority Dera Ismail Khan Tender Notice: Construction of Street along with Drain",
+   "url": "https://tenderalert.pk/311641/urban-area-development-authority-dera-ismail-khan-tender-notice",
+   "org": "Urban Area Development Authority Dera Ismail Khan Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Dera Ismail Khan",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311639",
+   "title": "Fesco Faisalabad Tender Notice: Supply of material for New KV Grid Station",
+   "url": "https://tenderalert.pk/311639/fesco-faisalabad-tender-notice",
+   "org": "Fesco Faisalabad Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Faisalabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311637",
+   "title": "Sindh Government Karachi Open Tender Notice: Racks, Hand Pallet Trolley, Cable Plugging Accessories, Air Velocity Transmitter, PPEs, Fire Suit, Self Contained Breathing Apparatus, Delivery Hoses",
+   "url": "https://tenderalert.pk/311637/sindh-government-karachi-open-tender-notice",
+   "org": "Sindh Government Karachi Open Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311636",
+   "title": "Reasearch and Development Foundation Hyderabad Tender Notice: Supply of School Kits, Shared STEM Kits (Arduino)",
+   "url": "https://tenderalert.pk/311636/reasearch-and-development-foundation-hyderabad-tender-notice",
+   "org": "Reasearch and Development Foundation Hyderabad Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Hyderabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311635",
+   "title": "Wapda Employess Cooperative Housing Society Lahore Tender Notice: Carpeting of Worn out roads",
+   "url": "https://tenderalert.pk/311635/wapda-employess-cooperative-housing-society-lahore-tender-notice",
+   "org": "Wapda Employess Cooperative Housing Society Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311630",
+   "title": "Ministry of Federal Education and Professional Training Islamabad Tender Notice: Hiring of a Management Firm for Project Management and Monitoring of the Prime Minister’s Youth Chromebook Scheme",
+   "url": "https://tenderalert.pk/311630/ministry-of-federal-education-and-professional-training-islamabad-tender-notice",
+   "org": "Ministry of Federal Education and Professional Training Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311629",
+   "title": "Ptcl Islamabad Tender Notice: Invitation, Electronics Bids, Pre-Qualification, Procure, Services",
+   "url": "https://tenderalert.pk/311629/ptcl-islamabad-tender--notice",
+   "org": "Ptcl Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311628",
+   "title": "Pakistan Airports Authority Lahore and Rawalpindi Tender Notice: Procurement, Filters, Coolant Mixture, Lubricants, Specialist Vehicles",
+   "url": "https://tenderalert.pk/311628/pakistan-airports-authority-lahore-and-rawalpindi-tender-notice",
+   "org": "Pakistan Airports Authority Lahore and Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Lahore, Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -37426,7 +38984,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37445,7 +39003,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37464,7 +39022,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37483,7 +39041,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37502,7 +39060,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37521,7 +39079,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37540,7 +39098,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37559,7 +39117,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37578,7 +39136,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37597,7 +39155,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37616,7 +39174,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37635,7 +39193,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37654,7 +39212,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37673,7 +39231,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37692,7 +39250,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37711,7 +39269,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37730,7 +39288,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37749,7 +39307,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37768,7 +39326,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37787,7 +39345,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37806,6 +39364,101 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311579",
+   "title": "Mepco Multan Tender Notice: Construction, Tower Foundations, Raise Ground Clearance, Transmission Lines",
+   "url": "https://tenderalert.pk/311579/mepco-multan-tender-notice",
+   "org": "Mepco Multan Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Multan",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311577",
+   "title": "Gepco Gujranwal Tender Notice: Replacement, Damaged, Rusted, Tubes, Defective, Bodies, Distribution, Transformers, Lot",
+   "url": "https://tenderalert.pk/311577/gepco-gujranwal-tender-notice",
+   "org": "Gepco Gujranwal Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Gujranwala",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311575",
+   "title": "Karachi Shipyard and Engineering Works LTD Karachi Tender Notice: Hiring, Services, Mobile, Crane",
+   "url": "https://tenderalert.pk/311575/karachi-shipyard-and-engineering-works-ltd-karachi-tender-notice",
+   "org": "Karachi Shipyard and Engineering Works LTD Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311574",
+   "title": "Wapda Employess Cooperative Housing Society Gujranwala Tender Notice: Quotations, Paint, Purchase, Labor, Rate, Application",
+   "url": "https://tenderalert.pk/311574/wapda-employess-cooperative-housing-society-gujranwala-tender-notice",
+   "org": "Wapda Employess Cooperative Housing Society Gujranwala Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Gujranwala",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311573",
+   "title": "UNIC United Nation Markaz Pakistan Islamabad Tender Notice: Laptops, Mobile IP Phones, Printers, File Server, Water Dispensers, Motorcycle, SDG Display Towers, Speakers, Sound Mixer, Professional Video Camera, Studio Lights with Stands, Microphones, Projector with Screen",
+   "url": "https://tenderalert.pk/311573/unic-united-nation-markaz-pakistan-islamabad-tender-notice",
+   "org": "UNIC United Nation Markaz Pakistan Islamabad Tender Notice",
+   "province": "Federal",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -37825,7 +39478,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37844,6 +39497,63 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311568",
+   "title": "Suthra Punjab Agency Multan Tender Notice: Hiring, Rental Machinery Services, Primary Waste Collection, Self Operations, Loader Rikshaw, Tractor, Blade Front, Chain Dozer, Water Bowser, Drain Cleaner, Dumper, Excavator, Mech Sweeper, Compactor",
+   "url": "https://tenderalert.pk/311568/suthra-punjab-agency-multan-tender-notice",
+   "org": "Suthra Punjab Agency Multan Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Multan",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311567",
+   "title": "Pakistan Revenue Automation Limited Islamabad and Karachi Tender Notice: Renewal, SLA Support Services Contract, IT Hardware Equipment, Data Center",
+   "url": "https://tenderalert.pk/311567/pakistan-revenue-automation-limited-islamabad-and-karachi-tender-notice",
+   "org": "Pakistan Revenue Automation Limited Islamabad and Karachi Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Islamabad, Karachi",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311566",
+   "title": "Local Government and Rural Development Department Quetta Tender Notice: Const, Road Drainage Sewrage Line, Instal, Street Light, Tuff, Drilling, Bore, Solar Systemat",
+   "url": "https://tenderalert.pk/311566/local-government-and-rural-development-department-quetta-tender-notice",
+   "org": "Local Government and Rural Development Department Quetta Tender Notice",
+   "province": "Balochistan",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Quetta",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -37863,7 +39573,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37882,7 +39592,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37901,7 +39611,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37920,7 +39630,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37939,7 +39649,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37958,7 +39668,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37977,7 +39687,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -37996,7 +39706,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38015,7 +39725,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -38110,7 +39820,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -55381,6 +57091,101 @@
   },
   {
    "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311864",
+   "title": "University of Engineering and Technology Taxila Tender Notice: Purchase of Printing and Stationery Items for Examination Branch",
+   "url": "https://tenderalert.pk/311864/university-of-engineering-and-technology-taxila-tender-notice",
+   "org": "University of Engineering and Technology Taxila Tender Notice",
+   "province": "Pakistan",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Taxila",
+   "relevant": false,
+   "maybe": false,
+   "score": -13,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311834",
+   "title": "Municipal Corporation Rawalpindi Tender Notice: Annual Frame Work Contract, Supply, Stationery, Store Items, Supply, Repair, Information Technology Items, Hardware, Software, Furniture",
+   "url": "https://tenderalert.pk/311834/municipal-corporation-rawalpindi-tender-notice",
+   "org": "Municipal Corporation Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": -13,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311814",
+   "title": "Aziz Bhatti Shaheed Teaching Hospital Gujrat Tender Notice: Framework Contract, General Store Items, Stationary, Bulk Medicine, Surgical, Disposable",
+   "url": "https://tenderalert.pk/311814/aziz-bhatti-shaheed-teaching-hospital-gujrat-tender-notice",
+   "org": "Aziz Bhatti Shaheed Teaching Hospital Gujrat Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Gujrat",
+   "relevant": false,
+   "maybe": false,
+   "score": -13,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311803",
+   "title": "Municipal Corporation Rawalpindi Tender Notice: Annual Frame Work Contract, Supply, Stationery, Store Items, Repair, Information Technology Hardware, Software, Furniture",
+   "url": "https://tenderalert.pk/311803/municipal-corporation-rawalpindi-tender-notice",
+   "org": "Municipal Corporation Rawalpindi Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Rawalpindi",
+   "relevant": false,
+   "maybe": false,
+   "score": -13,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311792",
+   "title": "Aziz Bhatti Shaheed Teaching Hospital Gujrat Tender Notice: Framework Contract, General Store Items, Stationary, Bulk Medicine, Surgical, Disposable Items",
+   "url": "https://tenderalert.pk/311792/aziz-bhatti-shaheed-teaching-hospital-gujrat-tender-notice",
+   "org": "Aziz Bhatti Shaheed Teaching Hospital Gujrat Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Gujrat",
+   "relevant": false,
+   "maybe": false,
+   "score": -13,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311619",
    "title": "Tender for Holy Family Hospital HFH Rawalpindi: Bulk Procurement of Drugs / Medicines & Medical Devices & Surgical Dressings",
    "url": "https://tenderalert.pk/311619/tender-for-holy-family-hospital-hfh-rawalpindi",
@@ -55396,7 +57201,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -55415,7 +57220,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -55434,7 +57239,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -55453,7 +57258,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -55961,82 +57766,6 @@
    "type": "Works Single Stage-Two Envelope (with Prequalification)",
    "relevant": false,
    "score": -13,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017149E",
-   "title": "Procurement of Furniture / Fixture for FPSC IT Wing Hall (FPSC HQ Islamabad) and Stationery Items for Project Operations",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017149E",
-   "org": "Federal Public Service Commission FPSC Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-09",
-   "type": "Procurement of Furniture / Fixture for FPSC IT... · Furniture/Fixture · FPSC/Project/Proc/002/26",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016774E",
-   "title": "Purchase of Stationery items for FESCO",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016774E",
-   "org": "Faisalabad Electric Supply Company (FESCO) Administration Directorate, HQs FESCO Faisalabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-24",
-   "closing": "2026-11-09",
-   "type": "Purchase of Stationery items for FESCO · Stationery · P167172",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016750E",
-   "title": "Purchase of Stationery, Computer Stationery, IT Equipment, Machinery, Furniture & other Store Items for FY 2026-27",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016750E",
-   "org": "Ministry of Interior and Narcotics Control Office of the Chief Commissioner, ICT Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-23",
-   "closing": "2026-11-09",
-   "type": "Purchase of Stationery, Computer Stationery, IT... · Stationery · P139503",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "World Bank",
-   "id": "World Bank:OP00478124",
-   "title": "Revamping and uplifting of PMD-PIU Office",
-   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478124",
-   "org": "Pakistan Meteorological Department",
-   "province": "Donor",
-   "posted": "2026-10-29",
-   "closing": "2026-11-09",
-   "type": "Invitation for Bids",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
    "categories": [],
    "category": "",
    "keywords": [],
@@ -57146,6 +58875,82 @@
   },
   {
    "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311875",
+   "title": "Punjab Seed Corporation Lahore Tender Notice: Copy Paper, Writing and Desktop Stationery, Filing Envelopes and Printed Material, Dry Cell Batteries, Cleaning Chemicals and Hygiene Consumables, Tools Brooms and Plastics, Crockery and Reception",
+   "url": "https://tenderalert.pk/311875/punjab-seed-corporation-lahore-tender-notice",
+   "org": "Punjab Seed Corporation Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311837",
+   "title": "Punjab Institute of Neurosciences Lahore Tender Notice: Bulk Purchase, Drug, Medicines, Medical Devices, Surgical Disposable Items, Implants, Neuro-angiography, LPDD Vendors, Local Purchase, National, Multinational, Imported, Day To Day Basis",
+   "url": "https://tenderalert.pk/311837/punjab-institute-of-neurosciences-lahore-tender-notice",
+   "org": "Punjab Institute of Neurosciences Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311830",
+   "title": "Punjab Safe Cities Authority Lahore Tender Notice: Procurement, Computer Stationery, Toners, DVD",
+   "url": "https://tenderalert.pk/311830/punjab-safe-cities-authority-lahore-tender-notice",
+   "org": "Punjab Safe Cities Authority Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311791",
+   "title": "Pakistan Kidney and Liver Institute and Research Center Lahore Tender Notice: Pre-qualification, Safety Stock, Formulary Medicines",
+   "url": "https://tenderalert.pk/311791/pakistan-kidney-and-liver-institute-and-research-center-lahore-tender-notice",
+   "org": "Pakistan Kidney and Liver Institute and Research Center Lahore Tender Notice",
+   "province": "Punjab",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Lahore",
+   "relevant": false,
+   "maybe": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "source": "TenderAlert (newspapers)",
    "id": "TenderAlert (newspapers):311731",
    "title": "Public Sector Organization Lahore Tender Notice: Scientific Store Items, Admin, Drilling, Camp Equipment, Tools, Computer, Stationery, condemned",
    "url": "https://tenderalert.pk/311731/public-sector-organization-lahore-tender-notice",
@@ -57161,7 +58966,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -57180,7 +58985,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -57199,6 +59004,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
+   "isNew": false
+  },
+  {
+   "source": "TenderAlert (newspapers)",
+   "id": "TenderAlert (newspapers):311693",
+   "title": "BISE Board of Intermediate and Secondary Education Sukkur Tender Notice: Imtihani Mawad, Jawabi Copyon, Printed Stationery, Digital Answer Scripts, E-Sheets, Office, General Items, Desk Type PC Size Server Machine, Computer Hardware, Electronics",
+   "url": "https://tenderalert.pk/311693/bise-board-of-intermediate-and-secondary-education-sukkur-tender-notice",
+   "org": "BISE Board of Intermediate and Secondary Education Sukkur Tender Notice",
+   "province": "Sindh",
+   "posted": "2026-11-08",
+   "closing": "",
+   "type": "Sukkur",
+   "relevant": false,
+   "maybe": false,
+   "score": -15,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
    "isNew": true
   },
   {
@@ -57218,7 +59042,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-09",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -57754,11 +59578,10 @@
   }
  ],
  "notify_log": {
-  "at": "2026-11-09T13:38:47.059808+05:00",
+  "at": "2026-11-10T00:58:35.289491+05:00",
   "entries": [
    "Email: secrets missing (GMAIL_USER/GMAIL_APP_PASS/NOTIFY_EMAIL)",
    "Push (ntfy) sent: 200",
-   "Weekly maybe push: 200",
    "WhatsApp 92303***70: no key/token",
    "WhatsApp 92332***40: no key/token"
   ]
