@@ -388,8 +388,6 @@ SOURCES = [
     ("GB PPRA", src_gb, "https://gbppra.gov.pk/public/viewall"),
     ("UNDP Pakistan", src_undp, "https://procurement-notices.undp.org/"),
     ("TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)", src_tenderalert, "https://tenderalert.pk/all-pakistan-tenders"),
-    ("PPRA Punjab e-Proc (via phone)", lambda: src_phone("punjab", "PPRA Punjab", "Punjab"), "https://eproc.punjab.gov.pk/ActiveTenders.aspx"),
-    ("SPPRA Sindh (via phone)", lambda: src_phone("sindh", "SPPRA Sindh", "Sindh"), "https://ppms.pprasindh.gov.pk/"),
     ("PakistanTender.com (newspapers + all provinces)", src_pakistantender, "https://pakistantender.com/punjab-tenders"),
     ("World Bank (Pakistan)", src_worldbank, "https://projects.worldbank.org/en/projects-operations/procurement"),
 ]
