@@ -309,6 +309,77 @@ def src_phone(suffix, label, prov):
             continue
     return out
 
+PT_PAGES = ["punjab-tenders", "lahore-tenders", "multan-tenders", "faisalabad-tenders", "rawalpindi-tenders",
+            "gujranwala-tenders", "sindh-tenders", "karachi-tenders", "hyderabad-tenders", "balochistan-tenders",
+            "quetta-tenders", "kpk-tenders", "peshawar-tenders", "federal-government-tenders", "islamabad-tenders",
+            "electrical-equipment-tenders", "construction-tenders", "civil-engineering-tenders", "home-appliances-tenders",
+            "private-tenders", "epads-tenders", "ppra-tenders", "sppra-tenders", "bppra-tenders", "kppra-tenders"]
+PT_PROV = {"Punjab": "Punjab", "Sindh": "Sindh", "Balochistan": "Balochistan", "KPK": "Khyber Pakhtunkhwa",
+           "Khyber Pakhtunkhwa": "Khyber Pakhtunkhwa", "Federal": "Federal", "Islamabad": "Federal", "AJK": "AJK",
+           "Gilgit-Baltistan": "Gilgit-Baltistan"}
+
+def src_pakistantender():
+    """PakistanTender.com — newspapers + PPRA/ePADS/provincial aggregator (robots.txt allows listing pages)."""
+    out, base, seen = [], "https://pakistantender.com", set()
+    for page in PT_PAGES:
+        s = soup(f"{base}/{page}")
+        if not s: continue
+        for c in s.select("div.t-card"):
+            a = c.select_one("a.t-card-link[href]") or c.find("a", href=re.compile(r"^/tender/\d+"))
+            if not a: continue
+            href = a["href"].split("?")[0]
+            m_id = re.search(r"/tender/(\d+)", href)
+            if not m_id or href in seen: continue
+            seen.add(href)
+            gt = lambda sel: clean(c.select_one(sel).get_text(" ", strip=True)) if c.select_one(sel) else ""
+            title = gt(".t-title") or clean(a.get("aria-label", ""))
+            desc = gt(".t-desc")
+            metas = [clean(x.get_text(" ", strip=True)) for x in c.select(".t-meta span")]
+            org = next((x.replace("🏛", "").strip() for x in metas if "🏛" in x), "")
+            prov = next((x.replace("📍", "").strip() for x in metas if "📍" in x), "")
+            cat = " ".join(x.get_text(strip=True) for x in c.select(".t-tag.tag-cat"))
+            m = re.search(r"(\d{1,2} \w{3} \d{4})", gt(".t-date"))
+            if re.search(r"auction|lease|recruitment|admission", title, re.I): continue
+            out.append(T("PakistanTender", m_id.group(1), title, urljoin(base, href), org,
+                         PT_PROV.get(prov, prov or "Pakistan"), "",
+                         pdate(m.group(1), ["%d %b %Y"]) if m else "", f"{cat} {desc[:200]}"))
+        time.sleep(3)
+    return out
+
+# ── De-duplication across sources ───────────────────────────────────────
+STOP = set("the of and for by in at to a an with from on supply procurement purchase tender tenders notice invitation bids bid "
+           "works work services service providing provision installation department government govt pakistan limited ltd "
+           "company office district punjab sindh lahore karachi islamabad".split())
+SOURCE_RANK = {"PPRA EPMS": 0, "EPADS Federal": 0, "KPPRA": 0, "AJK PPRA": 0, "GB PPRA": 0, "UNDP": 0, "World Bank": 0,
+               "PPRA Punjab": 0, "SPPRA Sindh": 0, "PakistanTender": 1, "TenderAlert (newspapers)": 2}
+def _toks(t):
+    return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 2 and w not in STOP}
+def dedupe(items):
+    items = sorted(items, key=lambda t: SOURCE_RANK.get(t["source"], 1))
+    index, kept = {}, []
+    for t in items:
+        tk = _toks(t["title"] + " " + t.get("org", ""))
+        dup = None
+        if tk:
+            cands = {}
+            for w in tk:
+                for i in index.get(w, ()):
+                    cands[i] = cands.get(i, 0) + 1
+            for i, n in cands.items():
+                o = kept[i]
+                if n / len(tk | o["_tk"]) >= 0.6 and (not t["closing"] or not o["closing"] or t["closing"] == o["closing"]):
+                    dup = o; break
+        if dup:
+            dup.setdefault("also", [])
+            if len(dup["also"]) < 3: dup["also"].append({"source": t["source"], "url": t["url"]})
+            if not dup["closing"] and t["closing"]: dup["closing"] = t["closing"]
+            continue
+        t["_tk"] = tk
+        for w in tk: index.setdefault(w, []).append(len(kept))
+        kept.append(t)
+    for t in kept: t.pop("_tk", None)
+    return kept
+
 SOURCES = [
     ("PPRA EPMS (Federal)", src_epms, "https://epms.ppra.gov.pk/public/tenders/active-tenders"),
     ("EPADS Federal", lambda: src_epads("federal", "Federal"), "https://epads.gov.pk/?jurisdiction=federal"),
@@ -319,6 +390,7 @@ SOURCES = [
     ("TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)", src_tenderalert, "https://tenderalert.pk/all-pakistan-tenders"),
     ("PPRA Punjab e-Proc (via phone)", lambda: src_phone("punjab", "PPRA Punjab", "Punjab"), "https://eproc.punjab.gov.pk/ActiveTenders.aspx"),
     ("SPPRA Sindh (via phone)", lambda: src_phone("sindh", "SPPRA Sindh", "Sindh"), "https://ppms.pprasindh.gov.pk/"),
+    ("PakistanTender.com (newspapers + all provinces)", src_pakistantender, "https://pakistantender.com/punjab-tenders"),
     ("World Bank (Pakistan)", src_worldbank, "https://projects.worldbank.org/en/projects-operations/procurement"),
 ]
 MANUAL = [  # robots.txt blocks automation / JS-only — shown on dashboard as one-click checks
@@ -461,7 +533,8 @@ def main():
     for t in merged.values():
         t["isNew"] = t["first_seen"] == today and not first_run
 
-    tenders = sorted(merged.values(), key=lambda t: (not t["relevant"], -t["score"], t.get("closing") or "9999"))
+    deduped = dedupe(list(merged.values()))
+    tenders = sorted(deduped, key=lambda t: (not t["relevant"], -t["score"], t.get("closing") or "9999"))
     new_rel = [t for t in new if t["relevant"]]
     data = dict(updated=NOW.isoformat(), stats=dict(
         total=len(tenders), relevant=sum(t["relevant"] for t in tenders),

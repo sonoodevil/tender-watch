@@ -107,7 +107,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
 
   <div class="ref">
     <h3>Check manually — official pages <small>(open &amp; read; these block automatic scanning)</small></h3>
-    <div class="refs">
+    <div class="refs" id="refs">
       <a href="https://eproc.punjab.gov.pk/ActiveTenders.aspx" target="_blank" rel="noopener">PPRA Punjab — Active Tenders<span>All Punjab departments</span></a>
       <a href="https://eproc.punjab.gov.pk/Admin_Tender_Search.aspx" target="_blank" rel="noopener">PPRA Punjab — Search<span>Search "lift", "HVAC", "generator"</span></a>
       <a href="https://cnw.punjab.gov.pk/published-tenders-buildings" target="_blank" rel="noopener">C&amp;W Punjab — Buildings<span>Govt buildings (type "Building")</span></a>
@@ -164,13 +164,16 @@ async function load(){
   $("#upd").textContent=new Date(D.updated).toLocaleString("en-GB",{timeZone:"Asia/Karachi",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})+" PKT";
   [...new Set(D.tenders.map(t=>t.province).filter(Boolean))].sort().forEach(p=>$("#prov").insertAdjacentHTML("beforeend",`<option>${esc(p)}</option>`));
   render();portals();
+  (D.health||[]).filter(h=>h.status!=="ok").forEach(h=>$("#refs").insertAdjacentHTML("afterbegin",
+    `<a href="${esc(h.url)}" target="_blank" rel="noopener" style="border-color:#dc2626">⚠ ${esc(h.name)}<span>Auto-scan failed today — check manually</span></a>`));
 }
 function card(t){
   const dl=days(t.closing), soon=dl!==null&&dl>=0&&dl<=5;
   return `<div class="card ${esc(t.category)}"><div class="top"><span class="b">${esc(t.source)}</span>${t.isNew?'<span class="b new">New</span>':''}${soon?`<span class="b soon">${dl===0?"Closes today":dl+" days left"}</span>`:''}<span class="b">${esc(t.province)}</span></div>
   <div class="ttl">${esc(t.title)}</div>${t.org?`<div class="org">${esc(t.org)}</div>`:""}
   ${t.keywords?.length?`<div class="kws">${t.keywords.map(k=>`<span class="kw">${esc(k)}</span>`).join("")}</div>`:""}
-  <div class="ft"><span>Posted <b>${fmt(t.posted)}</b> · Closes <b>${fmt(t.closing)}</b></span><a class="go" href="${esc(t.url)}" target="_blank" rel="noopener">View →</a></div></div>`;
+  ${t.also?.length?`<div class="org">Also on: ${t.also.map(a=>`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(" · ")}</div>`:""}
+  <div class="ft"><span>${t.posted?`Posted <b>${fmt(t.posted)}</b> · `:""}Closes <b>${fmt(t.closing)}</b></span><a class="go" href="${esc(t.url)}" target="_blank" rel="noopener">View →</a></div></div>`;
 }
 function render(){
   if(tab==="src")return;
