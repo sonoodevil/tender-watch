@@ -23,6 +23,21 @@ SITES = [
 WORDS = re.compile(r"tender|nit\b|bid|procure|supply|works|repair|maintenance|installation|purchase", re.I)
 DATE = re.compile(r"(\d{1,2}[-/.][A-Za-z0-9]{2,3}[-/.]\d{2,4}|\d{4}-\d{2}-\d{2})")
 S = requests.Session(); S.headers["User-Agent"] = UA
+
+# PPRA Punjab e-Proc needs legacy TLS renegotiation (browsers allow it).
+# Certificate verification stays ON; applied to eproc.punjab.gov.pk only (approved by owner).
+import ssl
+from requests.adapters import HTTPAdapter
+class PunjabTLS(HTTPAdapter):
+    def init_poolmanager(self, *a, **kw):
+        ctx = ssl.create_default_context()
+        try:
+            import certifi; ctx.load_verify_locations(certifi.where())
+        except Exception: pass
+        ctx.options |= getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0x4)
+        kw["ssl_context"] = ctx
+        return super().init_poolmanager(*a, **kw)
+S.mount("https://eproc.punjab.gov.pk", PunjabTLS())
 PROBE = "--probe" in sys.argv
 
 def allowed(url):
