@@ -16,7 +16,7 @@ NOTIFY = "rss-tenders-1b945081"               # phone status / errors
 UA = "Mozilla/5.0 (Linux; Android 13) RSS-TenderWatch/1.0"
 # (province, topic suffix, candidate URLs — first one that returns tenders is used)
 SITES = [
-    ("Punjab", "punjab", ["https://eproc.punjab.gov.pk/ActiveTenders.aspx"]),
+    ("Punjab", "punjab", ["https://eproc.punjab.gov.pk/ActiveTenders.aspx", "http://eproc.punjab.gov.pk/ActiveTenders.aspx"]),
     ("Sindh", "sindh", ["https://ppms.pprasindh.gov.pk/PPMS/public/portal/notice-inviting-tender",
                         "https://ppms.pprasindh.gov.pk/", "https://e.pprasindh.gov.pk/"]),
 ]
@@ -29,6 +29,7 @@ def allowed(url):
     p = urlparse(url); rp = urllib.robotparser.RobotFileParser()
     try:
         r = S.get(f"{p.scheme}://{p.netloc}/robots.txt", timeout=30)
+        if PROBE: print("robots.txt", p.netloc, r.status_code, r.text[:300].replace("\n", " | "))
         if r.status_code >= 400: return True      # no robots.txt = no restriction
         rp.parse(r.text.splitlines()); return rp.can_fetch(UA, url)
     except Exception:
