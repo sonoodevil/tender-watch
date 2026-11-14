@@ -317,7 +317,6 @@ SOURCES = [
     ("GB PPRA", src_gb, "https://gbppra.gov.pk/public/viewall"),
     ("UNDP Pakistan", src_undp, "https://procurement-notices.undp.org/"),
     ("TenderAlert.pk (Punjab/Sindh/Balochistan newspapers)", src_tenderalert, "https://tenderalert.pk/all-pakistan-tenders"),
-    ("SPPRA Sindh (via phone)", src_sindh_phone, "https://ppms.pprasindh.gov.pk/"),
     ("World Bank (Pakistan)", src_worldbank, "https://projects.worldbank.org/en/projects-operations/procurement"),
 ]
 MANUAL = [  # robots.txt blocks automation / JS-only — shown on dashboard as one-click checks
@@ -454,7 +453,8 @@ def main():
     # keep previously-seen tenders that are still open (source page may have paged them out)
     cutoff = (NOW - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     for tid, t in old.items():
-        if tid not in merged and (t.get("closing") or "9999") >= today and t.get("first_seen", today) >= cutoff:
+        no_date_cutoff = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
+        if tid not in merged and (t.get("closing") or "9999") >= today and t.get("first_seen", today) >= (cutoff if t.get("closing") else no_date_cutoff):
             merged[tid] = t
     for t in merged.values():
         t["isNew"] = t["first_seen"] == today and not first_run
@@ -463,23 +463,21 @@ def main():
     new_rel = [t for t in new if t["relevant"]]
     data = dict(updated=NOW.isoformat(), stats=dict(
         total=len(tenders), relevant=sum(t["relevant"] for t in tenders),
-        new=0 if first_run else len(new), new_relevant=0 if first_run else len(new_rel),
+        new=sum(1 for t in tenders if t["first_seen"] == today), new_relevant=sum(1 for t in tenders if t["first_seen"] == today and t["relevant"]),
         maybe=sum(1 for t in tenders if t.get("maybe")),
         portals=len(SOURCES)), health=health,
         manual=[dict(name=n, url=u, note=d) for n, u, d in MANUAL], tenders=tenders)
     json.dump(data, open(DATA_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"Saved {len(tenders)} tenders ({data['stats']['relevant']} related, {len(new)} new)")
 
-    # first run: everything is "new" → send today's related list as a baseline
+    # notifications switched off — dashboard only (set NOTIFY=on to re-enable)
+    if os.environ.get("NOTIFY") != "on": return
     alert = new_rel if not first_run else [t for t in tenders if t["relevant"]]
     try: send_email(alert, len(new), len(tenders), data["stats"]["relevant"], health)
-    except Exception as ex: print("Email failed:", ex); NOTIFY_LOG.append(f"Email failed: {ex}"[:200])
+    except Exception as ex: print("Email failed:", ex)
     send_push(alert, len(new), data["stats"]["relevant"])
-    if os.environ.get("GITHUB_EVENT_SCHEDULE", "").startswith("37 1") or os.environ.get("FORCE_WEEKLY"): weekly_maybe_push(tenders)
-    if alert or os.environ.get("WA_DAILY_EVEN_IF_EMPTY") or os.environ.get("FORCE_NOTIFY"):
-        try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
-        except Exception as ex: print("WhatsApp failed:", ex); NOTIFY_LOG.append(f"WhatsApp failed: {ex}"[:200])
-
+    try: send_whatsapp(wa_text(alert, len(new), data["stats"]["relevant"]))
+    except Exception as ex: print("WhatsApp failed:", ex)
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "rss-tenders-1b945081"
 

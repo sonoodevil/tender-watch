@@ -1,8 +1,7 @@
 name: Daily tender scan
 on:
   schedule:
-    - cron: "37 1 * * *"    # 06:37 AM Pakistan time, every day
-    - cron: "37 9 * * *"    # 02:37 PM Pakistan time (second sweep)
+    - cron: "17 */3 * * *"  # every 3 hours (GitHub often runs scheduled jobs late)
   workflow_dispatch:
   push:
     paths: ["run-now.txt"]
