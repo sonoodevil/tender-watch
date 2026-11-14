@@ -1,0 +1,18 @@
+name: Probe Punjab eProc
+on:
+  push:
+    paths: ["probe-now.txt"]
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          {
+          echo "== robots"; curl -s -m 40 -A "Mozilla/5.0" -w "\nHTTP %{http_code}\n" https://eproc.punjab.gov.pk/robots.txt | head -40
+          echo "== active"; curl -s -m 60 -A "Mozilla/5.0" -o a.html -w "HTTP %{http_code} size %{size_download}\n" https://eproc.punjab.gov.pk/ActiveTenders.aspx
+          head -c 1500 a.html | tr '\n' ' '
+          } > probe.txt 2>&1
+          git config user.name tender-bot; git config user.email tender-bot@users.noreply.github.com
+          git add probe.txt; git commit -m "probe result"; git push
