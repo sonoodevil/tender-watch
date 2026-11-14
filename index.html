@@ -73,6 +73,13 @@ input{width:200px}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:#16a34a}
 .dot.empty{background:#eab308}.dot.error{background:#dc2626}.dot.manual{background:#94a3b8}
 h2{font:700 18px "Barlow Condensed",sans-serif;margin:18px 0 8px}
+.ref{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:10px;padding:10px 12px;margin-bottom:14px}
+.ref h3{font:700 15px "Barlow Condensed",sans-serif;margin-bottom:6px}
+.ref h3 small{font:500 11px Inter;color:var(--muted);margin-left:6px}
+.refs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.refs a{flex:0 0 auto;text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;font-weight:600;background:var(--bg);white-space:nowrap}
+.refs a span{display:block;font-weight:400;font-size:10px;color:var(--muted)}
+.refs a:hover{border-color:var(--orange)}
 .panel{display:none}.panel.on{display:block}
 footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
 @media(max-width:560px){.upd{display:none}.grid{grid-template-columns:1fr}input{width:100%}.ctl{width:100%}}
@@ -96,6 +103,24 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
     <div class="st"><small>New today</small><b id="sNew">—</b></div>
     <div class="st"><small>Check these (maybe)</small><b id="sMaybe">—</b></div>
     <div class="st"><small>Auto-scanned portals</small><b id="sPort">—</b></div>
+  </div>
+
+  <div class="ref">
+    <h3>Check manually — official pages <small>(open &amp; read; these block automatic scanning)</small></h3>
+    <div class="refs">
+      <a href="https://eproc.punjab.gov.pk/ActiveTenders.aspx" target="_blank" rel="noopener">PPRA Punjab — Active Tenders<span>All Punjab departments</span></a>
+      <a href="https://eproc.punjab.gov.pk/Admin_Tender_Search.aspx" target="_blank" rel="noopener">PPRA Punjab — Search<span>Search "lift", "HVAC", "generator"</span></a>
+      <a href="https://cnw.punjab.gov.pk/published-tenders-buildings" target="_blank" rel="noopener">C&amp;W Punjab — Buildings<span>Govt buildings (type "Building")</span></a>
+      <a href="https://cnw.punjab.gov.pk/published-tenders-highways" target="_blank" rel="noopener">C&amp;W Punjab — Highways<span>Type "Highway"</span></a>
+      <a href="https://punjab.eprocure.gov.pk/" target="_blank" rel="noopener">Punjab e-PADS<span>Login &amp; e-bid</span></a>
+      <a href="https://www.cbdpunjab.gov.pk/tenders" target="_blank" rel="noopener">CBD Punjab<span>Lahore CBD projects</span></a>
+      <a href="https://lda.gop.pk/" target="_blank" rel="noopener">LDA Lahore<span>Lahore Development Authority</span></a>
+      <a href="https://www.idap.pk/details/tenders" target="_blank" rel="noopener">IDAP Punjab<span>Hospitals &amp; infrastructure</span></a>
+      <a href="https://sindh.eprocure.gov.pk/" target="_blank" rel="noopener">Sindh e-PADS<span>Sindh</span></a>
+      <a href="https://www.bppra.gob.pk/" target="_blank" rel="noopener">BPPRA<span>Balochistan</span></a>
+      <a href="https://www.cda.gov.pk/tenders" target="_blank" rel="noopener">CDA<span>Islamabad</span></a>
+      <a href="https://wapda.gov.pk/wapda-tenders/" target="_blank" rel="noopener">WAPDA<span>Power &amp; dams</span></a>
+    </div>
   </div>
 
   <div class="bar">
