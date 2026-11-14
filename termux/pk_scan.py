@@ -1,6 +1,6 @@
 """
-RSS Tender Watch — Sindh scanner for Termux (runs on a phone in Pakistan).
-Reads public tender notices from SPPRA (Sindh), respects robots.txt, and hands
+RSS Tender Watch — Punjab + Sindh scanner for Termux (runs on a phone in Pakistan).
+Reads public tender notices from PPRA Punjab e-Proc and SPPRA Sindh, respects robots.txt, and hands
 them to the cloud scan through ntfy (no GitHub password on the phone).
 Run:  python sindh_scan.py          (normal)
       python sindh_scan.py --probe  (diagnostics: shows what the site returned)
@@ -11,14 +11,14 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-TOPIC = "rss-tenders-1b945081-sindh"          # cloud scan reads this
+TOPIC = "rss-tenders-1b945081"               # base; cloud reads <TOPIC>-punjab / -sindh
 NOTIFY = "rss-tenders-1b945081"               # phone status / errors
 UA = "Mozilla/5.0 (Linux; Android 13) RSS-TenderWatch/1.0"
-START_URLS = [
-    "https://ppms.pprasindh.gov.pk/PPMS/public/portal/notice-inviting-tender",
-    "https://ppms.pprasindh.gov.pk/",
-    "https://e.pprasindh.gov.pk/",
-    "https://www.pprasindh.gov.pk/",
+# (province, topic suffix, candidate URLs — first one that returns tenders is used)
+SITES = [
+    ("Punjab", "punjab", ["https://eproc.punjab.gov.pk/ActiveTenders.aspx"]),
+    ("Sindh", "sindh", ["https://ppms.pprasindh.gov.pk/PPMS/public/portal/notice-inviting-tender",
+                        "https://ppms.pprasindh.gov.pk/", "https://e.pprasindh.gov.pk/"]),
 ]
 WORDS = re.compile(r"tender|nit\b|bid|procure|supply|works|repair|maintenance|installation|purchase", re.I)
 DATE = re.compile(r"(\d{1,2}[-/.][A-Za-z0-9]{2,3}[-/.]\d{2,4}|\d{4}-\d{2}-\d{2})")
@@ -67,36 +67,40 @@ def ntfy(topic, body, title=""):
     try: S.post(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers={"Title": title} if title else {}, timeout=30)
     except Exception as e: print("ntfy failed:", e)
 
-def main():
+def scan(prov, urls):
     items, report = [], []
-    for url in START_URLS:
+    for url in urls:
         if not allowed(url):
-            report.append(f"SKIP (robots.txt disallows): {url}"); continue
+            report.append(f"{prov}: SKIP robots.txt disallows {url}"); continue
         try:
-            r = S.get(url, timeout=60)
+            r = S.get(url, timeout=90)
         except Exception as e:
-            report.append(f"ERROR {url}: {e}"); continue
+            report.append(f"{prov}: ERROR {url}: {e}"); continue
         found, soup = parse(r.text, r.url)
-        report.append(f"{r.status_code} {url} -> {len(found)} tenders ({len(r.text)} bytes)")
+        report.append(f"{prov}: {r.status_code} {url} -> {len(found)} tenders")
         if PROBE:
             print("=" * 60, "\n", url, r.status_code, "\nTITLE:", soup.title.get_text(strip=True) if soup.title else "")
-            print("LINKS:", [a.get_text(strip=True)[:40] + " -> " + a["href"] for a in soup.find_all("a", href=True)][:40])
-            print("TEXT:", soup.get_text(" ", strip=True)[:800])
+            for tr in soup.find_all("tr")[:6]: print("ROW:", tr.get_text(" | ", strip=True)[:250])
+            print("TEXT:", soup.get_text(" ", strip=True)[:600])
         items += found
-        if found: break                           # first working source is enough
+        if found: break
         time.sleep(5)
-    print("\n".join(report)); print(f"Total: {len(items)}")
-    if PROBE: return
-    # send in chunks (ntfy message limit ~4KB)
+    return items, report
+
+def send(topic, items):
     batch, size = [], 0
     for it in items:
         j = json.dumps(it, ensure_ascii=False)
         if size + len(j) > 3500 and batch:
-            ntfy(TOPIC, json.dumps(batch, ensure_ascii=False)); batch, size = [], 0
+            ntfy(topic, json.dumps(batch, ensure_ascii=False)); batch, size = [], 0; time.sleep(1)
         batch.append(it); size += len(j)
-    if batch: ntfy(TOPIC, json.dumps(batch, ensure_ascii=False))
-    if not items:
-        ntfy(NOTIFY, "\n".join(report), "Sindh phone scan: 0 tenders — please check")
+    if batch: ntfy(topic, json.dumps(batch, ensure_ascii=False))
+
+def main():
+    for prov, suffix, urls in SITES:
+        items, report = scan(prov, urls)
+        print("\n".join(report)); print(f"{prov} total: {len(items)}")
+        if not PROBE and items: send(f"{TOPIC}-{suffix}", items)
 
 if __name__ == "__main__":
     main()
