@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-15T21:18:37.784533+05:00",
+ "updated": "2026-11-16T03:46:46.654304+05:00",
  "stats": {
-  "total": 3822,
-  "relevant": 165,
-  "new": 345,
-  "new_relevant": 8,
+  "total": 3805,
+  "relevant": 164,
+  "new": 5,
+  "new_relevant": 0,
   "maybe": 55,
   "portals": 9
  },
@@ -12,7 +12,7 @@
   {
    "name": "PPRA EPMS (Federal)",
    "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders",
-   "count": 1799,
+   "count": 1694,
    "status": "ok"
   },
   {
@@ -374,7 +374,7 @@
     "plumbing"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -426,7 +426,7 @@
     "generator"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -1024,7 +1024,7 @@
     "ventilation"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -1621,7 +1621,7 @@
     "generator"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -2701,7 +2701,7 @@
     "hvac"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -3043,29 +3043,6 @@
     "generators"
    ],
    "first_seen": "2026-11-11",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:23419",
-   "title": "Civil Works Contract MW-2 for Diamer Basha Dam Power Houses by WAPDA",
-   "url": "https://pakistantender.com/tender/23419/civil-works-contract-mw2-for-diamer-basha-dam-power-houses-by-wapda",
-   "org": "Pakistan Water and Power Development Authority (WAPDA)",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "2026-11-15",
-   "type": "Hydro Power Diamer Basha Development Company (Pvt.) Limited, a subsidiary of the Pakistan Water and Power Development Authority (WAPDA), invites electronic bids for civil…",
-   "relevant": true,
-   "maybe": false,
-   "score": 10,
-   "categories": [
-    "gen"
-   ],
-   "category": "gen",
-   "keywords": [
-    "power house"
-   ],
-   "first_seen": "2026-11-14",
    "isNew": false
   },
   {
@@ -3506,7 +3483,7 @@
     "generator"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -3688,7 +3665,7 @@
     "chiller"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -3711,7 +3688,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -4298,7 +4275,7 @@
     "plumbing"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -4448,7 +4425,7 @@
     "plumbing"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -4471,7 +4448,7 @@
     "panels"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -4500,7 +4477,7 @@
     "plumbing"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -4533,7 +4510,7 @@
     "ups"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5131,7 +5108,7 @@
     "ups"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5154,7 +5131,7 @@
     "panel"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5177,7 +5154,7 @@
     "panels"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -5566,25 +5543,6 @@
    "isNew": false
   },
   {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017531E",
-   "title": "Repai /maint & rehab / renovation works",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017531E",
-   "org": "Ministry of Defence MES Complex PAC Kamra Kamra - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "Repair/Maintenance · 600-PPRA/12/E-6",
-   "relevant": false,
-   "maybe": false,
-   "score": 8,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
    "source": "PakistanTender",
    "id": "PakistanTender:23806",
    "title": "Repair and Maintenance Works for Military Engineering Services Peshawar Cantonment",
@@ -5764,25 +5722,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016298E",
-   "title": "DESIGN, FINANCING, SUPPLY, INSTALLATION, TESTING, COMMISSIONING, OPERATION & MAINTENANCE OF 1 MW SOLAR PHOTOVOLTAIC POWER SYSTEM WITH 1 MWH BATTERY ENERGY STORAGE SYSTEM (BESS) USING SHED AND CARPORT STRUCTURE AT RATIO (70:30) AT PAKISTAN SPORTS COMPLEX, ISLAMABAD UNDER 15-YEAR FIXED-TARIFF POWER PURCHASE AGREEMENT (PPA) MODEL",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016298E",
-   "org": "Pakistan Sports Board Pakistan Sports Board Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-16",
-   "closing": "2026-11-15",
-   "type": "DESIGN, FINANCING, SUPPLY, INSTALLATION, TESTING,... · Electrical Items · No.F.51-379/2026-27/PSB (P&D)",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017409E",
    "title": "Repair and Maintenance of Lab Equipment",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017409E",
@@ -5862,31 +5801,6 @@
    "keywords": [],
    "first_seen": "2026-11-04",
    "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal187323",
-   "title": "Tender No.42/2026-27. Repair / Maintenance of S.E (GSO) Office Building at Qasim Pur Multa...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/187323",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-17",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 6,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/188085"
-    }
-   ]
   },
   {
    "source": "EPADS Federal",
@@ -6302,7 +6216,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -6365,7 +6279,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -6384,7 +6298,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -6687,7 +6601,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6706,7 +6620,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6725,7 +6639,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6744,7 +6658,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6763,7 +6677,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -6996,25 +6910,6 @@
     "kva"
    ],
    "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017559E",
-   "title": "Publication notice of tender - CMES Oka",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017559E",
-   "org": "Military Engineering Services (Army) MES (Army) OKara - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "Contact shell provide certificate that they are not involved in any type of litigation with government department in the court of law · Civil Works · 6000-Adv/92/E6 dated 05 Nov 2026",
-   "relevant": false,
-   "maybe": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
    "isNew": false
   },
   {
@@ -7252,25 +7147,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal187662",
-   "title": "Tender No.37/2026-27. Repair / Maintenance of S.E (OP) office (Ground Floor) & Director (P...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/187662",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-17",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-11",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal187902",
    "title": "Tender No.35/2026-27. Repair / Maintenance of MEPCO Sub Division Offices at 132 KV Grid St...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/187902",
@@ -7293,6 +7169,25 @@
    "id": "EPADS Federal:federal187782",
    "title": "Tender No.36/2026-27. Repair / Renovation of XEN / RO office Complex (Single Storey) at 13...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/187782",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-17",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-11",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal187662",
+   "title": "Tender No.37/2026-27. Repair / Maintenance of S.E (OP) office (Ground Floor) & Director (P...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/187662",
    "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
    "province": "Federal",
    "posted": "2026-11-05",
@@ -8337,12 +8232,8 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/174195"
-    },
     {
      "source": "TenderAlert (newspapers)",
      "url": "https://tenderalert.pk/313734/directorate-general-immigration-and-passports-islamabad-tender-invitation"
@@ -8517,7 +8408,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -8536,7 +8427,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -8593,7 +8484,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -8679,7 +8570,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -8717,7 +8608,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -8792,7 +8683,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -8939,6 +8830,10 @@
    "first_seen": "2026-11-10",
    "isNew": false,
    "also": [
+    {
+     "source": "TenderAlert (newspapers)",
+     "url": "https://tenderalert.pk/313585/federal-board-of-revenue-lahore-tender-invitation"
+    },
     {
      "source": "TenderAlert (newspapers)",
      "url": "https://tenderalert.pk/313585/federal-board-of-revenue-lahore-tender-invitation"
@@ -9413,13 +9308,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313300/communication-and-works-department-toba-tek-singh-and-faisalabad-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9438,13 +9327,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313268/pkli-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9463,7 +9346,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9482,7 +9365,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9501,13 +9384,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313353/military-engineer-services-abbottabad-and-havelian-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9526,7 +9403,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9545,7 +9422,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9564,13 +9441,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313553/dhq-hospital-jamshoro-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9589,7 +9460,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -9608,7 +9479,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -11261,82 +11132,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017784E",
-   "title": "Gallop Tender for Trollies Items SZHL",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017784E",
-   "org": "Ministry of National Health Services, Regulation & Coordination Shaikh Zayed Hospital (SZH) Lahore - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-15",
-   "type": "Miscellaneous · P191172",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-10",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017465E",
-   "title": "Printing and Publication",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017465E",
-   "org": "FEDERAL OMBUDSPERSON SECRETARIAT Federal Ombudsman Secretariat for Protection Against Harassment At Workplace FOSPAH Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "Printing · P182895",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-07",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017557E",
-   "title": "PROCUREMENT / UPDRADATION OF IT EQUIPMENT OF DD (PLANS) OFFICE",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017557E",
-   "org": "Bahria University P&D Dte, Bahria University Islamabad Campus Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "PROCUREMENT / UPDRADATION OF IT EQUIPMENT OF DD (PLANS) OFFICE · as per bidding document mentioned on EPADS · Electrical Items · BUHO/P&D/2026/322",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "GB PPRA",
-   "id": "GB PPRA:TSE-202610303295",
-   "title": "NOTICE INVITATING TENDER (SSOE)",
-   "url": "https://gbppra.gov.pk/public/procurementdetails/3295",
-   "org": "XEN Building Division Gilgit",
-   "province": "Gilgit-Baltistan",
-   "posted": "2026-10-30",
-   "closing": "2026-11-15",
-   "type": "Tender Notice",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017876E",
    "title": "Office Building Required on Rent in Regional Office Gilgit-Baltistan",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017876E",
@@ -12313,9 +12108,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal187470",
-   "title": "Tender No.40/2026-27. Rehabilitation of Control House Building at 132 KV Grid Station Fero...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/187470",
+   "id": "EPADS Federal:federal188085",
+   "title": "Tender No.33/2026-27. Repair / Renovation of Regional Store at Qasim Pur Multan.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/188085",
    "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
    "province": "Federal",
    "posted": "2026-11-05",
@@ -12327,16 +12122,16 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
    "isNew": true,
    "also": [
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/188211"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/187323"
     },
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/187551"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/188334"
     }
    ]
   },
@@ -12377,6 +12172,35 @@
    "keywords": [],
    "first_seen": "2026-11-11",
    "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal187470",
+   "title": "Tender No.40/2026-27. Rehabilitation of Control House Building at 132 KV Grid Station Fero...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/187470",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-17",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-15",
+   "isNew": false,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/188211"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/187551"
+    }
+   ]
   },
   {
    "source": "KPPRA",
@@ -13504,7 +13328,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -13694,7 +13518,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -14992,7 +14816,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -15017,7 +14841,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -15778,7 +15602,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "PakistanTender",
@@ -16350,7 +16174,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -16369,13 +16193,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313291/shaikh-zayed-hospital-rahim-yar-khan-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -16470,7 +16288,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "EPADS Federal",
@@ -16837,7 +16655,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17008,7 +16826,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17065,7 +16883,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17166,7 +16984,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17185,7 +17003,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17204,7 +17022,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17299,7 +17117,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -17596,7 +17414,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -17659,7 +17477,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -17678,7 +17496,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -18980,7 +18798,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -18999,7 +18817,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19024,7 +18842,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19043,7 +18861,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19062,7 +18880,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19081,7 +18899,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19106,7 +18924,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19125,7 +18943,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19150,7 +18968,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19169,7 +18987,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19188,7 +19006,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19207,7 +19025,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19226,7 +19044,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19245,7 +19063,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19264,7 +19082,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19283,7 +19101,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19302,13 +19120,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/310530/pakistan-aeronautical-complex-kamra-tender-invitation"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19327,7 +19139,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19346,7 +19158,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19365,7 +19177,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19384,7 +19196,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19403,7 +19215,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19436,7 +19248,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19455,7 +19267,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19474,7 +19286,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19493,7 +19305,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19512,7 +19324,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19531,7 +19343,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19556,7 +19368,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19575,13 +19387,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/310567/national-university-of-science-and-technology-islamabad-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19600,7 +19406,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19619,7 +19425,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19638,7 +19444,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19657,7 +19463,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19676,13 +19482,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/310509/pakistan-aeronautical-complex-kamra-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19701,7 +19501,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19720,7 +19520,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19739,7 +19539,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19758,7 +19558,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19777,7 +19577,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19796,7 +19596,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19829,7 +19629,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19862,7 +19662,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -19887,7 +19687,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19906,7 +19706,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -19944,7 +19744,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -20001,7 +19801,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -20020,7 +19820,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -20039,7 +19839,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -20102,7 +19902,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -20121,7 +19921,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -20140,7 +19940,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -20608,7 +20408,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -20747,7 +20547,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -25581,138 +25381,6 @@
   },
   {
    "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017511E",
-   "title": "Supply of Mechanical Consumables",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017511E",
-   "org": "Ministry of Science and Technology Pakistan Council of Scientific and Industrial Research (PCSIR) Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "Supply of Mechanical Consumables · Consumable Items · ICCC/ELEC-MECH/DCCFPBB/2026/002",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017516E",
-   "title": "Advertisement for Open Tendor of Feed Items FY 2026/ 27",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017516E",
-   "org": "Ministry of Defence Military Farm Multan Multan - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-15",
-   "type": "Advertisement for Open Tendor of Feed Ietms FY 2026/ 27 · Agricultural Products · 1",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-05",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000014748E",
-   "title": "Pre-Qualification & Registration of Local Suppliers / Contractors for Supply of Ration Items HQ SAC, Karachi",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000014748E",
-   "org": "Ministry of Defence Pakistan Airforce islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-09-27",
-   "closing": "2026-11-15",
-   "type": "Pre-Qualification & Registration of Local... · Miscellaneous · AHQ/3504/2/DGPR (AF)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-06",
-   "isNew": false
-  },
-  {
-   "source": "AJK PPRA",
-   "id": "AJK PPRA:Tender Notice 6701",
-   "title": "Tender Services (Welfare Petrol Pump)",
-   "url": "https://ajkppra.gov.pk/uploadfiles/tenderdocuments/1793620831O6AY4%20-%20Tender%20Police%20Mirpur.pdf",
-   "org": "AJK Police Department – Mirpur police",
-   "province": "AJK",
-   "posted": "2026-11-02",
-   "closing": "2026-11-15",
-   "type": "Tender Notice",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
-  },
-  {
-   "source": "GB PPRA",
-   "id": "GB PPRA:TSE-202611123330",
-   "title": "Establishment of Pakistan Asaan Khidmat Centre (PAKC), Gilgit-Baltistan (Gilgit Centre)",
-   "url": "https://gbppra.gov.pk/public/procurementdetails/3330",
-   "org": "D.G Gilgit Development Authority",
-   "province": "Gilgit-Baltistan",
-   "posted": "2026-11-12",
-   "closing": "2026-11-15",
-   "type": "Technical Evaluation",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-12",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000016818E",
-   "title": "testing",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000016818E",
-   "org": "Public Procurement Regulatory Authority (PPRA) PPRA Peshawer - Pakistan",
-   "province": "Federal",
-   "posted": "2026-10-26",
-   "closing": "2026-11-15",
-   "type": "Tender note · Appliances · test",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-11",
-   "isNew": false
-  },
-  {
-   "source": "World Bank",
-   "id": "World Bank:OP00473572",
-   "title": "Sanitation Scheme Bara, District Khyber",
-   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473572",
-   "org": "Khyber Pakhtunkhwa, Public Health Engineering Department",
-   "province": "Donor",
-   "posted": "2026-10-09",
-   "closing": "2026-11-15",
-   "type": "Invitation for Bids",
-   "relevant": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "PPRA EPMS",
    "id": "PPRA EPMS:TS0000017919E",
    "title": "SSGC / SC / GLP / 14551Pre-Shipment Inspection for Paint and Allied Materialliquid Epoxy Coating Paint Against Po No. 22/TKT/34502, for Henkel Belgium N.V, Esplanade I, Postbus/Bte 101 Be, 020 Brusel / Bruxelles, Port of Shipment: USA, Origin:USA (as per Details Attached) (Under Single Stage One Envelope Bidding Procedure).",
    "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017919E",
@@ -28599,25 +28267,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal178233",
-   "title": "ESTABLISHMENT OF 500 LABOUR QUARTERS AT HUB",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/178233",
-   "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
-   "province": "Federal",
-   "posted": "2026-10-30",
-   "closing": "2026-11-17",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-02",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal177423",
    "title": "ESTABLISHMENT OF 200 HOUSES AT DERA MURAD JAMALI",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/177423",
@@ -28640,6 +28289,25 @@
    "id": "EPADS Federal:federal175995",
    "title": "ESTABLISHMENT OF 200 LABOUR QUARTERS AT BAIKAR, NORTH DERA BUGTI",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/175995",
+   "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
+   "province": "Federal",
+   "posted": "2026-10-30",
+   "closing": "2026-11-17",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-02",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal178233",
+   "title": "ESTABLISHMENT OF 500 LABOUR QUARTERS AT HUB",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/178233",
    "org": "Workers Welfare Fund, Balochistan (Workers Welfare Fund, Balochistan)",
    "province": "Federal",
    "posted": "2026-10-30",
@@ -28710,25 +28378,6 @@
    "keywords": [],
    "first_seen": "2026-11-10",
    "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal188334",
-   "title": "Tender No.30/2026-27. Rehabilitation / Carpeting of Road of Regional Store & TRW at Qasim ...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/188334",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-17",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-15",
-   "isNew": true
   },
   {
    "source": "EPADS Federal",
@@ -29205,6 +28854,10 @@
     {
      "source": "PPRA EPMS",
      "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017468E"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/189540"
     }
    ]
   },
@@ -30040,6 +29693,77 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal187407",
+   "title": "Construction of Lab/Office, Store, Garage and Boundary wall at FSC&RD Loralai Balochistan",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/187407",
+   "org": "Directorate of Works and Services (Pakistan Agriculture Research Council (PARC))",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-18",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-12",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal185859",
+   "title": "Tender No. 13 Hiring of Works (Electrical) through Rate Contract (Closed Framework Agreeme...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/185859",
+   "org": "TESCO Construction Division (Tribal Areas Electric Supply Company (TESCO))",
+   "province": "Federal",
+   "posted": "2026-11-05",
+   "closing": "2026-11-18",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-16",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/180609"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/186090"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/185739"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal178218",
+   "title": "NCB-266 construction of stone masonry retaining wall of location No. 22 (TBA) due to vuln...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/178218",
+   "org": "IESCO-PMU (Islamabad Electric Supply Company (IESCO))",
+   "province": "Federal",
+   "posted": "2026-11-04",
+   "closing": "2026-11-18",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-12",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal180789",
    "title": "NCB-267 CONSTRUCTION OF 01 NO. LINE BAY AT 132 KV SOWAN GRID STATION (CONTROLLING 132 KV T...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/180789",
@@ -30065,89 +29789,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal186090",
-   "title": "Tender No. 14 Hiring of Works (Electrical) through Rate Contract (Closed Framework Agreeme...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/186090",
-   "org": "TESCO Construction Division (Tribal Areas Electric Supply Company (TESCO))",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-18",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/185739"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/185859"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/180609"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal174723",
    "title": "Improvement of kitchen & washrooms inside E,F and G type quarter",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/174723",
    "org": "Office of Chief Engineer, Hydel Power Station (Water and Power Development Authority (WAPDA) / Member (Power))",
    "province": "Federal",
    "posted": "2026-10-29",
-   "closing": "2026-11-18",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-12",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal187407",
-   "title": "Construction of Lab/Office, Store, Garage and Boundary wall at FSC&RD Loralai Balochistan",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/187407",
-   "org": "Directorate of Works and Services (Pakistan Agriculture Research Council (PARC))",
-   "province": "Federal",
-   "posted": "2026-11-05",
-   "closing": "2026-11-18",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-12",
-   "isNew": false,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/189540"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal178218",
-   "title": "NCB-266 construction of stone masonry retaining wall of location No. 22 (TBA) due to vuln...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/178218",
-   "org": "IESCO-PMU (Islamabad Electric Supply Company (IESCO))",
-   "province": "Federal",
-   "posted": "2026-11-04",
    "closing": "2026-11-18",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -30742,7 +30389,7 @@
     },
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/185043"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/185016"
     }
    ]
   },
@@ -31581,31 +31228,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal182145",
-   "title": "Extension of 11Kv Room at 132Kv Grid Station Lala Musa.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/182145",
-   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-02",
-   "closing": "2026-11-19",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/182133"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal182124",
    "title": "132KV D/C T/Line from Therisansi – Sheranwala Bagh & Pasrur Road – Sheranwala Bagh. Co...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/182124",
@@ -31622,6 +31244,31 @@
    "keywords": [],
    "first_seen": "2026-11-14",
    "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal182133",
+   "title": "Extension of 11Kv Room at 132Kv Grid Station Eminabad",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/182133",
+   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-02",
+   "closing": "2026-11-19",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-16",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/182145"
+    }
+   ]
   },
   {
    "source": "AJK PPRA",
@@ -32929,13 +32576,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313301/pkli-rawalpindi-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -36854,9 +36495,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal197253",
+   "id": "EPADS Federal:federal198249",
    "title": "Consultancy Services for Third Party Validation (TPV) of the Establishment of Daanish Scho...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/197253",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/198249",
    "org": "Daanish Schools Authority (Daanish Daanish Schools Authority)",
    "province": "Federal",
    "posted": "2026-11-14",
@@ -36868,12 +36509,12 @@
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
    "isNew": true,
    "also": [
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/198249"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/197253"
     }
    ]
   },
@@ -37538,7 +37179,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "EPADS Federal",
@@ -37563,7 +37204,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "PPRA EPMS",
@@ -39969,7 +39610,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41079,7 +40720,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41098,7 +40739,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41559,7 +41200,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41578,7 +41219,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41597,7 +41238,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41616,13 +41257,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313493/board-of-intermediate-and-secondary-education-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -41641,13 +41276,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313267/bwmc-bahawalpur-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42346,7 +41975,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -42371,13 +42000,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313424/district-council-lodhran-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42396,7 +42019,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42415,7 +42038,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42434,13 +42057,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313290/district-council-hafizabad-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42459,7 +42076,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42478,7 +42095,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42497,7 +42114,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42516,7 +42133,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42535,7 +42152,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42554,7 +42171,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42678,7 +42295,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42697,7 +42314,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42716,7 +42333,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -42735,7 +42352,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43008,7 +42625,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43084,7 +42701,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43103,7 +42720,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43313,7 +42930,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -43778,7 +43395,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43797,7 +43414,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43816,7 +43433,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43835,13 +43452,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/311796/pakistan-kidney-and-liver-institute-and-research-center-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43860,7 +43471,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43879,7 +43490,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43898,7 +43509,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -43936,13 +43547,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/311892/central-ordnance-depot-rawalpindi-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44028,7 +43633,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44066,7 +43671,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44407,7 +44012,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44464,7 +44069,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44483,13 +44088,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312635/pakistan-scouts-cadet-college-mansehra-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -44962,7 +44561,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "PakistanTender",
@@ -44987,7 +44586,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "PakistanTender",
@@ -45012,7 +44611,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -45031,7 +44630,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -45126,7 +44725,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "PakistanTender",
@@ -45233,7 +44832,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -45385,7 +44984,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -46444,6 +46043,25 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal124402",
+   "title": "Revamping / Renovation of Aiwan-e-Nawdrat-e-Quaid-i-Azam (Quaid’s Museum) at Mazar-e-Qua...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/124402",
+   "org": "Quaid-i-Azam Mazar Management Board (Quaid-i-Azam Mazar Management Board (QMMB))",
+   "province": "Federal",
+   "posted": "2026-11-04",
+   "closing": "",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-04",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal181812",
    "title": "SSGC/SC/NR/EPADS2/14537 (Hiring of Consulting Services of EIA/IEE of Laying and Integratio...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/181812",
@@ -46501,25 +46119,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal124402",
-   "title": "Revamping / Renovation of Aiwan-e-Nawdrat-e-Quaid-i-Azam (Quaid’s Museum) at Mazar-e-Qua...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/124402",
-   "org": "Quaid-i-Azam Mazar Management Board (Quaid-i-Azam Mazar Management Board (QMMB))",
-   "province": "Federal",
-   "posted": "2026-11-04",
-   "closing": "",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-04",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal152775",
    "title": "Hiring of Cybersecurity Consultant for NEPRA",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/152775",
@@ -46558,6 +46157,31 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal175344",
+   "title": "Tender No.57 for Transportation, Erection & Stringing of 132KV D/C T/Line F/F 132KV Grid S...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/175344",
+   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
+   "province": "Federal",
+   "posted": "2026-10-28",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-16",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/175320"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal175308",
    "title": "Tender No.54 for Construction of Tower Pile Foundaitons (15-Degree) along-with Erection & ...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/175308",
@@ -46574,31 +46198,6 @@
    "keywords": [],
    "first_seen": "2026-11-10",
    "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal175320",
-   "title": "Tender No.55 Transportation, Erection & Stringing of 132KV D/C T/Line FIEDMC-I to FIEDMC-2...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/175320",
-   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
-   "province": "Federal",
-   "posted": "2026-10-28",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/175344"
-    }
-   ]
   },
   {
    "source": "EPADS Federal",
@@ -48940,7 +48539,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -48959,7 +48558,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -48978,7 +48577,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -48997,7 +48596,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49016,7 +48615,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49035,7 +48634,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49054,7 +48653,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49073,7 +48672,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49092,7 +48691,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49111,7 +48710,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49130,13 +48729,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313116/institude-of-business-administration-karachi-tender-invitation"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49155,7 +48748,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49174,7 +48767,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49193,7 +48786,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49212,7 +48805,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49231,7 +48824,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49250,7 +48843,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49275,7 +48868,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49294,7 +48887,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49313,7 +48906,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49338,7 +48931,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49357,7 +48950,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49382,7 +48975,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49401,7 +48994,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49426,13 +49019,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313484/neelum-jhelum-hydropower-company-muzaffarabad-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49451,7 +49038,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49476,7 +49063,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49495,7 +49082,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49520,7 +49107,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49539,13 +49126,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313279/pkli-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49564,7 +49145,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49589,7 +49170,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49608,7 +49189,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49627,7 +49208,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49646,7 +49227,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49665,7 +49246,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49684,7 +49265,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49703,7 +49284,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49722,13 +49303,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312644/specialized-healthcare-and-medical-education-department-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49747,7 +49322,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49772,13 +49347,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313303/bise-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49797,7 +49366,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49816,7 +49385,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49835,7 +49404,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49854,7 +49423,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -49879,13 +49448,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313399/education-engineering-cell-muzaffarabad-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49904,7 +49467,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49923,7 +49486,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49942,7 +49505,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49961,7 +49524,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49980,7 +49543,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -49999,7 +49562,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50018,13 +49581,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313461/khyber-pakhtunkhaw-culture-and-tourism-authority-peshawar-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50043,13 +49600,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313466/police-department-peshawar-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50068,7 +49619,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -50093,7 +49644,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50112,7 +49663,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50131,7 +49682,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -50156,7 +49707,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50175,7 +49726,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50194,15 +49745,11 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
      "url": "https://tenderalert.pk/313733/tevta-lahore-tender-notice"
-    },
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312372/tevta-lahore-tender-notice"
     }
    ]
   },
@@ -50223,7 +49770,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50242,7 +49789,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -50267,7 +49814,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50286,7 +49833,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50305,13 +49852,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313400/daanish-school-authority-pakistan-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50330,13 +49871,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313283/idap-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50355,13 +49890,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313310/communication-and-works-department-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50380,7 +49909,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50399,7 +49928,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50418,7 +49947,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -50443,7 +49972,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50462,7 +49991,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50481,7 +50010,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50500,7 +50029,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50519,15 +50048,11 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
      "url": "https://tenderalert.pk/313714/school-education-department-punjab-tender-notice"
-    },
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312368/school-education-department-punjab-tender-notice"
     }
    ]
   },
@@ -50548,7 +50073,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50567,13 +50092,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313270/livestock-and-dairy-development-department-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50592,7 +50111,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50611,7 +50130,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50630,7 +50149,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50649,7 +50168,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50668,7 +50187,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -50677,10 +50196,6 @@
     {
      "source": "TenderAlert (newspapers)",
      "url": "https://tenderalert.pk/313686/human-rights-and-minorities-affairs-department-lahore-tender-notice"
-    },
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312831/human-rights-and-minorities-affairs-department-lahore-tender-notice"
     }
    ]
   },
@@ -50701,7 +50216,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50720,7 +50235,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50739,7 +50254,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50758,7 +50273,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50777,13 +50292,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313282/qaspl-bahawalpur-and-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50802,7 +50311,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50821,7 +50330,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50840,7 +50349,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50859,7 +50368,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50878,7 +50387,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50897,7 +50406,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50916,7 +50425,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50935,7 +50444,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50954,7 +50463,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50973,7 +50482,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -50992,7 +50501,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51011,7 +50520,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51030,7 +50539,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51049,7 +50558,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51068,7 +50577,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -51101,7 +50610,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51120,7 +50629,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51139,7 +50648,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51158,7 +50667,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51177,7 +50686,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51196,7 +50705,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51215,7 +50724,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51234,7 +50743,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51253,7 +50762,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51272,7 +50781,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -51305,7 +50814,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51324,7 +50833,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51343,7 +50852,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -51368,7 +50877,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51387,7 +50896,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51406,7 +50915,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -51439,7 +50948,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51458,7 +50967,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51477,7 +50986,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51496,7 +51005,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51515,7 +51024,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51534,7 +51043,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51553,7 +51062,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -51586,7 +51095,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51605,7 +51114,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51624,7 +51133,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51643,7 +51152,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51662,7 +51171,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51700,7 +51209,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51719,7 +51228,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51795,7 +51304,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51852,7 +51361,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -51890,7 +51399,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52048,7 +51557,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -52098,7 +51607,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52117,7 +51626,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52155,7 +51664,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52256,7 +51765,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52376,7 +51885,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -52401,7 +51910,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -52426,7 +51935,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52445,7 +51954,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -52470,7 +51979,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52546,7 +52055,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -52615,7 +52124,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
+   "isNew": false,
    "also": [
     {
      "source": "TenderAlert (newspapers)",
@@ -52659,7 +52168,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -74955,7 +74464,7 @@
     "air condition"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -74978,7 +74487,7 @@
     "plumbing"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -75139,7 +74648,7 @@
     "generators"
    ],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -75237,7 +74746,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -75275,7 +74784,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -75294,7 +74803,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -75313,7 +74822,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -75926,7 +75435,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -76064,7 +75573,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76083,7 +75592,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76102,7 +75611,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76121,7 +75630,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76140,7 +75649,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76159,7 +75668,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -76790,25 +76299,6 @@
      "url": "https://tenderalert.pk/310254/district-headquarter-hospital-kalat-tender-invitation"
     }
    ]
-  },
-  {
-   "source": "PPRA EPMS",
-   "id": "PPRA EPMS:TS0000017266E",
-   "title": "Procurement of IT Equipment’s, Office Stationery & Misc. Store Items",
-   "url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000017266E",
-   "org": "Ministry of Water Resources Project Planning & Development Unit (PPDU) Islamabad - Pakistan",
-   "province": "Federal",
-   "posted": "2026-11-02",
-   "closing": "2026-11-15",
-   "type": "Stationery · 4(13)2026/27-Admin/PPDu",
-   "relevant": false,
-   "maybe": false,
-   "score": -15,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-03",
-   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -77675,7 +77165,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -77694,7 +77184,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -77795,13 +77285,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313274/livestock-and-dairy-development-department-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -77820,7 +77304,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -77839,7 +77323,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -78042,7 +77526,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "PPRA EPMS",
@@ -78336,13 +77820,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/312855/pakistan-militry-accounts-department-lahore-tender-notice"
-    }
-   ]
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -78361,7 +77839,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -78380,7 +77858,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -78399,7 +77877,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -78418,7 +77896,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -78437,7 +77915,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-15",
-   "isNew": true
+   "isNew": false
   },
   {
    "source": "TenderAlert (newspapers)",
@@ -79250,7 +78728,7 @@
   }
  ],
  "notify_log": {
-  "at": "2026-11-15T21:18:37.784533+05:00",
+  "at": "2026-11-16T03:46:46.654304+05:00",
   "entries": []
  }
 }
