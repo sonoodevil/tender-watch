@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-26T00:13:26.626891+05:00",
+ "updated": "2026-11-26T08:31:34.891610+05:00",
  "stats": {
-  "total": 4057,
+  "total": 4055,
   "relevant": 139,
-  "new": 147,
+  "new": 149,
   "new_relevant": 3,
   "maybe": 65,
   "portals": 9
@@ -54,7 +54,7 @@
   {
    "name": "PakistanTender.com (newspapers + all provinces)",
    "url": "https://pakistantender.com/punjab-tenders",
-   "count": 622,
+   "count": 615,
    "status": "ok"
   },
   {
@@ -5219,10 +5219,6 @@
     {
      "source": "EPADS Federal",
      "url": "https://epads.gov.pk/opportunities/federal/procurements/198171"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/198465"
     }
    ]
   },
@@ -6010,14 +6006,14 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:25882",
-   "title": "Maintenance and Repair Works for Government Buildings in Gujranwala",
-   "url": "https://pakistantender.com/tender/25882/maintenance-and-repair-works-for-government-buildings-in-gujranwala",
-   "org": "Punjab Building Department, Buildings Circle No. 2, Gujranwala",
+   "id": "PakistanTender:25017",
+   "title": "Multiple Term Contracts for Maintenance, Repairs and Supply Works by MES Gujranwala",
+   "url": "https://pakistantender.com/tender/25017/multiple-term-contracts-for-maintenance-repairs-and-supply-works-by-mes-gujranwa",
+   "org": "Military Engineer Services (MES), Garrison Engineer (Army)-II, Gujranwala Cantt",
    "province": "Punjab",
    "posted": "",
    "closing": "",
-   "type": "Renovation The Punjab Building Department invites item-rate based tenders from PEC-registered engineering firms and contractors for 16 maintenance and repair projects…",
+   "type": "Electrification The Military Engineer Services (MES), Garrison Engineer (Army)-II Gujranwala Cantt invites sealed tenders from pre-qualified contractors for issuance of tender…",
    "relevant": false,
    "maybe": false,
    "score": 6,
@@ -6029,14 +6025,14 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:25017",
-   "title": "Multiple Term Contracts for Maintenance, Repairs and Supply Works by MES Gujranwala",
-   "url": "https://pakistantender.com/tender/25017/multiple-term-contracts-for-maintenance-repairs-and-supply-works-by-mes-gujranwa",
-   "org": "Military Engineer Services (MES), Garrison Engineer (Army)-II, Gujranwala Cantt",
+   "id": "PakistanTender:25882",
+   "title": "Maintenance and Repair Works for Government Buildings in Gujranwala",
+   "url": "https://pakistantender.com/tender/25882/maintenance-and-repair-works-for-government-buildings-in-gujranwala",
+   "org": "Punjab Building Department, Buildings Circle No. 2, Gujranwala",
    "province": "Punjab",
    "posted": "",
    "closing": "",
-   "type": "Electrification The Military Engineer Services (MES), Garrison Engineer (Army)-II Gujranwala Cantt invites sealed tenders from pre-qualified contractors for issuance of tender…",
+   "type": "Renovation The Punjab Building Department invites item-rate based tenders from PEC-registered engineering firms and contractors for 16 maintenance and repair projects…",
    "relevant": false,
    "maybe": false,
    "score": 6,
@@ -6534,6 +6530,35 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal198369",
+   "title": "Tender No.48/2026-27. Repair / maintenance of C-3 bungalow at 132 KV Grid Station Bahawal ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/198369",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-13",
+   "closing": "2026-11-27",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 4,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/198465"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/198456"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal131185",
    "title": "REPAIR AND MAINTENANCE WORK OF BANGALOW NO.28 AT MINISTER'S ENCLAVE F-5/2, ISLAMABAD.",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/131185",
@@ -6600,31 +6625,6 @@
    "keywords": [],
    "first_seen": "2026-11-20",
    "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal198456",
-   "title": "Tender No.51/2026-27. Repair / maintenance of SS&T Divisional Office at 132 KV Grid Statio...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/198456",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-13",
-   "closing": "2026-11-27",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 4,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-26",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/198369"
-    }
-   ]
   },
   {
    "source": "PakistanTender",
@@ -12204,25 +12204,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal192228",
-   "title": "Tender No.58 for Special Repair of C-1 Flat situated at 132KV Grid Station Agriculture Uni...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/192228",
-   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-27",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-20",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal198396",
    "title": "Tender No.49/2026-27. Repair / renovation of B-02 flat & C-03 flat at MEPCO Colony WAPDA T...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/198396",
@@ -12238,6 +12219,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-23",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal192228",
+   "title": "Tender No.58 for Special Repair of C-1 Flat situated at 132KV Grid Station Agriculture Uni...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/192228",
+   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "2026-11-27",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-20",
    "isNew": false
   },
   {
@@ -13085,28 +13085,9 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal202464",
-   "title": "Tender No.63/2026-27. Repair / Renovation of Complaint Center Fareed Town Sahiwal and Addi...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/202464",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-17",
-   "closing": "2026-11-30",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-25",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal201420",
-   "title": "Tender No.57/2026-27. Renovation / repair of MEPCO Sub Division offices at Fortabbas & Faq...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/201420",
+   "id": "EPADS Federal:federal201756",
+   "title": "Tender No.60/2026-27. Renovation / Repair of MEPCO Civil Line and Qadirabad Sub Divisions ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/201756",
    "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
    "province": "Federal",
    "posted": "2026-11-17",
@@ -13123,9 +13104,47 @@
    "also": [
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/201756"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/201420"
     }
    ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal201630",
+   "title": "Tender No.59/2026-27. Rehabilitation of Control House Building & Re-Construction of Bounda...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/201630",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-17",
+   "closing": "2026-11-30",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-25",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal202464",
+   "title": "Tender No.63/2026-27. Repair / Renovation of Complaint Center Fareed Town Sahiwal and Addi...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/202464",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-17",
+   "closing": "2026-11-30",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-25",
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -13151,25 +13170,6 @@
      "url": "https://epads.gov.pk/opportunities/federal/procurements/202632"
     }
    ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal201630",
-   "title": "Tender No.59/2026-27. Rehabilitation of Control House Building & Re-Construction of Bounda...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/201630",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-17",
-   "closing": "2026-11-30",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-25",
-   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -16995,6 +16995,25 @@
   },
   {
    "source": "PakistanTender",
+   "id": "PakistanTender:25159",
+   "title": "Supply of Furniture and Fixtures for Government College University Faisalabad",
+   "url": "https://pakistantender.com/tender/25159/supply-of-furniture-and-fixtures-for-government-college-university-faisalabad",
+   "org": "Government College University, Faisalabad",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "2026-12-04",
+   "type": "Furniture Government College University, Faisalabad invites sealed tenders for the supply of furniture and fixtures for various departments of GCUF. The estimated cost…",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
    "id": "PakistanTender:28739",
    "title": "Job Fair 2026 Works by Bahria University Karachi Campus",
    "url": "https://pakistantender.com/tender/28739/job-fair-2026-works-by-bahria-university-karachi-campus",
@@ -17111,25 +17130,6 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-24",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:25159",
-   "title": "Supply of Furniture and Fixtures for Government College University Faisalabad",
-   "url": "https://pakistantender.com/tender/25159/supply-of-furniture-and-fixtures-for-government-college-university-faisalabad",
-   "org": "Government College University, Faisalabad",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "2026-12-04",
-   "type": "Furniture Government College University, Faisalabad invites sealed tenders for the supply of furniture and fixtures for various departments of GCUF. The estimated cost…",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
    "isNew": false
   },
   {
@@ -19235,31 +19235,6 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:26740",
-   "title": "Construction of Mosque at Punjab Government Servants Housing Scheme, Multan",
-   "url": "https://pakistantender.com/tender/26740/construction-of-mosque-at-punjab-government-servants-housing-scheme-multan",
-   "org": "Punjab Government Servants Housing Foundation Scheme, Multan",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "2026-12-09",
-   "type": "Construction Building PK The Punjab Government Servants Housing Foundation Scheme, Multan invites tenders for construction of a mosque at the housing scheme located at Zero-Point…",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false,
-   "also": [
-    {
-     "source": "PakistanTender",
-     "url": "https://pakistantender.com/tender/27578/construction-of-mosque-at-punjab-government-servants-housing-scheme-bahawalpur"
-    }
-   ]
-  },
-  {
-   "source": "PakistanTender",
    "id": "PakistanTender:28710",
    "title": "Equipment and Drip Irrigation System Installation by University of Agriculture Faisalabad",
    "url": "https://pakistantender.com/tender/28710/equipment-and-drip-irrigation-system-installation-by-university-of-agriculture-f",
@@ -20137,13 +20112,7 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-26",
-   "isNew": true,
-   "also": [
-    {
-     "source": "TenderAlert (newspapers)",
-     "url": "https://tenderalert.pk/313552/sindh-mass-transit-authority-karachi-tender-notice"
-    }
-   ]
+   "isNew": true
   },
   {
    "source": "PakistanTender",
@@ -21556,6 +21525,25 @@
   },
   {
    "source": "PakistanTender",
+   "id": "PakistanTender:26740",
+   "title": "Construction of Mosque at Punjab Government Servants Housing Scheme, Multan",
+   "url": "https://pakistantender.com/tender/26740/construction-of-mosque-at-punjab-government-servants-housing-scheme-multan",
+   "org": "Punjab Government Servants Housing Foundation Scheme, Multan",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "",
+   "type": "Construction Building PK The Punjab Government Servants Housing Foundation Scheme, Multan invites tenders for construction of a mosque at the housing scheme located at Zero-Point…",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
    "id": "PakistanTender:26554",
    "title": "Procurement of Chemicals, Glassware & Scientific Equipment for Faculty of Pharmacy",
    "url": "https://pakistantender.com/tender/26554/procurement-of-chemicals-glassware-scientific-equipment-for-faculty-of-pharmacy",
@@ -21613,25 +21601,6 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:26579",
-   "title": "Procurement of Feed Ingredients, Silage and Urea Fertilizer by Punjab",
-   "url": "https://pakistantender.com/tender/26579/procurement-of-feed-ingredients-silage-and-urea-fertilizer-by-punjab",
-   "org": "University of Agriculture Faisalabad, Punjab",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "",
-   "type": "Agriculture Fertilizer & Chemical The University of Agriculture Faisalabad, Punjab, invites sealed bids for procurement of three lots: (1) Feed ingredients for Holstein Herd on framework…",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
    "id": "PakistanTender:28227",
    "title": "Construction of Earth Work Cut/Fill at Overseas Block Phase-IV by DHA Islamabad-Rawalpindi",
    "url": "https://pakistantender.com/tender/28227/construction-of-earth-work-cutfill-at-overseas-block-phaseiv-by-dha-islamabadraw",
@@ -21667,25 +21636,6 @@
    "keywords": [],
    "first_seen": "2026-11-14",
    "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:26484",
-   "title": "Miscellaneous Ordnance Stores and Equipment Local Purchase by Ordnance Depot Gujranwala",
-   "url": "https://pakistantender.com/tender/26484/miscellaneous-ordnance-stores-and-equipment-local-purchase-by-ordnance-depot-guj",
-   "org": "Ordnance Depot Gujranwala Cantonment",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "",
-   "type": "General Order Ordnance Depot Gujranwala Cantonment invites quotations for local purchase of miscellaneous ordnance stores and equipment as per Army Standard Specifications…",
-   "relevant": false,
-   "maybe": false,
-   "score": 2,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-26",
-   "isNew": true
   },
   {
    "source": "PakistanTender",
@@ -21787,6 +21737,44 @@
    "keywords": [],
    "first_seen": "2026-11-14",
    "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:26579",
+   "title": "Procurement of Feed Ingredients, Silage and Urea Fertilizer by Punjab",
+   "url": "https://pakistantender.com/tender/26579/procurement-of-feed-ingredients-silage-and-urea-fertilizer-by-punjab",
+   "org": "University of Agriculture Faisalabad, Punjab",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "",
+   "type": "Agriculture Fertilizer & Chemical The University of Agriculture Faisalabad, Punjab, invites sealed bids for procurement of three lots: (1) Feed ingredients for Holstein Herd on framework…",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:26484",
+   "title": "Miscellaneous Ordnance Stores and Equipment Local Purchase by Ordnance Depot Gujranwala",
+   "url": "https://pakistantender.com/tender/26484/miscellaneous-ordnance-stores-and-equipment-local-purchase-by-ordnance-depot-guj",
+   "org": "Ordnance Depot Gujranwala Cantonment",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "",
+   "type": "General Order Ordnance Depot Gujranwala Cantonment invites quotations for local purchase of miscellaneous ordnance stores and equipment as per Army Standard Specifications…",
+   "relevant": false,
+   "maybe": false,
+   "score": 2,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true
   },
   {
    "source": "PakistanTender",
@@ -30006,6 +29994,25 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal193323",
+   "title": "INVITATION TO BID Hiring of Consultant for the development and implementation of Internal ...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/193323",
+   "org": "Export-Import Bank of Pakistan (EXIM Bank) (Export-Import Bank of Pakistan (EXIM Bank))",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "2026-11-27",
+   "type": "Consultancy Services Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-10",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal121225",
    "title": "Engagement of an Audit Firm to Conduct the Audit of Financial Statements of Climate Risk F...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/121225",
@@ -30050,25 +30057,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal193323",
-   "title": "INVITATION TO BID Hiring of Consultant for the development and implementation of Internal ...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/193323",
-   "org": "Export-Import Bank of Pakistan (EXIM Bank) (Export-Import Bank of Pakistan (EXIM Bank))",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-27",
-   "type": "Consultancy Services Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-10",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal197253",
    "title": "Consultancy Services for Third Party Validation (TPV) of the Establishment of Daanish Scho...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/197253",
@@ -30109,50 +30097,6 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-18",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal192249",
-   "title": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/192249",
-   "org": "FP192249",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-27",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-26",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/192261"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal192279",
-   "title": "Tender No.63 for Construction of 01-No. Cat-IV & 03-No. Cat-V Residences along-with allied...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/192279",
-   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-27",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-20",
    "isNew": false
   },
   {
@@ -30216,6 +30160,50 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-23",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal192249",
+   "title": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/192249",
+   "org": "FP192249",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "2026-11-27",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/192261"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal192279",
+   "title": "Tender No.63 for Construction of 01-No. Cat-IV & 03-No. Cat-V Residences along-with allied...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/192279",
+   "org": "Office of PD GSC FESCO (Faisalabad Electric Supply Company (FESCO))",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "2026-11-27",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-20",
    "isNew": false
   },
   {
@@ -31381,73 +31369,6 @@
    "keywords": [],
    "first_seen": "2026-11-20",
    "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:23818",
-   "title": "Rehabilitation of Metaled Road Multan DG Khan Road by District Council Muzaffargarh",
-   "url": "https://pakistantender.com/tender/23818/rehabilitation-of-metaled-road-multan-dg-khan-road-by-district-council-muzaffarg",
-   "org": "District Council Muzaffargarh",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "2026-11-29",
-   "type": "Road & Highway District Council Muzaffargarh invites single stage two envelope bids from eligible contractors for the rehabilitation of metaled road on Multan DG Khan Road…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:27990",
-   "title": "Goods Procurement by SNGPL (Sukkur/Northern Gas Pipelines Limited)",
-   "url": "https://pakistantender.com/tender/27990/goods-procurement-by-sngpl-sukkurnorthern-gas-pipelines-limited",
-   "org": "SNGPL (Sukkur/Northern Gas Pipelines Limited)",
-   "province": "Khyber Pakhtunkhwa",
-   "posted": "",
-   "closing": "2026-11-29",
-   "type": "Construction Material SNGPL invites bids for the procurement of goods under tender reference FCS/MDR/TE/041/26. This is a national single-stage, one-envelope bidding process. The…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-20",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:27989",
-   "title": "Goods Procurement by SNGPL (Single Stage-One Envelope)",
-   "url": "https://pakistantender.com/tender/27989/goods-procurement-by-sngpl-single-stageone-envelope",
-   "org": "Sui Northern Gas Pipelines Limited (SNGPL)",
-   "province": "Khyber Pakhtunkhwa",
-   "posted": "",
-   "closing": "2026-11-29",
-   "type": "Textile SNGPL invites bids for the procurement of goods under tender reference FCS/MDR/TE/042/26. This is a single stage, one envelope national bidding process. The…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-20",
-   "isNew": false,
-   "also": [
-    {
-     "source": "PakistanTender",
-     "url": "https://pakistantender.com/tender/27984/goods-procurement-by-sngpl"
-    },
-    {
-     "source": "PakistanTender",
-     "url": "https://pakistantender.com/tender/27982/goods-supply-procurement-by-sngpl"
-    }
-   ]
   },
   {
    "source": "PakistanTender",
@@ -33382,50 +33303,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal191481",
-   "title": "Security Infrastructure Enhancement and improvement of Sewerage & Drainage System at Sub-O...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/191481",
-   "org": "Pakistan Customs (Pakistan Customs)",
-   "province": "Federal",
-   "posted": "2026-11-18",
-   "closing": "2026-11-30",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-26",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/191469"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal191589",
-   "title": "Upgradation and Renovation of Residences for Officials and Ministerial Staff",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/191589",
-   "org": "Pakistan Customs (Pakistan Customs)",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "2026-11-30",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-24",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal191580",
    "title": "Upgradation of Sewerage and Drainage System at Custom House, Peshawar",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/191580",
@@ -33451,6 +33328,50 @@
   },
   {
    "source": "EPADS Federal",
+   "id": "EPADS Federal:federal191469",
+   "title": "Security Infrastructure Enhancement and improvement of Sewerage & Drainage System at Sub-O...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/191469",
+   "org": "Pakistan Customs (Pakistan Customs)",
+   "province": "Federal",
+   "posted": "2026-11-18",
+   "closing": "2026-11-30",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/191481"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal191589",
+   "title": "Upgradation and Renovation of Residences for Officials and Ministerial Staff",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/191589",
+   "org": "Pakistan Customs (Pakistan Customs)",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "2026-11-30",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-24",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
    "id": "EPADS Federal:federal158025",
    "title": "Construction of Car Parking for the Citizen Facilitation Center,G-11/4,Islamabad",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/158025",
@@ -33473,6 +33394,25 @@
      "url": "https://pakistantender.com/tender/27733/construction-of-car-parking-for-citizen-facilitation-center-by-cda"
     }
    ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal201357",
+   "title": "Tender No.56/2026-27. Rehabilitation / carpeting of road for residential Colony and Contro...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/201357",
+   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-17",
+   "closing": "2026-11-30",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-25",
+   "isNew": false
   },
   {
    "source": "EPADS Federal",
@@ -33504,25 +33444,6 @@
    "id": "EPADS Federal:federal201243",
    "title": "Tender No.53/2026-27. Protection of equipment foundation and trench covers at 132 KV Grid ...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/201243",
-   "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-17",
-   "closing": "2026-11-30",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-25",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal201357",
-   "title": "Tender No.56/2026-27. Rehabilitation / carpeting of road for residential Colony and Contro...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/201357",
    "org": "Civil Directorate MEPCO, Civil Works Division MEPCO HQ (Multan Electric Power Company (MEPCO))",
    "province": "Federal",
    "posted": "2026-11-17",
@@ -37735,6 +37656,25 @@
   },
   {
    "source": "PakistanTender",
+   "id": "PakistanTender:26201",
+   "title": "Furniture and Equipment Supply for Garrison Furniture Yard Quetta",
+   "url": "https://pakistantender.com/tender/26201/furniture-and-equipment-supply-for-garrison-furniture-yard-quetta",
+   "org": "Garrison Furniture Yard Quetta",
+   "province": "Balochistan",
+   "posted": "",
+   "closing": "2026-12-01",
+   "type": "Furniture Garrison Furniture Yard Quetta invites tenders for supply of furniture and fixtures including beds with foam mattresses, dining sets, sofas, tables, chairs,…",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
    "id": "PakistanTender:28389",
    "title": "Goods Supply by SNGPL (Sui Northern Gas Pipelines Limited)",
    "url": "https://pakistantender.com/tender/28389/goods-supply-by-sngpl-sui-northern-gas-pipelines-limited",
@@ -37859,25 +37799,6 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-19",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:26201",
-   "title": "Furniture and Equipment Supply for Garrison Furniture Yard Quetta",
-   "url": "https://pakistantender.com/tender/26201/furniture-and-equipment-supply-for-garrison-furniture-yard-quetta",
-   "org": "Garrison Furniture Yard Quetta",
-   "province": "Balochistan",
-   "posted": "",
-   "closing": "2026-12-01",
-   "type": "Furniture Garrison Furniture Yard Quetta invites tenders for supply of furniture and fixtures including beds with foam mattresses, dining sets, sofas, tables, chairs,…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
    "isNew": false
   },
   {
@@ -44657,6 +44578,10 @@
     {
      "source": "PakistanTender",
      "url": "https://pakistantender.com/tender/27970/group-medical-insurance-for-wssp-employees-2027-onwards"
+    },
+    {
+     "source": "PakistanTender",
+     "url": "https://pakistantender.com/tender/27970/group-medical-insurance-for-wssp-employees-2027-onwards"
     }
    ]
   },
@@ -46976,25 +46901,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal202278",
-   "title": "Implementation of ERP in TESCO",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/202278",
-   "org": "Tribal Electric Supply Company (Tribal Areas Electric Supply Company (TESCO))",
-   "province": "Federal",
-   "posted": "2026-11-23",
-   "closing": "2026-12-07",
-   "type": "Consultancy Services Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-23",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal114028",
    "title": "FEATURE COMPARISON OF IN-HOUSE DEVELOPED SOFTWARE’S WITH OFF THE SHELF SYSTEMS / SOFTWAR...",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/114028",
@@ -47029,6 +46935,25 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-17",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal202278",
+   "title": "Implementation of ERP in TESCO",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/202278",
+   "org": "Tribal Electric Supply Company (Tribal Areas Electric Supply Company (TESCO))",
+   "province": "Federal",
+   "posted": "2026-11-23",
+   "closing": "2026-12-07",
+   "type": "Consultancy Services Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-23",
    "isNew": false
   },
   {
@@ -58232,7 +58157,17 @@
    "category": "",
    "keywords": [],
    "first_seen": "2026-11-24",
-   "isNew": false
+   "isNew": false,
+   "also": [
+    {
+     "source": "PakistanTender",
+     "url": "https://pakistantender.com/tender/27984/goods-procurement-by-sngpl"
+    },
+    {
+     "source": "PakistanTender",
+     "url": "https://pakistantender.com/tender/27982/goods-supply-procurement-by-sngpl"
+    }
+   ]
   },
   {
    "source": "PPRA EPMS",
@@ -58845,25 +58780,6 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal112162",
-   "title": "APPOINTMENT OF TAX ADVISOR FOR FY 2026-27 & 2027-28",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/112162",
-   "org": "National Power Parks Management Company (NPPMCL – National Power Parks Management Company. Pvt. Ltd)",
-   "province": "Federal",
-   "posted": "2026-11-16",
-   "closing": "",
-   "type": "Consultancy Services Single Stage-Two Envelope (with Prequalification)",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-17",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
    "id": "EPADS Federal:federal190377",
    "title": "Hiring of Private Security Guards",
    "url": "https://epads.gov.pk/opportunities/federal/procurements/190377",
@@ -58883,107 +58799,21 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal193221",
-   "title": "Renovation of Toilets & Upgradation of Medical Inquiry M.I Room at JIAP Karachi",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/193221",
-   "org": "JINNAH INTERNATIONAL AIRPORT (Pakistan Airports Authority (PAA))",
+   "id": "EPADS Federal:federal112162",
+   "title": "APPOINTMENT OF TAX ADVISOR FOR FY 2026-27 & 2027-28",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/112162",
+   "org": "National Power Parks Management Company (NPPMCL – National Power Parks Management Company. Pvt. Ltd)",
    "province": "Federal",
-   "posted": "2026-11-13",
+   "posted": "2026-11-16",
    "closing": "",
-   "type": "Works Single Stage-One Envelope",
+   "type": "Consultancy Services Single Stage-Two Envelope (with Prequalification)",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-19",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal188958",
-   "title": "Tender No. 18/GSC (2026-27) - Construction of tower foundation to raise the ground clearan...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/188958",
-   "org": "Office of Project Director (GSC) (Multan Electric Power Company (MEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-12",
-   "closing": "",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-19",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal193485",
-   "title": "Extension of 11Kv Room at 132Kv Grid Station Kot Agha.",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/193485",
-   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-25",
-   "isNew": false,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/193506"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/193497"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal193518",
-   "title": "132KV D/C T/Line from Phalia – Head Faqirian. Construction of Pile foundation foundation...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/193518",
-   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
-   "province": "Federal",
-   "posted": "2026-11-10",
-   "closing": "",
-   "type": "Works Single Stage-Two Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-19",
-   "isNew": false
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal190227",
-   "title": "Retrieval of Seven (07) Nos. Stuck Drainage Pumps from Pits of WAPDA GB Power Channel Baro...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/190227",
-   "org": "Office of Chief Engineer Ghazi Barotha (General Manager Finance (Power) WAPDA)",
-   "province": "Federal",
-   "posted": "2026-11-06",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-19",
+   "first_seen": "2026-11-17",
    "isNew": false
   },
   {
@@ -59026,45 +58856,41 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal193521",
-   "title": "ELECTRIFICATION / RENOVATION WORK OF GOVTL. HOUSE NO. 131-I STREETT NO.9 SECTOR F-6/3, ISL...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/193521",
-   "org": "Electrical Division -II (Capital Development Aurhority (CDA))",
+   "id": "EPADS Federal:federal193497",
+   "title": "Extension of 11Kv Room at 132Kv Grid Station Mandi BahauDin.",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/193497",
+   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
    "province": "Federal",
    "posted": "2026-11-10",
    "closing": "",
-   "type": "Works Single Stage-One Envelope",
+   "type": "Works Single Stage-Two Envelope",
    "relevant": false,
    "maybe": false,
    "score": 0,
    "categories": [],
    "category": "",
    "keywords": [],
-   "first_seen": "2026-11-24",
-   "isNew": false,
+   "first_seen": "2026-11-26",
+   "isNew": true,
    "also": [
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/191424"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/193485"
     },
     {
      "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/193524"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/191727"
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/193506"
     }
    ]
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal191460",
-   "title": "PD (GSC) QESCO–02 (2026-2027) - Construction of 220kV Type Tower Foundations, Erection a...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/191460",
-   "org": "Quetta Electric Supply Company (QESCO) (Quetta Electric Supply Company (QESCO))",
+   "id": "EPADS Federal:federal193221",
+   "title": "Renovation of Toilets & Upgradation of Medical Inquiry M.I Room at JIAP Karachi",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/193221",
+   "org": "JINNAH INTERNATIONAL AIRPORT (Pakistan Airports Authority (PAA))",
    "province": "Federal",
-   "posted": "2026-11-08",
+   "posted": "2026-11-13",
    "closing": "",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -59075,6 +58901,134 @@
    "keywords": [],
    "first_seen": "2026-11-19",
    "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal188958",
+   "title": "Tender No. 18/GSC (2026-27) - Construction of tower foundation to raise the ground clearan...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/188958",
+   "org": "Office of Project Director (GSC) (Multan Electric Power Company (MEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-12",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-19",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal193518",
+   "title": "132KV D/C T/Line from Phalia – Head Faqirian. Construction of Pile foundation foundation...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/193518",
+   "org": "Project Director GSC GEPCO (Gujranwala Electric Power Company Limited (GEPCO))",
+   "province": "Federal",
+   "posted": "2026-11-10",
+   "closing": "",
+   "type": "Works Single Stage-Two Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-19",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal190227",
+   "title": "Retrieval of Seven (07) Nos. Stuck Drainage Pumps from Pits of WAPDA GB Power Channel Baro...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/190227",
+   "org": "Office of Chief Engineer Ghazi Barotha (General Manager Finance (Power) WAPDA)",
+   "province": "Federal",
+   "posted": "2026-11-06",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-19",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal172305",
+   "title": "Paint Work at Machine Hall at Hydel Power station Shadiwal, Gujrat",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/172305",
+   "org": "RE Hydel Power Station, Shadiwal (Water and Power Development Authority (WAPDA) / Member (Power))",
+   "province": "Federal",
+   "posted": "2026-10-26",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-19",
+   "isNew": false
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal191727",
+   "title": "ELECTRIFICATION / RENOVATION WORK OF GOVT. HOUSE NO-6-I STREET NO.09 SECTOR F-6/3, ISLAMAB...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/191727",
+   "org": "Electrical Division -II (Capital Development Aurhority (CDA))",
+   "province": "Federal",
+   "posted": "2026-11-09",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true,
+   "also": [
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/193521"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/191424"
+    },
+    {
+     "source": "EPADS Federal",
+     "url": "https://epads.gov.pk/opportunities/federal/procurements/193524"
+    }
+   ]
+  },
+  {
+   "source": "EPADS Federal",
+   "id": "EPADS Federal:federal195378",
+   "title": "ELECTRIFICATION / RENOVATION WORK OF GOVT. HOUSES NO.12-D & 12-C, APO HOUSES CAT-II, STREE...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/195378",
+   "org": "Electrical Division -II (Capital Development Aurhority (CDA))",
+   "province": "Federal",
+   "posted": "2026-11-11",
+   "closing": "",
+   "type": "Works Single Stage-One Envelope",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-26",
+   "isNew": true
   },
   {
    "source": "EPADS Federal",
@@ -59097,41 +59051,12 @@
   },
   {
    "source": "EPADS Federal",
-   "id": "EPADS Federal:federal191610",
-   "title": "ELECTRIFICATION / RENOVATION WORK OF GOVT. HOUSES NO.269-E, STREET NO.61, SECTOR G-6/4. IS...",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/191610",
-   "org": "Electrical Division -II (Capital Development Aurhority (CDA))",
+   "id": "EPADS Federal:federal191460",
+   "title": "PD (GSC) QESCO–02 (2026-2027) - Construction of 220kV Type Tower Foundations, Erection a...",
+   "url": "https://epads.gov.pk/opportunities/federal/procurements/191460",
+   "org": "Quetta Electric Supply Company (QESCO) (Quetta Electric Supply Company (QESCO))",
    "province": "Federal",
    "posted": "2026-11-08",
-   "closing": "",
-   "type": "Works Single Stage-One Envelope",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-26",
-   "isNew": true,
-   "also": [
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/195393"
-    },
-    {
-     "source": "EPADS Federal",
-     "url": "https://epads.gov.pk/opportunities/federal/procurements/195378"
-    }
-   ]
-  },
-  {
-   "source": "EPADS Federal",
-   "id": "EPADS Federal:federal172305",
-   "title": "Paint Work at Machine Hall at Hydel Power station Shadiwal, Gujrat",
-   "url": "https://epads.gov.pk/opportunities/federal/procurements/172305",
-   "org": "RE Hydel Power Station, Shadiwal (Water and Power Development Authority (WAPDA) / Member (Power))",
-   "province": "Federal",
-   "posted": "2026-10-26",
    "closing": "",
    "type": "Works Single Stage-One Envelope",
    "relevant": false,
@@ -59659,14 +59584,14 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:25975",
-   "title": "Commercial Property Leasing at Old Burger King Site, Gulgasht Colony, Multan",
-   "url": "https://pakistantender.com/tender/25975/commercial-property-leasing-at-old-burger-king-site-gulgasht-colony-multan",
-   "org": "WASA Multan",
+   "id": "PakistanTender:23818",
+   "title": "Rehabilitation of Metaled Road Multan DG Khan Road by District Council Muzaffargarh",
+   "url": "https://pakistantender.com/tender/23818/rehabilitation-of-metaled-road-multan-dg-khan-road-by-district-council-muzaffarg",
+   "org": "District Council Muzaffargarh",
    "province": "Punjab",
    "posted": "",
    "closing": "",
-   "type": "Auction WASA Multan invites applications for leasing of commercial property at the Old Burger King Site, Gulgasht Colony, Brand Road, Multan, covering approximately 15…",
+   "type": "Road & Highway District Council Muzaffargarh invites single stage two envelope bids from eligible contractors for the rehabilitation of metaled road on Multan DG Khan Road…",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -59724,25 +59649,6 @@
    "posted": "",
    "closing": "",
    "type": "Horticulture Faisalabad Forest Division invites electronic bids for supply of 6600 healthy plant saplings (3–5 feet height) in 12\" earthen pots or grow bags under the…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:26421",
-   "title": "Lab Kits, Chemicals and Blood Bank Items by Faisalabad Institute of Cardiology",
-   "url": "https://pakistantender.com/tender/26421/lab-kits-chemicals-and-blood-bank-items-by-faisalabad-institute-of-cardiology",
-   "org": "Faisalabad Institute of Cardiology, Faisalabad",
-   "province": "Punjab",
-   "posted": "",
-   "closing": "",
-   "type": "Lab Equipment Faisalabad Institute of Cardiology, Faisalabad invites bids for the Financial Year 2026-27 (Re-Tender) for the purchase of Lab Kits, Chemicals and Blood Bank…",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -59988,6 +59894,101 @@
   },
   {
    "source": "PakistanTender",
+   "id": "PakistanTender:26163",
+   "title": "Purchase of Machinery & IT Equipment for SSP Traffic Quetta",
+   "url": "https://pakistantender.com/tender/26163/purchase-of-machinery-it-equipment-for-ssp-traffic-quetta",
+   "org": "Assistant Director Police, Balochistan",
+   "province": "Balochistan",
+   "posted": "",
+   "closing": "",
+   "type": "CCTV ->Security Equipment The Assistant Director Police, Balochistan invites sealed electronic tenders for the purchase of machinery and IT equipment for the SSP/Traffic department in…",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:27731",
+   "title": "Procurement of AAC Conductor and 11kV Disc Insulators by PESCO",
+   "url": "https://pakistantender.com/tender/27731/procurement-of-aac-conductor-and-11kv-disc-insulators-by-pesco",
+   "org": "Peshawar Electric Supply Company",
+   "province": "Federal",
+   "posted": "",
+   "closing": "",
+   "type": "Transmission Lines Peshawar Electric Supply Company (PESCO) invites e-bids for the procurement of two items: All Aluminum Conductor (AAC) \"Ant\" (7/0.122\") and 11kV Disc…",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-19",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:26851",
+   "title": "Supply of one (01) brand-new three-wheeler hydraulic cargo loader with a self-tipping loading body.",
+   "url": "https://pakistantender.com/tender/26851/supply-of-one-01-brandnew-threewheeler-hydraulic-cargo-loader-with-a-selftipping",
+   "org": "Superintendent, Central Prison Peshawar (Prisons Department, Khyber Pakhtunkhwa).",
+   "province": "Khyber Pakhtunkhwa",
+   "posted": "",
+   "closing": "",
+   "type": "Vehicle Brand New Supply of one (01) brand-new three-wheeler hydraulic cargo loader with a self-tipping loading body.",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:25975",
+   "title": "Commercial Property Leasing at Old Burger King Site, Gulgasht Colony, Multan",
+   "url": "https://pakistantender.com/tender/25975/commercial-property-leasing-at-old-burger-king-site-gulgasht-colony-multan",
+   "org": "WASA Multan",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "",
+   "type": "Auction WASA Multan invites applications for leasing of commercial property at the Old Burger King Site, Gulgasht Colony, Brand Road, Multan, covering approximately 15…",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
+   "id": "PakistanTender:26421",
+   "title": "Lab Kits, Chemicals and Blood Bank Items by Faisalabad Institute of Cardiology",
+   "url": "https://pakistantender.com/tender/26421/lab-kits-chemicals-and-blood-bank-items-by-faisalabad-institute-of-cardiology",
+   "org": "Faisalabad Institute of Cardiology, Faisalabad",
+   "province": "Punjab",
+   "posted": "",
+   "closing": "",
+   "type": "Lab Equipment Faisalabad Institute of Cardiology, Faisalabad invites bids for the Financial Year 2026-27 (Re-Tender) for the purchase of Lab Kits, Chemicals and Blood Bank…",
+   "relevant": false,
+   "maybe": false,
+   "score": 0,
+   "categories": [],
+   "category": "",
+   "keywords": [],
+   "first_seen": "2026-11-14",
+   "isNew": false
+  },
+  {
+   "source": "PakistanTender",
    "id": "PakistanTender:26318",
    "title": "Road Drainage, Sewerage, Street Lighting and Bore Drilling with Solar System in Quetta",
    "url": "https://pakistantender.com/tender/26318/road-drainage-sewerage-street-lighting-and-bore-drilling-with-solar-system-in-qu",
@@ -60026,25 +60027,6 @@
   },
   {
    "source": "PakistanTender",
-   "id": "PakistanTender:27731",
-   "title": "Procurement of AAC Conductor and 11kV Disc Insulators by PESCO",
-   "url": "https://pakistantender.com/tender/27731/procurement-of-aac-conductor-and-11kv-disc-insulators-by-pesco",
-   "org": "Peshawar Electric Supply Company",
-   "province": "Federal",
-   "posted": "",
-   "closing": "",
-   "type": "Transmission Lines Peshawar Electric Supply Company (PESCO) invites e-bids for the procurement of two items: All Aluminum Conductor (AAC) \"Ant\" (7/0.122\") and 11kV Disc…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-19",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
    "id": "PakistanTender:27212",
    "title": "Procurement of 40,000 Single Phase AMI Smart Energy Meters by PESCO",
    "url": "https://pakistantender.com/tender/27212/procurement-of-40000-single-phase-ami-smart-energy-meters-by-pesco",
@@ -60067,25 +60049,6 @@
      "url": "https://tenderalert.pk/314112/pesco-peshawar-tender-notice"
     }
    ]
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:26851",
-   "title": "Supply of one (01) brand-new three-wheeler hydraulic cargo loader with a self-tipping loading body.",
-   "url": "https://pakistantender.com/tender/26851/supply-of-one-01-brandnew-threewheeler-hydraulic-cargo-loader-with-a-selftipping",
-   "org": "Superintendent, Central Prison Peshawar (Prisons Department, Khyber Pakhtunkhwa).",
-   "province": "Khyber Pakhtunkhwa",
-   "posted": "",
-   "closing": "",
-   "type": "Vehicle Brand New Supply of one (01) brand-new three-wheeler hydraulic cargo loader with a self-tipping loading body.",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false
   },
   {
    "source": "PakistanTender",
@@ -60173,25 +60136,6 @@
    "posted": "",
    "closing": "",
    "type": "Railway Pakistan Railways Rawalpindi invites sealed tender bids for providing an interlocking arrangement with phone at L-Crossing No. 153 (KM 213/03-04) between…",
-   "relevant": false,
-   "maybe": false,
-   "score": 0,
-   "categories": [],
-   "category": "",
-   "keywords": [],
-   "first_seen": "2026-11-14",
-   "isNew": false
-  },
-  {
-   "source": "PakistanTender",
-   "id": "PakistanTender:26163",
-   "title": "Purchase of Machinery & IT Equipment for SSP Traffic Quetta",
-   "url": "https://pakistantender.com/tender/26163/purchase-of-machinery-it-equipment-for-ssp-traffic-quetta",
-   "org": "Assistant Director Police, Balochistan",
-   "province": "Balochistan",
-   "posted": "",
-   "closing": "",
-   "type": "CCTV ->Security Equipment The Assistant Director Police, Balochistan invites sealed electronic tenders for the purchase of machinery and IT equipment for the SSP/Traffic department in…",
    "relevant": false,
    "maybe": false,
    "score": 0,
@@ -82602,7 +82546,7 @@
   }
  ],
  "notify_log": {
-  "at": "2026-11-26T00:13:26.626891+05:00",
+  "at": "2026-11-26T08:31:34.891610+05:00",
   "entries": []
  }
 }
